@@ -1,13 +1,92 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Didact Gothic');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/* Global CSS Variables that will define our theme*/
+:root {
+  --outside-bg: #e7e7ea;
+  --inside-bg: #F7F7FF;
+  --dark-bg: #32292F;
+  --card-bg: #ababab12;
+  
+  --dark-bg-font: #767475;
+  --white-bg-font: #32292F;
+  --header-bg-font: #F7F7FF;
+  
+  --zoo-blue: #00b1fc;
+  --header-blue: #3AAED8;
+
+  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Didact Gothic';
+  color: var(--white-bg-font);
+}
+
+html {
+	/* force scrollbar, prevents initial gap */
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 80vw;
+}
+
+html, body {
+	height: 100vh;
+	margin: auto; /* Centers content */
+}
+
+body {
+	background: var(--outside-bg);
+  box-shadow: var(--box-shadow);
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a { text-decoration: none; }
+
+button:focus { outline: none;}
+
+.page--body {
+  min-height: 100vh;
+	background: var(--inside-bg);
+}
+
+.page--title {
+  font-family: 'Ubuntu', normal;
+  text-align: center;
+  word-wrap: break-word;
+
+  font-size: 35px;
+  padding: 1.0em 0 30px;
+  
+}
+
+/* Mobile Formatting */
+@media screen and (max-width: 480px) {
+  html {
+    /* force scrollbar, prevents initial gap */
+    width: 100vw;
+  }
 }

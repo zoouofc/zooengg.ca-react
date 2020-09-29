@@ -1,0 +1,32 @@
+/* Following is style guide used on TO-TOP BUTTON */
+.to-top {
+  background-color: var(--dark-bg);
+  color: var(--header-bg-font);
+
+  position: fixed;
+  padding: 10px 15px;
+  bottom: 25px;
+  right: 40px;
+  z-index: 4;
+
+  font-size: 20px;
+
+  border: .5px solid;
+  cursor: pointer;
+  border-radius: 4px;
+  /* display: none; */
+}
+
+/* Removes box that outlines object on click */
+.to-top:active, #to-top:focus { outline: 0; }
+
+.to-top:hover { background-color: var(--dark-bg-font); }
+
+/* Mobile Formatting */
+@media screen and (max-width: 480px) {
+  .to-top {
+    padding: 5px 10px;
+    bottom: 20px;
+    right: 25px;
+  }
+}
