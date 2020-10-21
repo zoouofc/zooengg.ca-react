@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import '../styles/ToTop.css';
+import { FaAngleUp } from 'react-icons/fa';
+
+import '../styles/ToTop.scss';
 
 const ToTop = () => {
 
@@ -23,13 +25,13 @@ const ToTop = () => {
 
   return (
     <>
-      <button 
-        className="to-top" 
+      <button
+        className="to-top"
         title="Go to top"
         onClick={useEffect}
         style={{display: showScroll ? 'flex' : 'none'}}
       >
-        ^
+        <FaAngleUp />
       </button>
     </>
   )

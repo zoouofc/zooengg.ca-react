@@ -1,7 +1,7 @@
 /* Styling for the Council Text in the header */
 .page-header {
-  background-color: var(--header-blue);
-  color: var(--header-bg-font);
+  background-color: var(--nav-blue);
+  color: var(--nav-bg-font);
 
   text-align: center;
   word-wrap: break-word;
@@ -21,7 +21,7 @@
 /* Following is style guide used on the NAV DIVIDER */
 .navbar .vertical-line{
   width: 2px;
-  background-color: var(--header-bg-font);
+  background-color: var(--nav-bg-font);
   height: 55%;
   float: left;
   margin: 13px;
@@ -46,7 +46,7 @@
 /* Unordered list, list items (anchored) */
 .navbar .navbar-nav .nav-item a {
 	display: block;
-	color: var(--header-bg-font);
+	color: var(--nav-bg-font);
 	line-height: 18px;
 	font-size: 15px;
 	padding: 21px 18px;

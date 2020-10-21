@@ -17,17 +17,25 @@
 
 /* Global CSS Variables that will define our theme*/
 :root {
+  /* Variable for the regular body & outside body area */
   --outside-bg: #e7e7ea;
   --inside-bg: #F7F7FF;
+
+  /* Variable colour used for the Navbar */
   --dark-bg: #32292F;
+  --dark-bg-hover: #767475;
+
+  /* Variable colour used for the cards (ex. Council, Events) */
   --card-bg: #ababab12;
-  
+
+  /* Variable font colours to be used depending on the baground */
   --dark-bg-font: #767475;
   --white-bg-font: #32292F;
-  --header-bg-font: #F7F7FF;
-  
+  --nav-bg-font: #F7F7FF;
+
+  /* Blues */
   --zoo-blue: #00b1fc;
-  --header-blue: #3AAED8;
+  --nav-blue: #3AAED8;
 
   --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -35,7 +43,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+
   font-family: 'Didact Gothic';
   color: var(--white-bg-font);
 }
@@ -66,21 +74,20 @@ ul {
 
 a { text-decoration: none; }
 
-button:focus { outline: none;}
-
-.page--body {
-  min-height: 100vh;
-	background: var(--inside-bg);
-}
-
+/* Styling used for the headers on every page */
 .page--title {
   font-family: 'Ubuntu', normal;
   text-align: center;
   word-wrap: break-word;
 
   font-size: 35px;
+  font-weight: bold;
   padding: 1.0em 0 30px;
-  
+}
+
+.page--body {
+  min-height: 100vh;
+	background: var(--inside-bg);
 }
 
 /* Mobile Formatting */
