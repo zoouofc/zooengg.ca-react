@@ -5,7 +5,7 @@ name: Firebase Deploy on Merge
 on:
   push:
     branches:
-    - main
+    - master
 
 # Jobs that will be executed
 jobs:
