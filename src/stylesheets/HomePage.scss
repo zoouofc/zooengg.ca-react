@@ -1,0 +1,50 @@
+.page--body.home {
+  p.home-text {
+    text-align: justify;
+
+    padding: 0 8rem;
+    margin: 0 0 1.5rem;
+
+    &.foot-note {
+      text-align: center;
+
+      padding: 0 4rem 30px;
+      margin: 0;
+    }
+  }
+
+  p#page--constitution {
+    text-align: center;
+  }
+
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+
+  hr {
+    text-align: center;
+    width: 65%;
+    margin: 2.25rem auto 1rem;
+  }
+}
+
+
+/* Updates Mobile Styling */
+@media (max-width: 992px) {
+  .page--body.home {
+    p.home-text { padding: 0 6rem; }
+  }
+}
+
+@media (max-width: 768px) {
+  .page--body.home {
+    p.home-text { padding: 0 4.5rem; }
+  }
+}
+
+@media (max-width: 576px) {
+  .page--body.home {
+    p.home-text{ padding: 0 2.5rem; }
+  }
+}

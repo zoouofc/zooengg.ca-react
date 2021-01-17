@@ -1,0 +1,92 @@
+/* 
+File created to separate content specific to mobile/tablet formatting 
+and to reduce the amount of content in Navbar.css
+*/
+
+/* Styling the dropdown arrow icons */
+/* Removing default dropdown arrow icon */
+.navbar-nav .dropdown .dropdown-toggle.nav-link::after { display: none; }
+
+.navbar-nav .dropdown .dropdown-toggle.nav-link svg { margin-left: 0.35rem; }
+
+/* Styling the toggle icon for mobile/tablet devices */
+.navbar .navbar-toggler span.navbar-toggler-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.navbar .navbar-toggler {
+  font-size: 1rem;
+  border-radius: 50%;  
+
+  color: var(--nav-hover);
+
+  padding: 0.5rem;
+}
+
+.navbar .navbar-toggler { border-color: var(--nav-active); }
+.navbar .navbar-toggler:focus { outline: none; }
+
+.navbar .navbar-toggler.collapsed { border-color: rgba(255, 255, 255, 0.1); }
+.navbar .navbar-toggler.collapsed:hover { border-color: var(--nav-default); }
+
+/* Stlying the dropdown for mobile devices */
+@media (max-width: 991.98px) { 
+
+  .navbar #basic-navbar-nav .nav-link--active { border-bottom: none; }
+
+  .navbar #basic-navbar-nav .dropdown-menu { 
+    background-color: var(--nav-bg); 
+    padding: 0;
+  }
+
+  .navbar #basic-navbar-nav .dropdown-menu .dropdown-divider { border-top: 0.01rem solid var(--nav-default);}
+
+  .navbar #basic-navbar-nav .dropdown-menu a.dropdown-item { 
+    color: var(--nav-default); 
+    font-size: 0.8rem;
+  }
+
+  .navbar #basic-navbar-nav .dropdown-menu a.dropdown-item:hover { 
+    color: var(--nav-hover); 
+    background-color: var(--nav-dropdown-mobile-hover);
+  }
+
+  .navbar #basic-navbar-nav .dropdown-menu a.dropdown-item.active { 
+    color: var(--nav-hover); 
+    background-color: var( --nav-dropdown-mobile-active);
+  }
+
+  .navbar #basic-navbar-nav .dropdown-menu a.dropdown-item.active:hover { 
+    color: var(--nav-hover); 
+    background-color: var(--nav-dropdown-mobile-active);
+  }
+
+  .navbar #basic-navbar-nav .nav-link.btn-login {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--nav-default);
+    
+    border: none;
+
+    margin: 0;
+    padding: 0.625rem;
+  }
+
+  .navbar #basic-navbar-nav .nav-link.btn-login:hover {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--nav-hover);
+    background-color: transparent;
+  }
+
+}
+
+ /* Small and medium devices (tablets) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .navbar {
+    background-color: #42696c !important;
+  }
+
+}
+
