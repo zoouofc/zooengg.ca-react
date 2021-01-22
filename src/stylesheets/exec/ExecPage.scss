@@ -1,0 +1,31 @@
+.page--body.exec {
+  .page--title.exec {
+    padding: 25px;
+  }
+
+  p.page--description.exec {
+    text-align: center;
+
+    padding: 0 25%;
+    margin: 0 0 1.5rem;
+  }
+}
+
+/* Updates Mobile Styling */
+@media (max-width: 992px) {
+  .page--body.exec {
+    p.page--description.exec{ padding: 0 5rem; }
+  }
+}
+
+@media (max-width: 768px) {
+  .page--body.exec {
+    p.page--description.exec{ padding: 0 3rem; }
+  }
+}
+
+@media (max-width: 576px) {
+  .page--body.exec {
+    p.page--description.exec { padding: 0 1rem; }
+  }
+}

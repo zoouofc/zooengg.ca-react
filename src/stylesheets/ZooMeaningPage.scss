@@ -1,0 +1,66 @@
+.page--body.meaning {
+  p {
+    text-align: justify;
+
+    &.foot-note {
+      text-align: center;
+
+      padding: 0 4rem 30px;
+      margin: 0;
+    }
+  }
+
+  p#zoo-description {
+    padding: 0 9.75rem;
+  }
+
+  p.zoo-story {
+    font-style: italic;
+
+    padding: 0 12rem;
+    margin: 0;
+  }
+
+  hr {
+    text-align: center;
+    width: 65%;
+    margin: 1.5rem auto 1rem;
+  }
+
+  #zoo-story--image-lightbox {
+    text-align: center;
+
+    img {
+      height: 250px;
+
+      padding: 0 10px 50px;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 90%;
+      }
+    }
+  }
+}
+
+/* Updates Mobile Styling */
+@media (max-width: 992px) {
+  .page--body.meaning {
+    p#zoo-description { padding: 0 5rem; }
+    p.zoo-story { padding: 0 6.5rem; }
+  }
+}
+
+@media (max-width: 768px) {
+  .page--body.meaning {
+    p#zoo-description { padding: 0 4.5rem; }
+    p.zoo-story { padding: 0 6rem; }
+  }
+}
+
+@media (max-width: 576px) {
+  .page--body.meaning {
+    p#zoo-description,
+    p.zoo-story  { padding: 0 2.5rem; }
+  }
+}
