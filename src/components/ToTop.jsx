@@ -5,20 +5,19 @@ import { FaAngleUp } from 'react-icons/fa';
 import '../styles/ToTop.scss';
 
 const ToTop = () => {
-
-  const [showScroll, setShowScroll] = useState(false)
+  const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 25){
-      setShowScroll(true)
-    } else if (showScroll && window.pageYOffset <= 25){
-      setShowScroll(false)
+    if (!showScroll && window.pageYOffset > 25) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= 25) {
+      setShowScroll(false);
     }
   };
 
   const useEffect = () => {
-    console.log("clicked");
-    window.scrollTo(0,0);
+    console.log('clicked');
+    window.scrollTo(0, 0);
   };
 
   window.addEventListener('scroll', checkScrollTop);
@@ -29,12 +28,12 @@ const ToTop = () => {
         className="to-top"
         title="Go to top"
         onClick={useEffect}
-        style={{display: showScroll ? 'flex' : 'none'}}
+        style={{ display: showScroll ? 'flex' : 'none' }}
       >
         <FaAngleUp />
       </button>
     </>
-  )
-}
+  );
+};
 
-export default ToTop
+export default ToTop;
