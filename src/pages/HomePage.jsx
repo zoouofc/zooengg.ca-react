@@ -30,6 +30,7 @@ const HomePage = () => (
         className="carousel" // default ''
         elementType="div" // default 'div'
         options={flickityOptions} // takes flickity options {}
+        style={{height: "50vh"}}
       >
         <img src={pic1} alt="" />
         <img src={pic2} alt="" />

@@ -48,7 +48,7 @@ const Navbar = () => {
               src={zoo}
               width="40"
               height="40"
-              className="d-inline-block align-top"
+              // className="d-inline-block align-top"
             />
           </NavLink>
           <div className="vertical-line" />
@@ -63,6 +63,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className="nav-link top-level"
+              active={false}
             >
               HOME
             </NavLink>
@@ -126,6 +127,7 @@ const Navbar = () => {
             <NavLink
               to="/events"
               className="nav-link top-level"
+              active={false}
             >
               EVENTS
             </NavLink>

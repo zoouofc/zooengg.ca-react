@@ -23,9 +23,13 @@ import techFair from '../assets/event-page/technology-fair.svg';
 const flickityOptions = {
   imagesLoaded: true,
   wrapAround: true,
-  autoPlay: 3000,
+  autoPlay: 2000,
   resize: true,
   pageDots: false,
+  draggable: true,
+  freeScroll: true,
+  lazyLoad: true,
+  // setGallerySize: true,
 };
 
 const EventPage = () => (

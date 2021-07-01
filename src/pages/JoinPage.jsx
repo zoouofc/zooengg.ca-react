@@ -59,7 +59,9 @@ const JoinPage = () => (
       <p>
         We would like to thank every applicant in advance.
         <br />
-        <b style={{ color: 'red' }}>This form is currently disabled, so please contact us via direct email</b>
+        <b style={{ color: 'red' }}>
+          This form is currently disabled, so please contact us directly via email
+        </b>
       </p>
       <form id="grid">
         <label
