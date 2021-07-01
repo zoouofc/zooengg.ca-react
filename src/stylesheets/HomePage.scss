@@ -1,4 +1,10 @@
 .page--body.home {
+  padding: 0 0 30px;
+
+  .page--title.home {
+    padding-bottom: 10px;
+  }
+
   p.home-text {
     text-align: justify;
 
@@ -28,7 +34,6 @@
     margin: 2.25rem auto 1rem;
   }
 }
-
 
 /* Updates Mobile Styling */
 @media (max-width: 992px) {

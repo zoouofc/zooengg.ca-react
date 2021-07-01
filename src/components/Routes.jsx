@@ -5,6 +5,7 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 
 // Importing Project-defined Components
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 // Importing the page components for routing
 import HomePage from '../pages/HomePage';
@@ -15,10 +16,9 @@ import EventPage from '../pages/EventPage';
 import SponsorPage from '../pages/SponsorPage';
 import BecomeSponsorPage from '../pages/BecomeSponsorPage';
 import ZooMeaningPage from '../pages/ZooMeaningPage';
-import ErrorPage from '../pages/ErrorPage';
 
 // Importing Styles
-import '../stylesheets/Routes.scss';
+// import '../stylesheets/Routes.scss';
 
 /*
   Function used to update each page's <title> tag
@@ -50,6 +50,7 @@ const Routes = () => (
           <Page title="ZOO Homepage">
             <HomePage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -64,6 +65,7 @@ const Routes = () => (
           <Page title="ZOO Execs">
             <ExecPage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -78,6 +80,7 @@ const Routes = () => (
           <Page title="ZOO Commissioners">
             <CommissionerPage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -92,6 +95,7 @@ const Routes = () => (
           <Page title="Join ZOO">
             <JoinPage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -106,6 +110,7 @@ const Routes = () => (
           <Page title="ZOO Events">
             <EventPage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -120,6 +125,7 @@ const Routes = () => (
           <Page title="ZOO Sponsors">
             <SponsorPage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -134,6 +140,7 @@ const Routes = () => (
           <Page title="Become a Sponsor">
             <BecomeSponsorPage />
           </Page>
+          <Footer />
         </>
       )}
     />
@@ -150,24 +157,10 @@ const Routes = () => (
               <ZooMeaningPage />
             </SimpleReactLightbox>
           </Page>
+          <Footer />
         </>
       )}
     />
-
-    {/* Route to info on how to sponsor ZOO */}
-    <Route
-      exact
-      path="/error"
-      render={() => (
-        <>
-          <Navbar />
-          <Page title="404 Error">
-            <ErrorPage />
-          </Page>
-        </>
-      )}
-    />
-
   </Switch>
 );
 
