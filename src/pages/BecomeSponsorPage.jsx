@@ -31,6 +31,7 @@ const BecomeSponsorPage = () => (
             Financial Sponsorship Package
           </a>
           <br />
+          
           <a
             className="button disabled"
             onClick="return false;"
