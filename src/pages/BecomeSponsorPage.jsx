@@ -32,6 +32,7 @@ const BecomeSponsorPage = () => (
           </a>
           <br />
           <a
+            href="javacript:void()"
             className="button disabled"
             onClick="return false;"
           >
