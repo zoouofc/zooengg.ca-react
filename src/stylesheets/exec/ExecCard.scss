@@ -1,0 +1,44 @@
+#exec--content #profile-buffer {
+  padding: 0 24px;
+}
+
+/* Following sets up the executives bio cards */
+.executive-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 0 9px 30px;
+  text-align: center;
+  background: #ababab12;
+  border-radius: 25px;
+
+  h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0 5px;
+  }
+
+  p.title {
+    margin: 0 0 5px;
+  }
+
+  .bio {
+    padding: 9px 20px 0;
+    font-size: 13px;
+  }
+
+  img.mail-pic {
+    width: 45px;
+    
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  img.profile-pic {
+    object-fit: cover;
+    height: 275px;
+    /* Pictures should have a max height of 275px else will be cropped*/
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+}

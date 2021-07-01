@@ -1,0 +1,81 @@
+.page--body.events {
+  .page--title.events  {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  div.page--description.events,
+  div.page--description.past-events {
+    text-align: center;
+
+    padding: 0 10%;
+    margin: 0 0 2em;
+  }
+
+  #event-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px 30px;
+    margin: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .past-event--container {
+    padding: 0 0 75px;
+
+    .page--title.past-events {
+      padding: 35px 15px 5px;
+    }
+
+    div.page--description.past-events {
+      padding: 0 25%;
+      margin: 0 0 18px;
+    }
+
+    .carousel-container .carousel img {
+      height:350px;
+    }
+
+    .flickity-page-dots {
+      bottom: -30px;
+    }
+  }
+}
+
+/* Updates Mobile Styling */
+@media (max-width: 992px) {
+  .page--body.events {
+    .page--description.events {
+      padding: 0 5rem;
+    }
+
+    .past-event--container .page--description.past-events {
+      padding: 0 10% !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page--body.events {
+    .page--description.events {
+      padding: 0 3rem;
+    
+      p {
+        margin: 15px 0 0;
+      }
+    }
+
+    #event-grid {
+      margin: 0 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .page--body.events {
+    .page--description.events {
+      padding: 0 1rem;
+    }
+  }
+}

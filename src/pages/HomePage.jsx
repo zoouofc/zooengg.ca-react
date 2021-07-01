@@ -1,11 +1,42 @@
 // Importing Components from node_modules
 import React from 'react';
+import Flickity from 'react-flickity-component';
 
 // Import Styling
 import '../stylesheets/HomePage.scss';
+import '../stylesheets/Flickity.scss';
+
+// Importing images
+import pic1 from '../assets/home-pages/CouncilGroup16.png';
+import pic2 from '../assets/home-pages/CouncilGroup18.png';
+import pic3 from '../assets/home-pages/CouncilGroup20.png';
+import pic4 from '../assets/home-pages/SocialMediaBanner.png';
+
+// Importing files
+import constitution from '../assets/home-pages/ZooConstitution_UpdatedJune2021.pdf';
+
+const flickityOptions = {
+  initialIndex: 2,
+  imagesLoaded: true,
+  wrapAround: true,
+  autoPlay: 3000,
+  resize: true,
+};
 
 const HomePage = () => (
   <div className="page--body home">
+    <div className="carousel-container">
+      <Flickity
+        className="carousel" // default ''
+        elementType="div" // default 'div'
+        options={flickityOptions} // takes flickity options {}
+      >
+        <img src={pic1} alt="" />
+        <img src={pic2} alt="" />
+        <img src={pic3} alt="" />
+        <img src={pic4} alt="" />
+      </Flickity>
+    </div>
 
     <h2 className="page--title home">About ZOO</h2>
     <div className="page--description home">
@@ -18,7 +49,7 @@ const HomePage = () => (
         industry.
       </p>
       <p className="home-text">
-        In addition to those responsibilities, ZOO serves as a liason between the Department (ECE)
+        In addition to those responsibilities, ZOO serves as a liason between the Department (ESE)
         and the many Electrical, Software and Computer Engineering students. We work hard to
         represent your opinions and ensure that your voices are heard.
       </p>
@@ -31,7 +62,9 @@ const HomePage = () => (
       </p>
       <hr />
       <p id="page--constitution" className="home">
-        ZOO abides by the Club Constitution
+        ZOO abides by the
+        {' '}
+        <a href={constitution} target="_blank" rel="noreferrer">Club Constitution</a>
       </p>
     </div>
   </div>

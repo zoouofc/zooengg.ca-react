@@ -1,0 +1,263 @@
+.page--body.become-sponsor {
+	padding: 0 35px 50px;
+
+	hr {
+		width: 80%;
+		margin: 60px auto 0;
+	}
+
+	.btn--dark {
+		text-align: left;
+
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+
+		padding: 0;
+
+		.button {
+			margin: 0 25px 10px 0;
+		}
+
+		.button.disabled {
+			cursor: not-allowed;
+			box-shadow: none;
+
+			&:hover {
+				background-color: var(--dark-bg);
+				color: var(--btn-font);
+			}
+		}
+	}
+
+	.page--description.become-sponsor {
+		justify-content: center;
+
+		.image-right {
+			padding: 0 !important;
+			margin: 20px 0 0 25px;
+
+			img {
+				// am attempt to vertically center the content
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+
+				width: 100%;
+			}
+		}
+
+		.description-left {
+			padding: 45px 0 0;
+
+			.row {
+				margin: 0;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			h2.page--title.become-sponsor {
+				padding: 0;
+			}
+
+			h2,
+			p {
+				text-align: left;
+			}
+		}
+
+		@media (max-width: 992px) {
+			width: 90%;
+			margin: 0 auto;
+
+			&.row .image-right.col-lg-3.col-md-3.d-none.d-md-block {
+				display: none !important;
+			}
+
+			&.row .description-left.col-lg-7.col-md-6.col-sm-12.col-xs-12 {
+				max-width: 100%;
+				flex: none
+			}
+		}
+	}
+}
+
+/* Styling for the application form */
+.page--body.become-sponsor {
+	.contact-form--container {
+		margin: 0 0 30px;
+
+		h3 {
+			font-weight: bold;
+			padding: 50px 0 0;
+		}
+
+		p {
+			text-align: center;
+			padding: 0 0 5px;
+		}
+
+		form {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			width: 65%;
+			margin: 0 auto 35px;
+			background: #ababab12;
+			border-radius: 25px;
+
+			display: -ms-grid;
+			display: grid;
+			grid-template-columns: auto 35% 20px 35% auto;
+			grid-template-rows: 40px 30px 10px 30px 30px 20px 30px 30px 20px 30px 30px 20px 30px 30px 10px 30px 175px 20px 40px 40px;
+
+			#fname-box,
+			#lname-box,
+			#email-box,
+			#company-box,
+			#subject-box,
+			#message-box {
+				background: #F7F7FF;
+				border: 0.3px solid;
+				padding: 0 5px;
+				outline: none;
+			}
+
+			#name {
+				grid-column-start: 2;
+				grid-column-end: 5;
+				grid-row-start: 2;
+				grid-row-end: 3;
+
+				font-size: 20px;
+			}
+
+			#fname {
+				grid-column-start: 2;
+				grid-column-end: 3;
+				grid-row-start: 4;
+				grid-row-end: 5;
+
+				&-box {
+					grid-column-start: 2;
+					grid-column-end: 3;
+					grid-row-start: 5;
+					grid-row-end: 6;
+				}
+			}
+
+			#lname {
+				grid-column-start: 4;
+				grid-column-end: 5;
+				grid-row-start: 4;
+				grid-row-end: 5;
+
+				&-box {
+					grid-column-start: 4;
+					grid-column-end: 5;
+					grid-row-start: 5;
+					grid-row-end: 6;
+				}
+			}
+
+			#email {
+				grid-column-start: 2;
+				grid-column-end: 5;
+				grid-row-start: 7;
+				grid-row-end: 8;
+
+				&-box {
+					grid-column-start: 2;
+					grid-column-end: 5;
+					grid-row-start: 8;
+					grid-row-end: 9;
+				}
+			}
+
+			#company {
+				grid-column-start: 2;
+				grid-column-end: 5;
+				grid-row-start: 10;
+				grid-row-end: 11;
+
+				&-box {
+					grid-column-start: 2;
+					grid-column-end: 5;
+					grid-row-start: 11;
+					grid-row-end: 12;
+				}
+			}
+
+			#subject {
+				grid-column-start: 2;
+				grid-column-end: 5;
+				grid-row-start: 13;
+				grid-row-end: 14;
+
+				&-box {
+					grid-column-start: 2;
+					grid-column-end: 5;
+					grid-row-start: 14;
+					grid-row-end: 15;
+				}
+			}
+
+			#message {
+				grid-column-start: 2;
+				grid-column-end: 5;
+				grid-row-start: 16;
+				grid-row-end: 17;
+
+				&-box {
+					grid-column-start: 2;
+					grid-column-end: 5;
+					grid-row-start: 17;
+					grid-row-end: 18;
+
+					resize: none;
+				}
+			}
+
+			#submit {
+				grid-column-start: 2;
+				grid-column-end: 3;
+				grid-row-start: 19;
+				grid-row-end: 20;
+
+				color: #F7F7FF;
+				font-size: 15px;
+				text-align: center;
+				text-decoration: none;
+
+				cursor: not-allowed;
+				border: .5px solid;
+				border-radius: 4px;
+				background-color: #767174;
+				padding: 10px 15px;
+			}
+		}
+	}
+}
+
+/* Updates Mobile Styling */
+@media (max-width: 992px) {
+	.page--body.become-sponsor {
+		div.page--description.become-sponsor.row {
+			padding: 0 20px;
+
+			.description-right {
+				margin: 0;
+
+				h2 {
+					padding: 1.0em 0 5px;
+				}
+			}
+		}
+
+		.contact-form--container {
+			form {
+				width: 85%;
+			}
+		}
+	}
+}
