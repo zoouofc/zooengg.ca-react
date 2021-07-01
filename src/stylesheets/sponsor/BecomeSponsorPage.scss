@@ -261,3 +261,12 @@
 		}
 	}
 }
+
+@media (max-width: 576px) {
+	.page--body.become-sponsor {
+		div.page--description.become-sponsor.row{
+			width: 95% !important;
+			padding: 0 !important;
+		}
+	}
+}

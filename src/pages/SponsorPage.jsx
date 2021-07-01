@@ -42,7 +42,7 @@ const SponsorPage = () => (
         the success of the leaders of tomorrow.
       </p>
 
-      <p style={{ margin: '0 0 -5px' }}>
+      <p style={{ margin: '0 0 -5px', textAlign: 'left' }}>
         <b>
           If you&#39;re interested in our work, click the button below to learn more about
           our sponsor opportunities and to start a conversation.
