@@ -161,6 +161,9 @@ const Routes = () => (
         </>
       )}
     />
+
+    {/* Redirected to home when searching for a non-existent path */}
+    <Redirect to="/" />
   </Switch>
 );
 
