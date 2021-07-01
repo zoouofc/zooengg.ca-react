@@ -57,13 +57,12 @@ const JoinPage = () => (
     <div className="application-form--container">
       <h3>Send Us Your Application!</h3>
       <p>
+        Please send your completed forms to <a href="mailto:execs@zooengg.ca">execs@zooengg.ca</a>.
+        <br />
         We would like to thank every applicant in advance.
         <br />
-        <b style={{ color: 'red' }}>
-          This form is currently disabled, so please contact us directly via email
-        </b>
       </p>
-      <form id="grid">
+      {/* <form id="grid">
         <label
           id="name"
           htmlFor="name"
@@ -211,7 +210,7 @@ const JoinPage = () => (
           disabled
         />
 
-      </form>
+      </form> */}
     </div>
   </div>
 );

@@ -31,7 +31,7 @@ const BecomeSponsorPage = () => (
             Financial Sponsorship Package
           </a>
           <br />
-          
+
           <a
             href="javacript:void()"
             className="button disabled"
@@ -55,13 +55,15 @@ const BecomeSponsorPage = () => (
     <div className="contact-form--container">
       <h3>Contact Us!</h3>
       <p>
-        We would love to get a conversation goin.
+        We would love to get a conversation going, 
         <br />
-        <b style={{ color: 'red' }}>
+        so please feel free to reach out to us at <a href="mailto:sponsorship@zooengg.ca">sponsorship@zooengg.ca</a>.
+        <br />
+        {/* <b style={{ color: 'red' }}>
           This form is currently disabled, so please contact us directly via email
-        </b>
+        </b> */}
       </p>
-      <form id="grid">
+      {/* <form id="grid">
         <label
           id="name"
           htmlFor="name"
@@ -161,7 +163,7 @@ const BecomeSponsorPage = () => (
           disabled
         />
 
-      </form>
+      </form> */}
     </div>
 
   </div>

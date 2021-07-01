@@ -70,5 +70,34 @@ nav.navbar.navbar-expand-sm.navbar-dark {
         }
       }
     }
+
+    .nav-link.top-level,
+    .nav-link.top-level.active,
+    #basic-nav-dropdown.dropdown-toggle.nav-link,
+    .nav-link.lower-level.--active-item.dropdown-item {
+      color: rgba(255, 255, 255, .5);
+
+      svg {
+        fill: rgba(255, 255, 255, .5) !important;
+      }
+
+      &:hover {
+        color: var(--nav-bg-font);
+        background-color: var(--dark-bg-hover);
+
+        svg {
+          fill: var(--nav-bg-font) !important;
+        }
+      }
+    }
+
+    .nav-link.lower-level.--active-item.active.dropdown-item {
+      color: var(--nav-bg-font);
+      background-color: var(--dark-bg);
+
+      &:hover {
+        background-color: var(--dark-bg-hover);
+      }
+    }
   }
 }
