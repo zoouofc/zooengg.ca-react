@@ -1,6 +1,6 @@
 // Importing Components from node_modules
 import React, { useEffect } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import SimpleReactLightbox from 'simple-react-lightbox';
 
 // Importing Project-defined Components
