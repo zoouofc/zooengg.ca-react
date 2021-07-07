@@ -87,6 +87,11 @@ const ExecPage = () => (
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Heyo! I’m Aleks, but feel free to call me by any of my nicknames! I’ll be your VP Internal 
+        for the 2021/22 school year while in my 2nd year of Software Engineering, so come visit 
+        me while I’m maintaining the homeroom (or finishing an assignment last minute). Outside 
+        of school I enjoy robotics, cage fighting, and video games! Looking forward to meeting 
+        all of you in the new year!
       </ExecCard>
 
     </div>
