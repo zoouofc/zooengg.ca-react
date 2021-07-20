@@ -33,7 +33,7 @@ const ExecPage = () => (
         email="president@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-
+        Hey! My name is Evan, I'm the ZOO president for the 2021-2022 academic year. As ZOO president, I am responsible for serving and representing all students in Electrical, and Software Engineering. I am entering my final year of Software Engineering. I enjoy programming and the whole <pre style={{display: 'inline', margin: 0}}>#!</pre> of the technical world.
       </ExecCard>
 
       <ExecCard
