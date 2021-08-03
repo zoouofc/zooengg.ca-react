@@ -34,7 +34,7 @@ const CommissionerPage = () => (
     <div id="profile-grid">
       <CommCard
         commRole="2nd/3rd/4th Year Representative:"
-        names=""
+        names="Rumaisa Shoeb Talukder (2nd ENSF), Ahmed Elemenshawi (2nd ENEL), Rishabh Ruhela (3rd ENEL), Tyler Witzke (3rd ENSF) "
       >
         Reps act as a bridge between the Society and its members,
         announcing major Society events to peers in your year.
@@ -42,7 +42,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Academic Events Commissioner:"
-        names=""
+        names="Fanny Lo"
       >
         In this role, you will coordinate with VP Academic and Events
         to plan and host various academic-oriented events.
@@ -66,7 +66,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Operations Commissioner:"
-        names=""
+        names="Caroline Basta"
       >
         In this role, you will assist VP External and Internal with
         their duties of inter- and intra-Society communication.
@@ -82,7 +82,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Social Events Commissioner:"
-        names=""
+        names="Yashpreet Singh"
       >
         In this role, you will coordinate with VP Events to plan
         and host various social-oriented events.
