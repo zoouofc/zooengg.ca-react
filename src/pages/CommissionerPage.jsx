@@ -34,7 +34,7 @@ const CommissionerPage = () => (
     <div id="profile-grid">
       <CommCard
         commRole="2nd/3rd/4th Year Representative:"
-        names="Rumaisa Shoeb Talukder (2nd ENSF), Ahmed Elemenshawi (2nd ENEL), Rishabh Ruhela (3rd ENEL), Tyler Witzke (3rd ENSF) "
+        names="Ahmed Elemenshawi (2yr ENEL), Rumaisa Talukder (2yr ENSF), Rishabh Ruhela (3yr ENEL), Tyler Witzke (3yr ENSF)"
       >
         Reps act as a bridge between the Society and its members,
         announcing major Society events to peers in your year.
@@ -90,7 +90,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Sponsorship Commissioner:"
-        names=""
+        names="Ines Rosito"
       >
         In this role, you will coordinate with VP Finance to ensure
         that the financial needs of the Society are met by securing
