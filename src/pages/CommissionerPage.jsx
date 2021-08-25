@@ -34,7 +34,7 @@ const CommissionerPage = () => (
     <div id="profile-grid">
       <CommCard
         commRole="2nd/3rd/4th Year Representative:"
-        names="Ahmed Elemenshawi (2yr ENEL), Rumaisa Talukder (2yr ENSF), Rishabh Ruhela (3yr ENEL), Tyler Witzke (3yr ENSF)"
+        names={["Ahmed Elmenshawi (2yr ENEL)", "Rumaisa Talukder (2yr ENSF)", "Rishabh Shoeb Ruhela (3yr ENEL)", "Tyler Witzke (3yr ENSF)", "Dillon Matthews (3yr ENSF)"]}
       >
         Reps act as a bridge between the Society and its members,
         announcing major Society events to peers in your year.
@@ -42,7 +42,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Academic Events Commissioner:"
-        names="Fanny Lo"
+        names={["Fanny Lo"]}
       >
         In this role, you will coordinate with VP Academic and Events
         to plan and host various academic-oriented events.
@@ -50,7 +50,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Artistic Commissioner:"
-        names="Ines Rosito"
+        names={["Ines Rosito"]}
       >
         In this role, you will be responsible for creating, distributing,
         and promoting posters for various Society events.
@@ -58,7 +58,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="ENGG/Frosh Week Director:"
-        names="Marcelo Li Gonzales"
+        names={["Marcelo Li Gonzales"]}
       >
         In this role, you will direct the Society&#39;s involvement in
         Frosh and ENGG week. Includes recruiting, participation, etc.
@@ -66,7 +66,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Operations Commissioner:"
-        names="Caroline Basta"
+        names={["Caroline Basta"]}
       >
         In this role, you will assist VP External and Internal with
         their duties of inter- and intra-Society communication.
@@ -74,7 +74,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Professional Development Commissioner:"
-        names=""
+        names={["Labib Afsar Ahmed"]}
       >
         In this role, you will coordinate with VP External and
         Events to plan and host various professional development events.
@@ -82,7 +82,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Social Events Commissioner:"
-        names="Yashpreet Singh"
+        names={["Yashpreet Singh"]}
       >
         In this role, you will coordinate with VP Events to plan
         and host various social-oriented events.
@@ -90,7 +90,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Sponsorship Commissioner:"
-        names="Ines Rosito"
+        names={["Ines Rosito"]}
       >
         In this role, you will coordinate with VP Finance to ensure
         that the financial needs of the Society are met by securing
@@ -100,7 +100,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Webmaster:"
-        names="Ines Rosito"
+        names={["Ines Rosito"]}
       >
         As Webmaster, you are the core individual responsible for
         maintaining all the Society&#39;s technologies, which
