@@ -34,7 +34,14 @@ const CommissionerPage = () => (
     <div id="profile-grid">
       <CommCard
         commRole="2nd/3rd/4th Year Representative:"
-        names={["Ahmed Elmenshawi (2yr ENEL)", "Rumaisa Talukder (2yr ENSF)", "Rishabh Shoeb Ruhela (3yr ENEL)", "Dillon Matthews (3yr ENSF)", "Tyler Witzke (3yr ENSF)"]}
+        names={[
+          "Ahmed Elmenshawi (2yr ENEL)", 
+          "Rumaisa Talukder (2yr ENSF)", 
+          "Rishabh Shoeb Ruhela (2yr ENSF)", 
+          "Visar Beci (3yr ENEL)",
+          "Dillon Matthews (3yr ENSF)", 
+          "Tyler Witzke (3yr ENSF)",
+        ]}
       >
         Reps act as a bridge between the Society and its members,
         announcing major Society events to peers in your year.

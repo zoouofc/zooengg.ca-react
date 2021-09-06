@@ -32,6 +32,7 @@ const ExecCard = (execInfo) => {
             className="mail-pic"
             alt="mail icon"
             src={mail}
+            target="_blank"
           />
         </a>
       </div>
