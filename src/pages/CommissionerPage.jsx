@@ -35,11 +35,11 @@ const CommissionerPage = () => (
       <CommCard
         commRole="2nd/3rd/4th Year Representative:"
         names={[
-          "Ahmed Elmenshawi (2yr ENEL)", 
-          "Rumaisa Talukder (2yr ENSF)", 
-          "Rishabh Shoeb Ruhela (2yr ENSF)", 
+          "Ahmed Elmenshawi (2yr ENEL)",
+          "Rumaisa Talukder (2yr ENSF)",
+          "Rishabh Shoeb Ruhela (2yr ENSF)",
           "Visar Beci (3yr ENEL)",
-          "Dillon Matthews (3yr ENSF)", 
+          "Dillon Matthews (3yr ENSF)",
           "Tyler Witzke (3yr ENSF)",
         ]}
       >
@@ -89,7 +89,10 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Social Events Commissioner:"
-        names={["Yashpreet Singh"]}
+        names={[
+          "Lauraine Baffot",
+          "Yashpreet Singh"
+        ]}
       >
         In this role, you will coordinate with VP Events to plan
         and host various social-oriented events.
