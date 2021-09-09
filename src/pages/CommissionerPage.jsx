@@ -36,8 +36,8 @@ const CommissionerPage = () => (
         commRole="2nd/3rd/4th Year Representative:"
         names={[
           "Ahmed Elmenshawi (2yr ENEL)",
-          "Rumaisa Talukder (2yr ENSF)",
-          "Rishabh Shoeb Ruhela (2yr ENSF)",
+          "Rumaisa Shoeb Talukder (2yr ENSF)",
+          "Rishabh Ruhela (2yr ENSF)",
           "Visar Beci (3yr ENEL)",
           "Dillon Matthews (3yr ENSF)",
           "Tyler Witzke (3yr ENSF)",
