@@ -8,6 +8,7 @@ import '../stylesheets/sponsor/SponsorPage.scss';
 // Importing Images
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
 import thanks from '../assets/sponsor-pages/thank-you.svg';
+import aimsio from '../assets/sponsor-pages/aimsio.png';
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -81,11 +82,11 @@ const SponsorPage = () => (
         className="enterprise"
         alt="placeholder"
       /> */}
-      {/* <img
-        src={placeholder}
+      <img
+        src={aimsio}
         className="corporate"
         alt="placeholder"
-      /> */}
+      />
       {/* <img
         src={placeholder}
         className="basic"

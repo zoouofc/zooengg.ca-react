@@ -36,7 +36,7 @@ const HomePage = () => (
         <img src={pic1} alt="" />
         <img src={pic2} alt="" />
         <img src={pic3} alt="" />
-        <a href="https://hopin.com/events/tech-fair-zoo/registration" target="_blank">
+        <a href="https://hopin.com/events/tech-fair-zoo/registration" target="_blank" rel="noreferrer">
           <img src={pic4} alt="" />
         </a>
         <img src={pic5} alt="" />
