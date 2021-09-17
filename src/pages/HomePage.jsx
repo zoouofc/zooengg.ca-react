@@ -10,13 +10,14 @@ import '../stylesheets/Flickity.scss';
 import pic1 from '../assets/home-pages/CouncilGroup16.png';
 import pic2 from '../assets/home-pages/CouncilGroup18.png';
 import pic3 from '../assets/home-pages/CouncilGroup20.png';
-import pic4 from '../assets/home-pages/SocialMediaBanner.png';
+import pic4 from '../assets/home-pages/TechFairBanner.png';
+import pic5 from '../assets/home-pages/SocialMediaBanner.png';
 
 // Importing files
 import constitution from '../assets/home-pages/ZooConstitution_UpdatedJune2021.pdf';
 
 const flickityOptions = {
-  initialIndex: 2,
+  initialIndex: 3,
   imagesLoaded: true,
   wrapAround: true,
   autoPlay: 3000,
@@ -36,6 +37,7 @@ const HomePage = () => (
         <img src={pic2} alt="" />
         <img src={pic3} alt="" />
         <img src={pic4} alt="" />
+        <img src={pic5} alt="" />
       </Flickity>
     </div>
 
@@ -50,7 +52,7 @@ const HomePage = () => (
         industry.
       </p>
       <p className="home-text">
-        In addition to those responsibilities, ZOO serves as a liason between the Department (ESE)
+        In addition to those responsibilities, ZOO serves as a liaison between the Department (ESE)
         and the many Electrical, Software and Computer Engineering students. We work hard to
         represent your opinions and ensure that your voices are heard.
       </p>

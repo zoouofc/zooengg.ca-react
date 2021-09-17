@@ -9,7 +9,7 @@ import '../stylesheets/exec/ExecCard.scss';
 
 const ExecCard = (execInfo) => {
   const mailTo = `mailto:${execInfo.email}`;
-
+  
   return (
     <div className="executive-card">
       <img

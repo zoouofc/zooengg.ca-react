@@ -91,6 +91,7 @@ const CommissionerPage = () => (
         commRole="Social Events Commissioner:"
         names={[
           "Lauraine Baffot",
+          "Ben Pele",
           "Yashpreet Singh"
         ]}
       >
