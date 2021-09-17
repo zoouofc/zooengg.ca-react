@@ -31,12 +31,14 @@ const HomePage = () => (
         className="carousel" // default ''
         elementType="div" // default 'div'
         options={flickityOptions} // takes flickity options {}
-        style={{height: "50vh"}}
+        style={{ height: "50vh" }}
       >
         <img src={pic1} alt="" />
         <img src={pic2} alt="" />
         <img src={pic3} alt="" />
-        <img src={pic4} alt="" />
+        <a href="https://hopin.com/events/tech-fair-zoo/registration" target="_blank">
+          <img src={pic4} alt="" />
+        </a>
         <img src={pic5} alt="" />
       </Flickity>
     </div>
