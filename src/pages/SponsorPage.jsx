@@ -70,11 +70,11 @@ const SponsorPage = () => (
       <h2 className="page--title">Our Partners & Sponsors</h2>
 
       {/* Comment out the following line when not in use */}
-      <h5
+      {/* <h5
         style={{ margin: '10px' }}
       >
         We are currently looking for sponsors and partners for the school year!
-      </h5>
+      </h5> */}
 
       {/* Placeholder for the different Sponsor Logo levels */}
       {/* <img
