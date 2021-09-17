@@ -39,7 +39,9 @@ const HomePage = () => (
         <a href="https://hopin.com/events/tech-fair-zoo/registration" target="_blank" rel="noreferrer">
           <img src={pic4} alt="" />
         </a>
-        <img src={pic5} alt="" />
+        <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
+          <img src={pic5} alt="" />
+        </a>
       </Flickity>
     </div>
 
