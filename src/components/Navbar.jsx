@@ -120,6 +120,12 @@ const Navbar = () => {
                   JOIN THE TEAM
                 </NavDropdown.Item>
               </LinkContainer>
+              <NavDropdown.Item
+                href="https://forms.gle/GGJzuuKWra9gHUmt6"
+                target="_blank"
+              >
+                VOTE NOW
+              </NavDropdown.Item>
             </NavDropdown>
             {/* End of Council Dropdown */}
 
