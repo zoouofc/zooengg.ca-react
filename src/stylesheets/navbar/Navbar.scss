@@ -133,3 +133,14 @@ h1.page-header {
     width: 105px;
   }
 }
+
+.external-nav {
+  &:focus {
+    background-color: var(--dark-bg);
+
+    &:hover {
+      background-color: var(--dark-bg-hover);
+      color: var(--nav-bg-font);
+    }
+  }
+}

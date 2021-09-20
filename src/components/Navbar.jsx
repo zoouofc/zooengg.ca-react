@@ -120,12 +120,6 @@ const Navbar = () => {
                   JOIN THE TEAM
                 </NavDropdown.Item>
               </LinkContainer>
-              <NavDropdown.Item
-                href="https://forms.gle/GGJzuuKWra9gHUmt6"
-                target="_blank"
-              >
-                VOTE NOW
-              </NavDropdown.Item>
             </NavDropdown>
             {/* End of Council Dropdown */}
 
@@ -182,6 +176,15 @@ const Navbar = () => {
               </LinkContainer>
             </NavDropdown>
             {/* End of Sponsorship Dropdown */}
+
+            <NavDropdown.Item
+                href="https://forms.gle/GGJzuuKWra9gHUmt6"
+                target="_blank"
+                className="external-nav"
+                style={{padding: "15px", width: "105px", height: "50px", fontSize: "14px"}}
+              >
+                VOTE NOW
+              </NavDropdown.Item>
 
           </Nav>
 
