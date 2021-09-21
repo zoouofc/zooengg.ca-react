@@ -39,7 +39,7 @@ const ExecPage = () => (
       <ExecCard
         imageSource={academic}
         alt="academic-headshot"
-        name="Vacant" // Change name for new Exec
+        name="Lauraine Baffot" // Change name for new Exec
         councilPosition="VP Academic"
         email="academic@zooengg.ca"
       >
