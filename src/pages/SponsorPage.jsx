@@ -9,6 +9,7 @@ import '../stylesheets/sponsor/SponsorPage.scss';
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
 import thanks from '../assets/sponsor-pages/thank-you.svg';
 import aimsio from '../assets/sponsor-pages/aimsio.png';
+import improving from '../assets/sponsor-pages/improving.png';
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -77,19 +78,25 @@ const SponsorPage = () => (
       </h5> */}
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <img
-        src={placeholder}
-        className="enterprise"
-        alt="placeholder"
-      /> */}
+      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
+      <img
+        src={improving}
+        className="platinum"
+        alt="improving logo"
+      />
+
+
+      <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
       <img
         src={aimsio}
-        className="corporate"
-        alt="placeholder"
+        className="gold"
+        alt="aimsio logo"
       />
+
+      {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
       {/* <img
         src={placeholder}
-        className="basic"
+        className="silver"
         alt="placeholder"
       /> */}
     </div>

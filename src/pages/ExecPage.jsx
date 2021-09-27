@@ -44,6 +44,7 @@ const ExecPage = () => (
         email="academic@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello everyone! My name is Lauraine and I’m the VP Academic of the ZOO council for the 2021-22 school year. I am in charge of any academic affairs related to the Electrical and Software Engineering student body. I am currently in my third year of Software Engineering with a minor in Entrepreneurship and Enterprise Development and I enjoy watching Marvel movies and going on hikes!
       </ExecCard>
 
       <ExecCard

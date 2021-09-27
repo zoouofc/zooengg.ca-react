@@ -35,9 +35,10 @@ const CommissionerPage = () => (
       <CommCard
         commRole="2nd/3rd/4th Year Representative:"
         names={[
+          "Javy He (1yr ENGG)",
           "Ahmed Elmenshawi (2yr ENEL)",
           "Rumaisa Shoeb Talukder (2yr ENSF)",
-          "Rishabh Ruhela (2yr ENSF)",
+          "Rishabh Ruhela (3yr ENEL)",
           "Visar Beci (3yr ENEL)",
           "Dillon Matthews (3yr ENSF)",
           "Tyler Witzke (3yr ENSF)",

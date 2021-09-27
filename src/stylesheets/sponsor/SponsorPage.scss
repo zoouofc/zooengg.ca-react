@@ -76,19 +76,34 @@
 		}
 
 		img {
-			margin: 30px 25px;
+			margin: 30px 25px ;
 		}
 
-		img.enterprise {
-			width: 200px;
+		img.platinum {
+			width: 350px;
 		}
 
-		img.corporate {
-			width: 175px;
+		img.gold {
+			width: 125px;
 		}
 
-		img.basic {
-			width: 150px;
+		img.silver {
+			width: 100px;
+		}
+
+		.sponsor-divider {
+			background: var(--card-bg);
+			// box-shadow: var(--box-shadow);
+			
+			width: 75%;
+			border-radius: 10px;
+
+			padding: 10px 0;
+			margin: 10px auto 0;
+
+			&.gold-divider {
+				margin: 30px auto 0;
+			}
 		}
 	}
 }
