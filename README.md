@@ -21,6 +21,7 @@ Certain things are constantly changing. As a results, some changes will require 
 #### JoinPage.jsx
 * Line 34: Update the School Year in the description
 * Update the Commissioner Form as needed
+* Update the text and imports depending on if applicants are being accepted
 #### Sponsor.jsx
 * Line 24: Update the School Year in the image
 * Line 35: Update the School Year in the description
