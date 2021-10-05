@@ -10,7 +10,7 @@ import '../stylesheets/Flickity.scss';
 import pic1 from '../assets/home-pages/CouncilGroup16.png';
 import pic2 from '../assets/home-pages/CouncilGroup18.png';
 import pic3 from '../assets/home-pages/CouncilGroup20.png';
-import pic4 from '../assets/home-pages/TechFairBanner.png';
+import pic4 from '../assets/home-pages/CouncilGroup21.png';
 import pic5 from '../assets/home-pages/SocialMediaBanner.png';
 
 // Importing files
