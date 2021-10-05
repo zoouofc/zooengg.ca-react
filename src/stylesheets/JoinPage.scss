@@ -38,6 +38,16 @@
 			}
 		}
 	}
+
+	.button.disabled {
+		cursor: not-allowed;
+		box-shadow: none;
+
+		&:hover {
+			background-color: var(--dark-bg);
+			color: var(--btn-font);
+		}
+	}
 }
 
 /* Styling for the application form */

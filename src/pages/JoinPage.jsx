@@ -21,14 +21,32 @@ const JoinPage = () => (
       <div className="description-right col-lg-5 col-md-6 col-sm-12 col-xs-12">
         <h2 className="page--title join-us">Join the Team</h2>
 
-        {/* Update text to speecific year  */}
+        {/* Update text to specific year and flip commented code*/}
         <p>
-          We are accepting applications for the
+          {/* 
+            We are accepting applications for the 
+            {' '}
+            <b>2021-2022</b>
+            {' '}
+            academic year!
+            There are various commissioner roles available, so be sure to pick the right one for you.
+            <br />
+            <br />
+            <b>Questions?</b>
+            {' '}
+            Email
+            {' '}
+            <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
+            , otherwise download the form below and submit your application to join today!
+          */}
+
+          {/* Comment following section when not in use */}
+          We have completed our recruitment for the
           {' '}
           <b>2021-2022</b>
           {' '}
-          academic year! There are various commissioner roles available,
-          so be sure to pick the right one for you.
+          academic year!
+          Check back near the end of the year or over the summer for when applications reopen.
           <br />
           <br />
           <b>Questions?</b>
@@ -36,14 +54,15 @@ const JoinPage = () => (
           Email
           {' '}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
-          , otherwise download the form below and submit your application to join today!
         </p>
 
         <div className="btn--dark">
+          {/* Remove the "disabled" class and uncomment href and target when actively recruiting  */}
           <a
-            className="button"
-            href={commissionerApp}
-            target="_blank"
+            className="button disabled"
+            // href={commissionerApp}
+            // target="_blank"
+            href="#"
             rel="noreferrer"
           >
             Download Form

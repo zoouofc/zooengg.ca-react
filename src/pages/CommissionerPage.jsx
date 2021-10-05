@@ -33,11 +33,14 @@ const CommissionerPage = () => (
 
     <div id="profile-grid">
       <CommCard
-        commRole="2nd/3rd/4th Year Representative:"
+        commRole="1st/2nd/3rd/4th Year Representative:"
         names={[
           "Javy He (1yr ENGG)",
           "Ahmed Elmenshawi (2yr ENEL)",
+          "Jeramel Jason Garlejo (2yr ENEL)",
           "Rumaisa Shoeb Talukder (2yr ENSF)",
+          "Geo Kandathil (3yr ENEL)",
+          "Ishtiaque Choudhury (3yr ENEL)",
           "Rishabh Ruhela (3yr ENEL)",
           "Visar Beci (3yr ENEL)",
           "Dillon Matthews (3yr ENSF)",
@@ -115,7 +118,7 @@ const CommissionerPage = () => (
       >
         As Webmaster, you are the core individual responsible for
         maintaining all the Society&#39;s technologies, which
-        include a website, webserver, fileserver, and Council emails.
+        include a website, webserver, fileserver, Council emails, and more.
       </CommCard>
 
     </div>
