@@ -58,16 +58,21 @@ const JoinPage = () => (
         </p>
 
         <div className="btn--dark">
-          {/* Remove the "disabled" class and uncomment href and target when actively recruiting  */}
-          <a
+          {/* Flip commented code when actively recruiting  */}
+          {/* <a
+            className="button"
+            href={commissionerApp}
+            target="_blank"
+            rel="noreferrer"
+          > */}
+          <div
             className="button disabled"
-            // href={commissionerApp}
-            // target="_blank"
             href="#"
             rel="noreferrer"
+            style={{width: "200px", margin: "0 0 0 auto"}}
           >
             Download Form
-          </a>
+          </div>
         </div>
       </div>
     </div>
