@@ -5,7 +5,7 @@ import React from 'react';
 import '../stylesheets/JoinPage.scss';
 
 // Importing documents and images
-import commissionerApp from '../assets/council-pages/CommissionerForm.pdf';
+// import commissionerApp from '../assets/council-pages/CommissionerForm.pdf';
 import joinUs from '../assets/council-pages/join-us.svg';
 
 const JoinPage = () => (
