@@ -33,15 +33,13 @@ const HomePage = () => (
         options={flickityOptions} // takes flickity options {}
         style={{ height: "50vh" }}
       >
-        <img src={pic1} alt="" />
-        <img src={pic2} alt="" />
         <img src={pic3} alt="" />
-        <a href="https://hopin.com/events/tech-fair-zoo/registration" target="_blank" rel="noreferrer">
-          <img src={pic4} alt="" />
-        </a>
+        <img src={pic2} alt="" />
+        <img src={pic1} alt="" />
         <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
           <img src={pic5} alt="" />
         </a>
+        <img src={pic4} alt="" />
       </Flickity>
     </div>
 
