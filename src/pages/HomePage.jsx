@@ -12,12 +12,13 @@ import pic2 from '../assets/home-pages/CouncilGroup18.png';
 import pic3 from '../assets/home-pages/CouncilGroup20.png';
 import pic4 from '../assets/home-pages/CouncilGroup21.png';
 import pic5 from '../assets/home-pages/SocialMediaBanner.png';
+import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
 // Importing files
 import constitution from '../assets/home-pages/ZooConstitution_UpdatedJune2021.pdf';
 
 const flickityOptions = {
-  initialIndex: 3,
+  initialIndex: 1,
   imagesLoaded: true,
   wrapAround: true,
   autoPlay: 3000,
@@ -33,13 +34,16 @@ const HomePage = () => (
         options={flickityOptions} // takes flickity options {}
         style={{ height: "50vh" }}
       >
-        <img src={pic3} alt="" />
-        <img src={pic2} alt="" />
         <img src={pic1} alt="" />
+        <a href="https://forms.gle/9HpXKyKNBuMw5Xe5A" target="_blank" rel="noreferrer">
+          <img src={pic6} alt="" />
+        </a>
         <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
           <img src={pic5} alt="" />
         </a>
         <img src={pic4} alt="" />
+        <img src={pic3} alt="" />
+        <img src={pic2} alt="" />
       </Flickity>
     </div>
 
