@@ -12,6 +12,12 @@ import React from 'react';
 
 // Importing Posters
 // 2021-2022 School Year
+import pic52 from '../assets/event-page/posters/2021-patches.png'
+import pic51 from '../assets/event-page/posters/2021-lanFall.png'
+import pic50 from '../assets/event-page/posters/2021-hoodie.png'
+import pic49 from '../assets/event-page/posters/2021-halloween.png'
+import pic48 from '../assets/event-page/posters/2021-studyUnderStars.png'
+import pic47 from '../assets/event-page/posters/2021-artNight.png'
 import pic46 from '../assets/event-page/posters/2021-techFair.png';
 import pic45 from '../assets/event-page/posters/2021-byElection.png';
 import pic44 from '../assets/event-page/posters/2021-virtualGameNight.png';
@@ -74,6 +80,12 @@ import pic1 from '../assets/event-page/posters/2016-profMixer.png';
 const EventPosters = () => (
   <>
     {/* Add new images at the top here V */}
+    <img src={pic52} alt="" />
+    <img src={pic51} alt="" />
+    <img src={pic50} alt="" />
+    <img src={pic49} alt="" />
+    <img src={pic48} alt="" />
+    <img src={pic47} alt="" />
     <img src={pic46} alt="" />
     <img src={pic45} alt="" />
     <img src={pic44} alt="" />

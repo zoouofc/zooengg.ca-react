@@ -21,6 +21,7 @@ import techFair from '../assets/event-page/technology-fair.svg';
 
 // Image carousel settings
 const flickityOptions = {
+  initialIndex: 1,
   imagesLoaded: true,
   wrapAround: true,
   autoPlay: 2000,
