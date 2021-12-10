@@ -10,6 +10,7 @@ import '../stylesheets/sponsor/SponsorPage.scss';
 import thanks from '../assets/sponsor-pages/thank-you.svg';
 import aimsio from '../assets/sponsor-pages/aimsio.png';
 import improving from '../assets/sponsor-pages/improving.png';
+import stellaralgo from '../assets/sponsor-pages/stellaralgo.png';
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -91,6 +92,12 @@ const SponsorPage = () => (
         src={aimsio}
         className="gold"
         alt="aimsio logo"
+      />
+      <img
+        src={stellaralgo}
+        className="gold"
+        alt="stellaralgo logo"
+        style={{width: "185px"}}
       />
 
       {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
