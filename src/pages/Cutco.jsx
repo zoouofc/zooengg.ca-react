@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Importing impages
-import cutco from 'NotCutcoScreenShot.png';
+import cutco from '../assets/NotCutcoScreenShot.png';
 
 const Cutco = () => (
   <div className="page--body">
