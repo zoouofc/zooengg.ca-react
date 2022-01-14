@@ -17,6 +17,8 @@ import SponsorPage from '../pages/SponsorPage';
 import BecomeSponsorPage from '../pages/BecomeSponsorPage';
 import ZooMeaningPage from '../pages/ZooMeaningPage';
 
+import Cutco from '../assets/NotCutcoScreenShot.png'; 
+
 // Importing Styles
 // import '../stylesheets/Routes.scss';
 
@@ -158,6 +160,16 @@ const Routes = () => (
             </SimpleReactLightbox>
           </Page>
           <Footer />
+        </>
+      )}
+    />
+
+  <Route
+      exact
+      path="/cutco"
+      render={() => (
+        <>
+         <Cutco />
         </>
       )}
     />
