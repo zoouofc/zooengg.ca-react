@@ -36,7 +36,7 @@
   hr {
     text-align: center;
     width: 65%;
-    margin: 2.25rem auto 1rem;
+    margin: 2.25rem auto 2.5rem;
   }
 
   .advocate-table {
@@ -97,8 +97,36 @@
 .page--body.advocate .table-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 10px 30px;
+  padding: 0 10px;
   margin: 0 50px 0;
   justify-content: space-around;
   align-items: center;
+}
+
+// Styling for FAQ
+.faq-container {
+  
+  .faq-row-wrapper {
+    background-color: var(--inside-bg);
+
+    width: 75%;
+    margin: 0 auto;
+
+    .faq-body {
+      .faq-row {
+        .row-title {
+          font-family: 'Ubuntu', normal !important;
+          font-size: 18px;
+          font-weight: bold;
+          font-style: italic;
+        }
+
+        .row-content {
+          .row-content-text {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
 }

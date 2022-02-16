@@ -1,5 +1,8 @@
 // Importing Components from node_modules
 import React from 'react';
+import Faq from 'react-faq-component';
+
+import data from '../components/FaqInfo';
 
 // Import Styling
 import '../stylesheets/AdvocatePage.scss';
@@ -174,62 +177,10 @@ const AdvocatePage = () => (
 
       <hr />
 
-      <h3><b>Frequently Asked Questions</b></h3>
-
-      <p>
-        When should I contact my course's Advocate?
-        A course advocate can best help in situations where a large portion of the class is being negatively affected.
-      </p><p>
-        We encourage all students to voice their concerns to the instructor first, respectfully and professionally. Constructive feedback goes a long way!
-      </p><p>
-        If a student has contacted the instructor or does not feel comfortable contacting the instructor, they may reach out to the course advocate.
-        What will a course advocate do?
-        If a course advocate receives a complaint from a student, they will coordinate with the ZOO council and triage the complaint assigning a tier.
-        Tier 1
-        For minor complaints defined as tier 1, the course advocate may reach out to the instructor and pass on the feedback. If this does not resolve the issue or previous attempts have been unsuccessful, the course advocate will triage the complaint to tier 2.
-        Tier 2
-        For tier 2, the course advocate will work with the ZOO council and coordinate with the appropriate department to find and communicate a resolution.
-
-      </p><p>
-
-        What can a course advocate help me with?
-        If you have any concerns, please do not hesitate to contact your course advocate; if the matter does not meet the criteria, the advocate will point you in the right direction.
-      </p><p>
-
-        Here are some examples the course advocate can assist with:
-        Tier 1
-        Minor course delivery concerns shared by a small-medium group of students
-        Inconsistent or unfair grading affecting a portion of the class
-        Instructor communication or reliability concerns
-        Tier 2
-        Major course delivery concerns shared by a large portion of students
-        Major grading issues affecting the whole class
-        Inappropriate or disrespectful behaviour from a staff member
-      </p><p>
-
-        Here are some examples the course advocate is NOT able to assist with:
-        Grading issues affecting only you
-        Group member conflicts
-        Personal disagreements with instructors
-      </p><p>
-
-        Will I remain anonymous if I submit a claim to my class advocate?
-        Absolutely!
-        We will never disclose your information to either the instructor or department!
-      </p><p>
-
-        If there is an instance where it would be necessary to share your information, we will ask for your consent before doing so.
-        What if I have concerns but don't want to use my course advocate?
-        That is entirely okay! If you have concerns, you can always contact your instructor or the department directly.
-        <br />
-        <a href="https://schulich.ucalgary.ca/electrical-software/contacts">
-          schulich.ucalgary.ca/electrical-software/contacts
-        </a>
-        <br />
-        <a href="https://schulich.ucalgary.ca/electrical-software/contacts">
-          science.ucalgary.ca/computer-science/contacts
-        </a>
-      </p>
+      <div className='faq-container'>
+        <h3><b>Frequently Asked Questions</b></h3>
+        <Faq data={data} />
+      </div>
     </div >
   </div >
 )
