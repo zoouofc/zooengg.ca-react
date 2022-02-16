@@ -35,16 +35,13 @@ const CommissionerPage = () => (
       <CommCard
         commRole="1st/2nd/3rd/4th Year Representative:"
         names={[
-          "Javy He (1yr ENGG)",
           "Ahmed Elmenshawi (2yr ENEL)",
-          "Jeramel Jason Garlejo (2yr ENEL)",
           "Rumaisa Shoeb Talukder (2yr ENSF)",
-          "Geo Kandathil (3yr ENEL)",
-          "Ishtiaque Choudhury (3yr ENEL)",
           "Rishabh Ruhela (3yr ENEL)",
           "Visar Beci (3yr ENEL)",
           "Dillon Matthews (3yr ENSF)",
           "Tyler Witzke (3yr ENSF)",
+          "Parker Trew (4yr ENEL)"
         ]}
       >
         Reps act as a bridge between the Society and its members,
@@ -120,7 +117,6 @@ const CommissionerPage = () => (
         maintaining all the Society&#39;s technologies, which
         include a website, webserver, fileserver, Council emails, and more.
       </CommCard>
-
     </div>
   </div>
 );
