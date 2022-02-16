@@ -130,3 +130,12 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .page--body.advocate {
+    p.advocate-text {
+      padding: 0 2.5rem !important;
+      margin: 0 0 1rem;
+    }  
+  }
+}
