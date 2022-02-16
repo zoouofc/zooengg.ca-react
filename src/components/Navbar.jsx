@@ -110,6 +110,18 @@ const Navbar = () => {
               </LinkContainer>
 
               <LinkContainer
+                to="/advocates"
+                className="nav-link lower-level"
+              >
+                <NavDropdown.Item
+                  active={false}
+                  className="--active-item"
+                >
+                  ACADEMIC ADVOCATES
+                </NavDropdown.Item>
+              </LinkContainer>
+
+              <LinkContainer
                 to="/join-the-team"
                 className="nav-link lower-level"
               >

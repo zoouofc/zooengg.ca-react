@@ -11,6 +11,7 @@ import Footer from './Footer';
 import HomePage from '../pages/HomePage';
 import ExecPage from '../pages/ExecPage';
 import CommissionerPage from '../pages/CommissionerPage';
+import AdvocatePage from '../pages/AdvocatePage';
 import JoinPage from '../pages/JoinPage';
 import EventPage from '../pages/EventPage';
 import SponsorPage from '../pages/SponsorPage';
@@ -79,6 +80,21 @@ const Routes = () => (
           <Navbar />
           <Page title="ZOO Commissioners">
             <CommissionerPage />
+          </Page>
+          <Footer />
+        </>
+      )}
+    />
+
+    {/* Route to the Advocates */}
+    <Route
+      exact
+      path="/advocates"
+      render={() => (
+        <>
+          <Navbar />
+          <Page title="Academic Advocates">
+            <AdvocatePage />
           </Page>
           <Footer />
         </>
