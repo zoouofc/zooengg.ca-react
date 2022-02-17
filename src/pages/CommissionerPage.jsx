@@ -41,7 +41,7 @@ const CommissionerPage = () => (
           "Visar Beci (3yr ENEL)",
           "Dillon Matthews (3yr ENSF)",
           "Tyler Witzke (3yr ENSF)",
-          "Parker Trew (4yr ENEL)"
+          "Parker Link (4yr ENEL)"
         ]}
       >
         Reps act as a bridge between the Society and its members,
