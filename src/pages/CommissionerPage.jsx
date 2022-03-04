@@ -82,7 +82,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Professional Development Commissioner:"
-        names={["Labib Afsar Ahmed"]}
+        names={[]}
       >
         In this role, you will coordinate with VP External and
         Events to plan and host various professional development events.
