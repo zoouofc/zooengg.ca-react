@@ -3,11 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Files Requiring Changes
 Certain things are constantly changing. As a results, some changes will require annual updates, the following is where you can currently find them:
+#### Academic Advocates.jsx
+* Requires course and advocate update EACH SEMESTER
 #### BecomeSponsor.jsx
 * Update the sponsorship package as required
 #### CommissionerPage.jsx
 * Line 14: Page Title requires a year change
-* Update components/CommCard.jsx to include who is in the position as, needed 
+* Update components/CommCard.jsx to include who is in the position, as needed 
 #### EventPage.jsx
 * Update the Major Events as needed, whether it be description changes or more event cards
 * Update components/EventPosters.jsx to include new posters from the school year
