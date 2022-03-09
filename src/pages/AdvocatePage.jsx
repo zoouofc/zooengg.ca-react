@@ -108,11 +108,11 @@ const AdvocatePage = () => (
               </tr>
               <tr>
                 <td>ENEL 469</td>
-                <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/they)</td>
+                <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/her)</td>
               </tr>
               <tr>
                 <td>ENEL 471</td>
-                <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/they)</td>
+                <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/her)</td>
               </tr>
             </tbody>
           </table>
