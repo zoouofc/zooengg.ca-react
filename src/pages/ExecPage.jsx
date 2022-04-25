@@ -74,6 +74,7 @@ const ExecPage = () => (
         email="external@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello! My name is Yashpreet and I'll be the VP External for ZOO! I can't wait to work with the rest of Council to plan and organize the Tech Fair, Speaker Series, Industry Events, and more this school year! Feel free to get in touch with me if you have any concerns or suggestions as I'll be happy to hear you 💙
       </ExecCard>
 
       <ExecCard
