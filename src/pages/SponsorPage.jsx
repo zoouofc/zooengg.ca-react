@@ -31,7 +31,7 @@ const SponsorPage = () => (
 
     <div className="page--description sponsors">
       <p>
-        The Electrical, Computer, and Software Engineering Students&#39; Society would like
+        The Electrical and Software Engineering Students&#39; Society would like
         to thank our Sponsors and Partners for their donations during the
 
         {/* Update the year */}

@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <>
       <h1 className="page-header">
-        Electrical, Computer, and Software Engineering Students&#39; Society
+        Electrical and Software Engineering Students&#39; Society
       </h1>
       <ReactNavbar
         expand="sm"

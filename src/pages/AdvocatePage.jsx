@@ -20,13 +20,15 @@ const AdvocatePage = () => (
 
       <br />
 
-      <h3 className="page-sub-title advocate">Supported Classes for Winter 2022</h3>
-      <div class="table-container">
+      <h3 className="page-sub-title advocate">Supported Classes for Fall 2022</h3> {/* Update semester */}
+      {/* Comment out following line when tables have content */}
+      <p className='advocate-text' style={{textAlign: "center"}}>Please check back closer to the start of the Fall semester for an updated list of class advocates.</p>
 
+      <div class="table-container">
         <div>
-          <h5>CPSC Courses</h5>
-          <table class="advocate-table">
             {/* CPSC Courses */}
+          {/* <h5>CPSC Courses</h5>
+          <table class="advocate-table">
             <thead>
               <tr>
                 <th>Course</th>
@@ -51,10 +53,10 @@ const AdvocatePage = () => (
                 <td><a href="mailto:evan.krul1@ucalgary.ca">Evan Krul</a> || (he/him)</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
 
           {/* ENCM Courses */}
-          <h5>ENCM Courses</h5>
+          {/* <h5>ENCM Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -68,13 +70,13 @@ const AdvocatePage = () => (
                 <td><a href="mailto:rumaisashoeb.talukde@ucalgary.ca">Rumaisa Shoeb Talukder</a> || (she/her)</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </div>
 
         <div>
-          <h5>ENEL Courses</h5>
-          <table class="advocate-table">
             {/* ENEL Courses */}
+          {/* <h5>ENEL Courses</h5>
+          <table class="advocate-table">
             <thead>
               <tr>
                 <th>Course</th>
@@ -115,12 +117,12 @@ const AdvocatePage = () => (
                 <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/her)</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </div>
 
         <div>
           {/* SENG Courses */}
-          <h5>SENG Courses</h5>
+          {/* <h5>SENG Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -150,10 +152,10 @@ const AdvocatePage = () => (
                 <td><a href="mailto:evan.krul1@ucalgary.ca">Evan Krul</a> || (he/him)</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
 
           {/* ENSF Courses */}
-          <h5>ENSF Courses</h5>
+          {/* <h5>ENSF Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -171,7 +173,7 @@ const AdvocatePage = () => (
                 <td><a href="mailto:carter.drewes@ucalgary.ca">Carter Zimmer</a> || (they/them)</td>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </div>
       </div>
 

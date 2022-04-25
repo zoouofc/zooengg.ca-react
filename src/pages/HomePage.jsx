@@ -50,7 +50,7 @@ const HomePage = () => (
     <h2 className="page--title home">About ZOO</h2>
     <div className="page--description home">
       <p className="home-text">
-        The University of Calgary&#39;s Electrical, Computer, and Software Engineering
+        The University of Calgary&#39;s Electrical and Software Engineering
         Students&#39; Society, affectionally referred to as ZOO, is an initiative run by students,
         for students. ZOO aims to support their undergraduate students, both academically and
         socially, by providing them with a variety of events to enrich their University experience.

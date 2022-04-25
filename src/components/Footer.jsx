@@ -18,7 +18,7 @@ const Footer = () => (
 
     <section className="footer--upper-content">
       <div className="footer--address">
-        <h4> Electrical, Computer, and Software Engineering Students&#39; Society</h4>
+        <h4> Electrical and Software Engineering Students&#39; Society</h4>
         <p>
           2500 University Drive, ENA 106
           <br />
@@ -82,7 +82,7 @@ const Footer = () => (
       </div>
 
       <p>
-        Copyright © 2021 Electrical, Computer, and Software Engineering Students&#39; Society
+        Copyright © 2021 Electrical and Software Engineering Students&#39; Society
         <b>
           {' '}
           | Made with ♡ in Calgary
