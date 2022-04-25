@@ -12,10 +12,12 @@ import React from 'react';
 
 // Importing Posters
 // 2021-2022 School Year
+import pic61 from '../assets/event-page/posters/2022-pubTrivia.png'
+import pic60 from '../assets/event-page/posters/2022-AGM.png'
 import pic59 from '../assets/event-page/posters/2022-improvingEvent.png'
 import pic58 from '../assets/event-page/posters/2022-stellaralgoEvent.png'
-import pic57 from '../assets/event-page/posters/2022-techElecNight.png'
-import pic56 from '../assets/event-page/posters/2022-aimsioEvent.png'
+import pic57 from '../assets/event-page/posters/2022-aimsioEvent.png'
+import pic56 from '../assets/event-page/posters/2022-techElecNight.png'
 import pic55 from '../assets/event-page/posters/2022-enggWeek.png.png'
 import pic54 from '../assets/event-page/posters/2022-keyClue.png'
 import pic53 from '../assets/event-page/posters/2021dec-studyUnderStars.png'
@@ -87,6 +89,8 @@ import pic1 from '../assets/event-page/posters/2016-profMixer.png';
 const EventPosters = () => (
   <>
     {/* Add new images at the top here V */}
+    <img src={pic61} alt="" />
+    <img src={pic60} alt="" />
     <img src={pic59} alt="" />
     <img src={pic58} alt="" />
     <img src={pic57} alt="" />

@@ -104,9 +104,9 @@ const EventPage = () => (
         <br />
         <br />
         If you&#39;re interested in running a workshop for or with ZOO,
-        please contact our VP Academic at
+        please contact our VP Academics at
         {' '}
-        <a href="external@zooengg.ca">
+        <a href="academic@zooengg.ca">
           academic@zooengg.ca
         </a>
       </EventCardRight>
@@ -130,9 +130,6 @@ const EventPage = () => (
           connect with sponsoring companies, and make lifelong friends, all
           in a safe and comfortable space.
         </em>
-        <br />
-        <br />
-        Please be aware that CUSEC 2022 may be held online due to COVID-19.
       </EventCardLeft>
 
       <EventCardRight
