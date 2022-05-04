@@ -34,6 +34,7 @@ const ExecPage = () => (
         email="president@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Heyo! My name is Aleks, although, you might hear me going by a LOT of other names. I'm excited to be your President this year and do things, such as amazing events, awesome merch, and helping out students academically! My DM's are always open, and feel free to bug me anytime you see me 💙
       </ExecCard>
 
       <ExecCard
@@ -44,6 +45,7 @@ const ExecPage = () => (
         email="academic.software@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hey there! I'm Rumaisa and I'll be your VP Academic Software for the 2022-2023 Council. I'll be working with the Council to enhance your academic experience by organizing events, such as, an Internship Panel, Technical Elective Night and many more. Feel free to reach out if you have any inquiries, or comments on something you'd like to see us bring to you! 😊
       </ExecCard>
 
       <ExecCard
@@ -54,6 +56,7 @@ const ExecPage = () => (
         email="academic.electrical@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello there, my name is Ben and I will be your first VP Academic Electrical for ZOO. This may come as a surprise but I am indeed in 3rd year electrical engineering with a minor in digital engineering. I am excited to get to know as many of you as I can and plan a bunch of academic based events, like our Technical Elective night this year! Please get in touch with me if you have any questions or concerns, I’m happy to help out however I can.
       </ExecCard>
 
       <ExecCard
@@ -90,11 +93,12 @@ const ExecPage = () => (
       <ExecCard
         imageSource={internal}
         alt="internal-headshot"
-        name="Vacant" // Change name for new Exec
-        councilPosition="VP Internal"
+        name="Christian Canayon" // Change name for new Exec
+        councilPosition="(Interim) VP Internal"
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello! My name is Christian Canayon, though I normally go by Cris. I am a second year Software Engineering student and I am currently the Interim VP Internal for the school year. My job is to ensure that ZOO runs smoothly behind-the-scenes. Aside from ZOO, I am also a Sumo Team Lead for AC Robotics. Some of my other interests include fitness, technology, and learning new things. I am always happy to meet new people regardless of background, so feel free to get in touch with the contact info below!
       </ExecCard>
 
     </div>
