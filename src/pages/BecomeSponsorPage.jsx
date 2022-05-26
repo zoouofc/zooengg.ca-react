@@ -6,7 +6,7 @@ import '../stylesheets/sponsor/BecomeSponsorPage.scss';
 
 // Importing Image & Documents
 import handshake from '../assets/sponsor-pages/handshake.svg';
-import financial from '../assets/sponsor-pages/ZOOPartnershipPackage2021.pdf';
+import financial from '../assets/sponsor-pages/ZOOPartnershipPackage2022.pdf';
 
 const BecomeSponsorPage = () => (
   <div className="page--body become-sponsor">
