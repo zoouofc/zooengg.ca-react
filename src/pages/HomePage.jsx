@@ -12,7 +12,7 @@ import pic2 from '../assets/home-pages/CouncilGroup18.png';
 import pic3 from '../assets/home-pages/CouncilGroup20.png';
 import pic4 from '../assets/home-pages/CouncilGroup21.png';
 import pic5 from '../assets/home-pages/SocialMediaBanner.png';
-import pic6 from '../assets/home-pages/HarryZooterAd.png';
+// import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
 // Importing files
 import constitution from '../assets/home-pages/ZooConstitution_UpdatedMarch2022.pdf';
