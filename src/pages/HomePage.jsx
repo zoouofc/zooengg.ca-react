@@ -35,9 +35,9 @@ const HomePage = () => (
         style={{ height: "50vh" }}
       >
         <img src={pic1} alt="" />
-        <a href="https://forms.gle/9HpXKyKNBuMw5Xe5A" target="_blank" rel="noreferrer">
+        {/* <a href="https://forms.gle/9HpXKyKNBuMw5Xe5A" target="_blank" rel="noreferrer">
           <img src={pic6} alt="" />
-        </a>
+        </a> */}
         <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
           <img src={pic5} alt="" />
         </a>

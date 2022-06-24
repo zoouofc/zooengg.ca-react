@@ -25,22 +25,22 @@ const JoinPage = () => (
 
         {/* Update text to specific year and flip commented code*/}
         <p>
-          
-            We are accepting applications for the 
-            {' '}
-            <b>2022-2023</b>
-            {' '}
-            academic year!
-            There are various commissioner roles available, so be sure to pick the right one for you.
-            <br />
-            <br />
-            <b>Questions?</b>
-            {' '}
-            Email
-            {' '}
-            <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
-            , otherwise download the form below and submit your application to join today!
-         
+
+          We are accepting applications for the
+          {' '}
+          <b>2022-2023</b>
+          {' '}
+          academic year!
+          There are various commissioner roles available, so be sure to pick the right one for you.
+          <br />
+          <br />
+          <b>Questions?</b>
+          {' '}
+          Email
+          {' '}
+          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
+          , otherwise download the form below and submit your application to join today!
+
 
           {/* Comment following section when not in use */}
           {/* We have completed our recruitment for the
@@ -77,9 +77,9 @@ const JoinPage = () => (
             Download Form
           </div> */}
         </div>
-        
-        <div className="btn--dark">
-          {/* Uncomment code when actively recruiting  */}
+
+        {/* Uncomment code when actively recruiting  */}
+        {/* <div className="btn--dark">
           <a
             className="button"
             href={executiveApp}
@@ -88,7 +88,7 @@ const JoinPage = () => (
           >
             Download Executive Officer Form
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
 

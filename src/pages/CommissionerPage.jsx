@@ -48,7 +48,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Academic Events Commissioner:"
-        names={[]}
+        names={["Shreosi Debnath"]}
       >
         In this role, you will coordinate with VP Academic and Events
         to plan and host various academic-oriented events.
