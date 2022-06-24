@@ -7,7 +7,7 @@ import '../stylesheets/JoinPage.scss';
 // Importing documents and images
 // Uncomment when in use
 import commissionerApp from '../assets/council-pages/CommissionerForm.pdf';
-import executiveApp from '../assets/council-pages/ExecutiveOfficerForm.pdf';
+// import executiveApp from '../assets/council-pages/ExecutiveOfficerForm.pdf';
 import joinUs from '../assets/council-pages/join-us.svg';
 
 const JoinPage = () => (
