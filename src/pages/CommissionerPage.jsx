@@ -33,8 +33,10 @@ const CommissionerPage = () => (
 
     <div id="profile-grid">
       <CommCard
-        commRole="1st/2nd/3rd/4th+ Year, Internship, and Alumni Representative:"
+        commRole="ZOO Representatives:"
         names={[
+          "Dawson van Vlaanderen (2yr ENSF)",
+          "Nimna Wijedasa (2yr ENSF)",
           "Marcelo Li Gonzales (Internship)",
           "Parker Link (4yr+ ENEL)",
           "Ines Rosito (Alumni)"
@@ -54,7 +56,9 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Artistic Commissioner:"
-        names={[]}
+        names={[
+          "Ines Rosito"
+        ]}
       >
         In this role, you will be responsible for creating, distributing,
         and promoting posters for various Society events.
@@ -70,7 +74,11 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Operations Commissioner:"
-        names={[]}
+        names={[
+          "Hridika Banik",
+          "Ojaswi Lal",
+          "Sahiti Akella"
+        ]}
       >
         In this role, you will assist VP External and Internal with
         their duties of inter- and intra-Society communication.
@@ -86,7 +94,12 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Social Events Commissioner:"
-        names={[]}
+        names={[
+          "Elyse Poupart",
+          "Fraser Pada",
+          "Michele Pham",
+          "Samira Khan"
+        ]}
       >
         In this role, you will coordinate with VP Events to plan
         and host various social-oriented events.
@@ -94,7 +107,9 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Sponsorship Commissioner:"
-        names={[]}
+        names={[
+          "Saman Pordanesh",
+        ]}
       >
         In this role, you will coordinate with VP Finance to ensure
         that the financial needs of the Society are met by securing
@@ -104,7 +119,10 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Webmaster:"
-        names={["Ines Rosito"]}
+        names={[
+          "Ines Rosito",
+          "Shivam Desai"
+        ]}
       >
         As Webmaster, you are the core individual responsible for
         maintaining all the Society&#39;s technologies, which

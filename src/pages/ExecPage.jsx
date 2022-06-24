@@ -62,7 +62,7 @@ const ExecPage = () => (
       <ExecCard
         imageSource={events}
         alt="events-headshot"
-        name="Vacant" // Change name for new Exec
+        name="Evan Cherewko" // Change name for new Exec
         councilPosition="VP Events"
         email="events@zooengg.ca"
       >
@@ -94,7 +94,7 @@ const ExecPage = () => (
         imageSource={internal}
         alt="internal-headshot"
         name="Christian Canayon" // Change name for new Exec
-        councilPosition="(Interim) VP Internal"
+        councilPosition="VP Internal"
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}

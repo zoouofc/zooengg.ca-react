@@ -15,7 +15,7 @@ import pic5 from '../assets/home-pages/SocialMediaBanner.png';
 import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
 // Importing files
-import constitution from '../assets/home-pages/ZooConstitution_UpdatedJune2021.pdf';
+import constitution from '../assets/home-pages/ZooConstitution_UpdatedMarch2022.pdf';
 
 const flickityOptions = {
   initialIndex: 1,
