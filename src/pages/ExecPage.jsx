@@ -88,6 +88,7 @@ const ExecPage = () => (
         email="finance@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hey! I'm Carter, I use they/them pronouns and I'm your VP Finance again this year. I'm going into my third year of software engineering but I've been coding for way longer than that. For ZOO behind the scenes I manage the finances for council and help out with the website (online zoo store when??) but you can catch me around campus doing lots of other stuff. If you'd like to reach out my DM's are open and I usually don't mind being bugged :)
       </ExecCard>
 
       <ExecCard
