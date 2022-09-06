@@ -67,6 +67,7 @@ const ExecPage = () => (
         email="events@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Heyyo! My name is Evan and I will be your 2022-2023 VP Events for ZOO. I am excited to run all kinds of events for you this year, from social trivia nights to evenings full of academic networking, and everything in-between! I am a second year Software Engineering student and I love meeting new people! Feel free to get in touch if you have any ideas, comments, or even just want to say hi. I'm looking forward to hearing from you!
       </ExecCard>
 
       <ExecCard

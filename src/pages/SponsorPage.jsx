@@ -8,9 +8,13 @@ import '../stylesheets/sponsor/SponsorPage.scss';
 // Importing Images
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
 import thanks from '../assets/sponsor-pages/thank-you.svg';
-import aimsio from '../assets/sponsor-pages/aimsio.png';
-import improving from '../assets/sponsor-pages/improving.png';
-import stellaralgo from '../assets/sponsor-pages/stellaralgo.png';
+import chata from '../assets/sponsor-pages/chata.png';
+import vog from '../assets/sponsor-pages/vog.png';
+import garmin from '../assets/sponsor-pages/garmin.png';
+import helcim from '../assets/sponsor-pages/helcim.svg';
+import launchcode from '../assets/sponsor-pages/launchcode.png';
+import magnet from '../assets/sponsor-pages/magnetforensics.png';
+import primary from '../assets/sponsor-pages/primaryengineering.png';
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -24,7 +28,7 @@ const SponsorPage = () => (
       {/* Used to avoid the two <hr> tags from overlapping with the image and text  */}
       <div className="background-protection" />
 
-      <h1>2021 - 2022</h1>
+      <h1>2022 - 2023</h1>
       <hr className="hr-left" />
       <hr className="hr-right" />
     </div>
@@ -36,7 +40,7 @@ const SponsorPage = () => (
 
         {/* Update the year */}
         {' '}
-        2021-2022
+        2022-2023
         {' '}
 
         academic year. Their support enables us to reach our mission of enriching the student-body
@@ -69,7 +73,7 @@ const SponsorPage = () => (
     />
 
     <div className="sponsor-list">
-      <h2 className="page--title">Our Partners & Sponsors</h2>
+      <h2 className="page--title">Our Year-Long Partners & Sponsors</h2>
 
       {/* Comment out the following line when not in use */}
       {/* <h5
@@ -81,24 +85,17 @@ const SponsorPage = () => (
       {/* Placeholder for the different Sponsor Logo levels */}
       <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
       <img
-        src={improving}
+        src={vog}
         className="platinum"
-        alt="improving logo"
+        alt="vog logo"
       />
 
-
-      <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
-      <img
-        src={aimsio}
+      {/* <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3> */}
+      {/* <img
+        src={placeholder}
         className="gold"
-        alt="aimsio logo"
-      />
-      <img
-        src={stellaralgo}
-        className="gold"
-        alt="stellaralgo logo"
-        style={{width: "185px"}}
-      />
+        alt="placeholder"
+      /> */}
 
       {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
       {/* <img
@@ -106,6 +103,60 @@ const SponsorPage = () => (
         className="silver"
         alt="placeholder"
       /> */}
+    </div>
+
+    <hr
+      style={{
+        margin: '85px auto 0',
+        width: '75%',
+      }}
+    />
+
+    <div className="sponsor-list">
+      <h2 className="page--title">Our 2022 Tech Fair Sponsors</h2>
+      {/* Placeholder for the different Sponsor Logo levels */}
+      <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
+      <img
+        src={chata}
+        className="gold"
+        alt="chata logo"
+      />
+
+      <img
+        src={garmin}
+        className="gold"
+        alt="garmin logo"
+      />
+
+      <img
+        src={helcim}
+        className="gold"
+        alt="helcim logo"
+      />
+
+      <img
+        src={launchcode}
+        className="gold"
+        alt="launchcode logo"
+      />
+
+      <img
+        src={magnet}
+        className="gold"
+        alt="magnet forensics logo"
+      />
+
+      <img
+        src={primary}
+        className="gold"
+        alt="primary engineering logo"
+      />
+
+      <img
+        src={vog}
+        className="gold"
+        alt="launchpad by vog logo"
+      />
     </div>
   </div>
 );

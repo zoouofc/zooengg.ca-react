@@ -48,7 +48,7 @@ const Navbar = () => {
               src={zoo}
               width="40"
               height="40"
-              // className="d-inline-block align-top"
+            // className="d-inline-block align-top"
             />
           </NavLink>
           <div className="vertical-line" />
@@ -143,6 +143,49 @@ const Navbar = () => {
             >
               EVENTS
             </NavLink>
+
+
+            {/* <NavDropdown
+              alignRight
+              id="basic-nav-dropdown"
+              title={(
+                <>
+                  EVENTS
+                  <FaAngleDown
+                    style={{
+                      fill: '#F7F7FF',
+                      margin: '-3px 0 0 3px',
+                    }}
+                  />
+                  {' '}
+
+                </>
+              )}
+            >
+              <LinkContainer
+                to="/events"
+                className="nav-link lower-level"
+              >
+                <NavDropdown.Item
+                  active={false}
+                  className="--active-item"
+                >
+                  OUR EVENTS
+                </NavDropdown.Item>
+              </LinkContainer>
+
+              <LinkContainer
+                to="/event-calendar"
+                className="nav-link lower-level"
+              >
+                <NavDropdown.Item
+                  active={false}
+                  className="--active-item"
+                >
+                  EVENT CALENDAR
+                </NavDropdown.Item>
+              </LinkContainer>
+            </NavDropdown> */}
             {/* End of Events */}
 
             {/* Sponsorship Dropdown */}
@@ -188,8 +231,28 @@ const Navbar = () => {
               </LinkContainer>
             </NavDropdown>
             {/* End of Sponsorship Dropdown */}
-          </Nav>
 
+            {/* Store */}
+            <a
+              href="https://zooengg.myshopify.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="nav-link top-level"
+            >
+              STORE
+            </a>
+            {/* End of Store */}
+
+            {/* Contact Us */}
+            {/* <NavLink
+              to="/contact-us"
+              className="nav-link top-level contact-us"
+              active={false}
+            >
+              CONTACT US
+            </NavLink> */}
+            {/* End of Contact Us */}
+          </Nav>
         </ReactNavbar.Collapse>
       </ReactNavbar>
     </>

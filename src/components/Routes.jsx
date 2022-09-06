@@ -14,8 +14,10 @@ import CommissionerPage from '../pages/CommissionerPage';
 import AdvocatePage from '../pages/AdvocatePage';
 import JoinPage from '../pages/JoinPage';
 import EventPage from '../pages/EventPage';
+import CalendarPage from '../pages/CalendarPage';
 import SponsorPage from '../pages/SponsorPage';
 import BecomeSponsorPage from '../pages/BecomeSponsorPage';
+import ContactUsPage from '../pages/ContactUsPage';
 import ZooMeaningPage from '../pages/ZooMeaningPage';
 import Cutco from '../pages/Cutco';
 
@@ -132,6 +134,21 @@ const Routes = () => (
       )}
     />
 
+    {/* Route to info on Zoo Events Calendar */}
+    <Route
+      exact
+      path="/event-calendar"
+      render={() => (
+        <>
+          <Navbar />
+          <Page title="ZOO Event Calendar">
+            <CalendarPage />
+          </Page>
+          <Footer />
+        </>
+      )}
+    />
+
     {/* Route to info on Zoo Sponsors */}
     <Route
       exact
@@ -165,6 +182,21 @@ const Routes = () => (
     {/* Route to info on how to meaning of ZOO */}
     <Route
       exact
+      path="/contact-us"
+      render={() => (
+        <>
+          <Navbar />
+          <Page title="Contact Us">
+            <ContactUsPage />
+          </Page>
+          <Footer />
+        </>
+      )}
+    />
+
+    {/* Route to info on how to meaning of ZOO */}
+    <Route
+      exact
       path="/meaning-of-zoo"
       render={() => (
         <>
@@ -179,12 +211,12 @@ const Routes = () => (
       )}
     />
 
-  <Route
+    <Route
       exact
       path="/cutco"
       render={() => (
         <>
-         <Cutco />
+          <Cutco />
         </>
       )}
     />

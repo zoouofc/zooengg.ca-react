@@ -57,6 +57,7 @@ const CommissionerPage = () => (
       <CommCard
         commRole="Artistic Commissioner:"
         names={[
+          "Fabiha Tuheen",
           "Ines Rosito"
         ]}
       >
