@@ -15,6 +15,8 @@ import helcim from '../assets/sponsor-pages/helcim.svg';
 import launchcode from '../assets/sponsor-pages/launchcode.png';
 import magnet from '../assets/sponsor-pages/magnetforensics.png';
 import primary from '../assets/sponsor-pages/primaryengineering.png';
+import attabotics from '../assets/sponsor-pages/attabotics.png';
+import uvad from '../assets/sponsor-pages/uvad.svg';
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -153,10 +155,24 @@ const SponsorPage = () => (
       />
 
       <img
+        src={uvad}
+        className="gold"
+        alt="uvad logo"
+      />
+
+      <img
         src={vog}
         className="gold"
         alt="launchpad by vog logo"
       />
+
+      <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
+      <img
+        src={attabotics}
+        className="gold"
+        alt="attabotics logo"
+      />
+
     </div>
   </div>
 );
