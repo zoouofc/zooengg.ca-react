@@ -8,14 +8,15 @@ import '../stylesheets/sponsor/SponsorPage.scss';
 // Importing Images
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
 import thanks from '../assets/sponsor-pages/thank-you.svg';
-import chata from '../assets/sponsor-pages/chata.png';
 import vog from '../assets/sponsor-pages/vog.png';
+import attabotics from '../assets/sponsor-pages/attabotics.png';
+import chata from '../assets/sponsor-pages/chata.png';
+import exro from '../assets/sponsor-pages/exro.svg';
 import garmin from '../assets/sponsor-pages/garmin.png';
 import helcim from '../assets/sponsor-pages/helcim.svg';
 import launchcode from '../assets/sponsor-pages/launchcode.png';
 import magnet from '../assets/sponsor-pages/magnetforensics.png';
 import primary from '../assets/sponsor-pages/primaryengineering.png';
-import attabotics from '../assets/sponsor-pages/attabotics.png';
 import uvad from '../assets/sponsor-pages/uvad.svg';
 
 const SponsorPage = () => (
@@ -117,11 +118,19 @@ const SponsorPage = () => (
     <div className="sponsor-list">
       <h2 className="page--title">Our 2022 Tech Fair Sponsors</h2>
       {/* Placeholder for the different Sponsor Logo levels */}
+      <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
+      <img
+        src={vog}
+        className="platinum"
+        alt="launchpad by vog logo"
+      />
+
       <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
       <img
-        src={chata}
+        src={exro}
         className="gold"
-        alt="chata logo"
+        alt="exro logo"
+        style={{ width: 65 }}
       />
 
       <img
@@ -134,6 +143,7 @@ const SponsorPage = () => (
         src={helcim}
         className="gold"
         alt="helcim logo"
+        style={{ width: 105 }}
       />
 
       <img
@@ -158,19 +168,21 @@ const SponsorPage = () => (
         src={uvad}
         className="gold"
         alt="uvad logo"
+        style={{ width: 90 }}
       />
 
       <img
-        src={vog}
+        src={chata}
         className="gold"
-        alt="launchpad by vog logo"
+        alt="chata logo"
       />
 
       <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
       <img
         src={attabotics}
-        className="gold"
+        className="silver"
         alt="attabotics logo"
+        style={{ width: 125 }}
       />
 
     </div>

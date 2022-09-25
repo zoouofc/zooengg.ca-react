@@ -12,6 +12,7 @@ import pic2 from '../assets/home-pages/CouncilGroup18.png';
 import pic3 from '../assets/home-pages/CouncilGroup20.png';
 import pic4 from '../assets/home-pages/CouncilGroup21.png';
 import pic5 from '../assets/home-pages/SocialMediaBanner.png';
+import pic6 from '../assets/home-pages/TechFair.png';
 // import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
 // Importing files
@@ -35,9 +36,9 @@ const HomePage = () => (
         style={{ height: "50vh" }}
       >
         <img src={pic1} alt="" />
-        {/* <a href="https://forms.gle/9HpXKyKNBuMw5Xe5A" target="_blank" rel="noreferrer">
+        <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
           <img src={pic6} alt="" />
-        </a> */}
+        </a>
         <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
           <img src={pic5} alt="" />
         </a>
