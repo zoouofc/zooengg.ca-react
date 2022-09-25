@@ -36,7 +36,7 @@ const HomePage = () => (
         style={{ height: "50vh" }}
       >
         <img src={pic1} alt="" />
-        <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
+        <a href="https://www.eventbrite.ca/e/zoos-tech-fair-2022-tickets-403745873777" target="_blank" rel="noreferrer">
           <img src={pic6} alt="" />
         </a>
         <a href="https://linktr.ee/ZOO.UCalgary" target="_blank" rel="noreferrer">
