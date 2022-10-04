@@ -22,12 +22,12 @@ const AdvocatePage = () => (
 
       <h3 className="page-sub-title advocate">Supported Classes for Fall 2022</h3> {/* Update semester */}
       {/* Comment out following line when tables have content */}
-      <p className='advocate-text' style={{textAlign: "center"}}>Please check back closer to the start of the Fall semester for an updated list of class advocates.</p>
+      <p className='advocate-text' style={{ textAlign: "center" }}>Please check back closer to the start of the Fall semester for an updated list of class advocates.</p>
 
       <div class="table-container">
         <div>
-            {/* CPSC Courses */}
-          {/* <h5>CPSC Courses</h5>
+          {/* CPSC Courses */}
+          <h5>CPSC Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -37,26 +37,22 @@ const AdvocatePage = () => (
             </thead>
             <tbody>
               <tr>
-                <td>CPSC 319</td>
+                <td>CPSC 441</td>
                 <td><a href="mailto:aleksander.berezowsk@ucalgary.ca">Aleks Berezowski</a> || (he/him)</td>
               </tr>
               <tr>
                 <td>CPSC 457</td>
-                <td><a href="mailto:risat.haque@ucalgary.ca">Risat Haque</a> || (he/him)</td>
+                <td><a href="mailto:rumaisashoeb.talukde@ucalgary.ca">Rumaisa Shoeb Talukder</a> || (she/her)</td>
               </tr>
               <tr>
                 <td>CPSC 471</td>
-                <td><a href="mailto:lauraine.baffot@ucalgary.ca">Lauraine Baffot</a> || (she/her)</td>
-              </tr>
-              <tr>
-                <td>CPSC 559</td>
-                <td><a href="mailto:evan.krul1@ucalgary.ca">Evan Krul</a> || (he/him)</td>
+                <td><a href="mailto:michele.pham@ucalgary.ca">Michele Pham</a> || (she/her)</td>
               </tr>
             </tbody>
-          </table> */}
+          </table>
 
           {/* ENCM Courses */}
-          {/* <h5>ENCM Courses</h5>
+          <h5>ENCM Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -66,16 +62,34 @@ const AdvocatePage = () => (
             </thead>
             <tbody>
               <tr>
-                <td>ENCM 369</td>
+                <td>ENCM 335</td>
+                <td>
+                  {/* <a href="mailto:rumaisashoeb.talukde@ucalgary.ca"> */}
+                  Fraser Pada{' '}
+                  {/* </a> */}
+                  || (he/him)
+                </td>
+              </tr>
+              <tr>
+                <td>ENCM 467</td>
+                <td>
+                  {/* <a href="mailto:ecpoupart@gmail.com"> */}
+                  Elyse Poupart{' '}
+                  {/* </a> */}
+                  || (she/her)
+                </td>
+              </tr>
+              <tr>
+                <td>ENCM 511</td>
                 <td><a href="mailto:rumaisashoeb.talukde@ucalgary.ca">Rumaisa Shoeb Talukder</a> || (she/her)</td>
               </tr>
             </tbody>
-          </table> */}
+          </table>
         </div>
 
         <div>
-            {/* ENEL Courses */}
-          {/* <h5>ENEL Courses</h5>
+          {/* ENEL Courses */}
+          <h5>ENEL Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -85,39 +99,79 @@ const AdvocatePage = () => (
             </thead>
             <tbody>
               <tr>
-                <td>ENEL 300</td>
-                <td><a href="mailto:benjamin.pele@ucalgary.ca">Ben Pele</a> || (he/him)</td>
+                <td>ENEL 101</td>
+                <td><a href="mailto:jayen.hirani31@ucalgary.ca">Jayen Hirani</a> || (he/him)</td>
               </tr>
               <tr>
-                <td>ENEL 327</td>
-                <td><a href="mailto:fanny.lo@ucalgary.ca">Fanny Lo</a> || (she/her)</td>
+                <td>ENEL 300</td>
+                <td>
+                  {/* <a href="mailto:rumaisashoeb.talukde@ucalgary.ca"> */}
+                  Fraser Pada{' '}
+                  {/* </a> */}
+                  || (he/him)
+                </td>
               </tr>
               <tr>
                 <td>ENEL 343</td>
-                <td><a href="mailto:yashpreet.singh@ucalgary.ca">Yashpreet Singh</a> || (he/him)</td>
+                <td>
+                  {/* <a href="mailto:rumaisashoeb.talukde@ucalgary.ca"> */}
+                  Fraser Pada{' '}
+                  {/* </a> */}
+                  || (he/him)
+                </td>
+              </tr>
+              <tr>
+                <td>ENEL 353</td>
+                <td><a href="mailto:shivam.desai@ucalgary.ca">Shivam Desai</a> || (he/him)</td>
               </tr>
               <tr>
                 <td>ENEL 361</td>
-                <td><a href="mailto:yashpreet.singh@ucalgary.ca">Yashpreet Singh</a> || (he/him)</td>
+                <td>
+                  {/* <a href="mailto:rumaisashoeb.talukde@ucalgary.ca"> */}
+                  Fraser Pada{' '}
+                  {/* </a> */}
+                  || (he/him)
+                </td>
               </tr>
               <tr>
-                <td>ENEL 400</td>
-                <td><a href="mailto:marcelo.ligonzales@ucalgary.ca">Marcelo Li Gonzales</a> || (he/him)</td>
+                <td>ENEL 419</td>
+                <td><a href="mailto:bpele1303@gmail.com">Ben Pele</a> || (he/him)</td>
               </tr>
               <tr>
-                <td>ENEL 441</td>
-                <td><a href="mailto:rishabh.ruhela@ucalgary.ca">Rishabh Ruhela</a> || (he/him)</td>
+                <td>ENEL 453</td>
+                <td><a href="mailto:cjeahardy@gmail.com">Euan Hardy</a> || (he/him)</td>
               </tr>
               <tr>
                 <td>ENEL 469</td>
-                <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/her)</td>
+                <td>
+                  {/* <a href="mailto:emily.knight2@ucalgary.ca"> */}
+                  Kazi Mushfik{' '}
+                  {/* </a> */}
+                  || (he/him)
+                </td>
               </tr>
               <tr>
-                <td>ENEL 471</td>
-                <td><a href="mailto:emily.knight2@ucalgary.ca">Emily Knight</a> || (she/her)</td>
+                <td>ENEL 475</td>
+                <td><a href="mailto:yashpreet.singh@ucalgary.ca">Yashpreet Singh</a> || (he/him)</td>
+              </tr>
+              <tr>
+                <td>ENEL 529</td>
+                <td><a href="mailto:parker.link1@ucalgary.ca">Parker Link</a> || (he/him)</td>
+              </tr>
+              <tr>
+                <td>ENEL 559</td>
+                <td><a href="mailto:parker.link1@ucalgary.ca">Parker Link</a> || (he/him)</td>
+              </tr>
+              <tr>
+                <td>ENEL 567</td>
+                <td><a href="mailto:parker.link1@ucalgary.ca">Parker Link</a> || (he/him)</td>
+              </tr>
+              <tr>
+                <td>ENEL 582</td>
+                <td><a href="mailto:parker.link1@ucalgary.ca">Parker Link</a> || (he/him)</td>
               </tr>
             </tbody>
-          </table> */}
+          </table>
         </div>
 
         <div>
@@ -155,7 +209,7 @@ const AdvocatePage = () => (
           </table> */}
 
           {/* ENSF Courses */}
-          {/* <h5>ENSF Courses</h5>
+          <h5>ENSF Courses</h5>
           <table class="advocate-table">
             <thead>
               <tr>
@@ -165,15 +219,19 @@ const AdvocatePage = () => (
             </thead>
             <tbody>
               <tr>
-                <td>ENSF 311</td>
-                <td><a href="mailto:benjamin.pele@ucalgary.ca">Ben Pele</a> || (he/him)</td>
+                <td>ENSF 300</td>
+                <td><a href="mailto:Dawson.vanv@gmail.com">Dawson van Vlaanderen</a> || (he/him)</td>
               </tr>
               <tr>
-                <td>ENSF 409</td>
-                <td><a href="mailto:carter.drewes@ucalgary.ca">Carter Zimmer</a> || (they/them)</td>
+                <td>ENSF 337</td>
+                <td><a href="mailto:nimna.wijedasa@ucalgary.ca">Nimna Wijedasa</a> || (he/him)</td>
+              </tr>
+              <tr>
+                <td>ENSF 480</td>
+                <td><a href="mailto:Saman.pordanesh@ucalgary.ca">Saman Pordanesh (Sina)</a> || (he/him)</td>
               </tr>
             </tbody>
-          </table> */}
+          </table>
         </div>
       </div>
 
