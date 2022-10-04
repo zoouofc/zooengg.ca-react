@@ -29,7 +29,7 @@ const flickityOptions = {
   pageDots: false,
   draggable: true,
   freeScroll: true,
-  lazyLoad: true,
+  // lazyLoad: true,
   // setGallerySize: true,
 };
 
