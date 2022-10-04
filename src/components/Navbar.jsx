@@ -166,7 +166,7 @@ const Navbar = () => {
               </LinkContainer>
 
               <LinkContainer
-                to="/upcoming-events"
+                to="/calendar"
                 className="nav-link lower-level"
               >
                 <NavDropdown.Item
