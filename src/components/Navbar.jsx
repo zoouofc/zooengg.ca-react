@@ -173,7 +173,7 @@ const Navbar = () => {
                   active={false}
                   className="--active-item"
                 >
-                  UPCOMING EVENTS
+                  EVENTS CALENDAR
                 </NavDropdown.Item>
               </LinkContainer>
             </NavDropdown>

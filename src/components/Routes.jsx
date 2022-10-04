@@ -136,7 +136,7 @@ const Routes = () => (
 
     <Route
       exact
-      path="/upcoming-events"
+      path="/calendar"
       render={() => (
         <>
           <Navbar />

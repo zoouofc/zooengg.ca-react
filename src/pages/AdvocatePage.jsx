@@ -135,7 +135,7 @@ const AdvocatePage = () => (
               </tr>
               <tr>
                 <td>ENEL 419</td>
-                <td><a href="mailto:bpele1303@gmail.com">Ben Pele</a> || (he/him)</td>
+                <td><a href="mailto:yashpreet.singh@ucalgary.ca">Yashpreet Singh</a> || (he/him)</td>
               </tr>
               <tr>
                 <td>ENEL 453</td>
@@ -143,12 +143,12 @@ const AdvocatePage = () => (
               </tr>
               <tr>
                 <td>ENEL 469</td>
-                <td><a href="mailto:kazi.muttakin@ucalgary.ca">Kazi Mushfik</a> || (he/him)
+                <td><a href="mailto:mailto:bpele1303@gmail.com">Ben Pele</a> || (he/him)
                 </td>
               </tr>
               <tr>
                 <td>ENEL 475</td>
-                <td><a href="mailto:yashpreet.singh@ucalgary.ca">Yashpreet Singh</a> || (he/him)</td>
+                <td><a href="mailto:bpele1303@gmail.com">Ben Pele</a> || (he/him)</td>
               </tr>
               <tr>
                 <td>ENEL 529</td>
@@ -156,10 +156,6 @@ const AdvocatePage = () => (
               </tr>
               <tr>
                 <td>ENEL 559</td>
-                <td><a href="mailto:parker.link1@ucalgary.ca">Parker Link</a> || (he/him)</td>
-              </tr>
-              <tr>
-                <td>ENEL 567</td>
                 <td><a href="mailto:parker.link1@ucalgary.ca">Parker Link</a> || (he/him)</td>
               </tr>
               <tr>
