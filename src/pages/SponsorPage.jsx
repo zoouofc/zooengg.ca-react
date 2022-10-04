@@ -93,12 +93,13 @@ const SponsorPage = () => (
         alt="vog logo"
       />
 
-      {/* <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3> */}
-      {/* <img
-        src={placeholder}
+      <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
+      <img
+        src={exro}
         className="gold"
-        alt="placeholder"
-      /> */}
+        style={{width: 100}}
+        alt="exro logo"
+      />
 
       {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
       {/* <img
@@ -110,7 +111,7 @@ const SponsorPage = () => (
 
     <hr
       style={{
-        margin: '85px auto 0',
+        margin: '35px auto 0',
         width: '75%',
       }}
     />

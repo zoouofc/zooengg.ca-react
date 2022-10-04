@@ -1,0 +1,70 @@
+.page--body.upcoming-events {
+  padding: 0 0 50px;
+
+  .page--title.upcoming-events  {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  iframe html>div{
+    background-color: var(--inside-bg) !important;
+  }
+
+  div.page--description.upcoming-events {
+    text-align: center;
+
+    padding: 0 10%;
+    margin: 0 0 2em;
+  }
+
+  div.calendar-container {
+    width: 75%;
+    height: 600px;
+
+    padding: 15px;
+    margin: 0 auto;
+
+    border-radius: 25px;
+    background: #ababab12;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+
+    iframe {
+      display: block;
+
+      height: 100%;
+      width: 100%;
+
+      margin: 5px 0 0;
+    }
+  }
+}
+
+/* Updates Mobile Styling */
+@media (max-width: 992px) {
+  .page--body.upcoming-events {
+    .page--description.upcoming-events {
+      padding: 0 5rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page--body.upcoming-events {
+    .page--description.upcoming-events {
+      padding: 0 3rem;
+
+      p {
+        margin: 15px 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .page--body.upcoming-events {
+    .page--description.upcoming-events {
+      padding: 0 1rem;
+    }
+  }
+}

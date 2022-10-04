@@ -37,16 +37,18 @@ const Footer = () => (
             <li><NavLink to="/executives">Executive Council</NavLink></li>
             <li><NavLink to="/commissioners">Commissioners</NavLink></li>
             <li><NavLink to="/advocates">Academic Advocates</NavLink></li>
+            <li><NavLink to="/join-the-team">Join Team</NavLink></li>
           </ul>
         </div>
 
         {/* Link Column 2 */}
         <div className="link-column link-2">
           <ul>
-          <li><NavLink to="/join-the-team">Join Team</NavLink></li>
-            <li><NavLink to="/events">Events</NavLink></li>
+            <li><NavLink to="/our-events">Our Events</NavLink></li>
+            <li><NavLink to="/upcoming-events">Events Calendar</NavLink></li>
             <li><NavLink to="/our-sponsors">Our Sponsors</NavLink></li>
             <li><NavLink to="/become-a-sponsor">Become a Sponsor</NavLink></li>
+            <li><a href="https://zooengg.myshopify.com/" target="_blank" rel="noreferrer">Our Store</a></li>
           </ul>
         </div>
       </div>

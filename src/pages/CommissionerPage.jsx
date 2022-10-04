@@ -37,6 +37,7 @@ const CommissionerPage = () => (
         names={[
           "Dawson van Vlaanderen (2yr ENSF)",
           "Nimna Wijedasa (2yr ENSF)",
+          "Euan Hardy (3yr ENEL)",
           "Marcelo Li Gonzales (Internship)",
           "Parker Link (4yr+ ENEL)",
           "Ines Rosito (Alumni)"
@@ -98,8 +99,7 @@ const CommissionerPage = () => (
         names={[
           "Elyse Poupart",
           "Fraser Pada",
-          "Michele Pham",
-          "Samira Khan"
+          "Michele Pham"
         ]}
       >
         In this role, you will coordinate with VP Events to plan

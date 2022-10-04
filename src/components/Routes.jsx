@@ -122,7 +122,7 @@ const Routes = () => (
     {/* Route to info on Zoo Events */}
     <Route
       exact
-      path="/events"
+      path="/our-events"
       render={() => (
         <>
           <Navbar />
@@ -134,14 +134,13 @@ const Routes = () => (
       )}
     />
 
-    {/* Route to info on Zoo Events Calendar */}
     <Route
       exact
-      path="/event-calendar"
+      path="/upcoming-events"
       render={() => (
         <>
           <Navbar />
-          <Page title="ZOO Event Calendar">
+          <Page title="ZOO Calendar">
             <CalendarPage />
           </Page>
           <Footer />

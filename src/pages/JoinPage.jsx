@@ -26,7 +26,7 @@ const JoinPage = () => (
         {/* Update text to specific year and flip commented code*/}
         <p>
 
-          We are accepting applications for the
+          {/* We are accepting applications for the
           {' '}
           <b>2022-2023</b>
           {' '}
@@ -39,13 +39,13 @@ const JoinPage = () => (
           Email
           {' '}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
-          , otherwise download the form below and submit your application to join today!
+          , otherwise download the form below and submit your application to join today! */}
 
 
           {/* Comment following section when not in use */}
-          {/* We have completed our recruitment for the
+          We have completed our recruitment for the
           {' '}
-          <b>2021-2022</b>
+          <b>2022-2023</b>
           {' '}
           academic year!
           Check back near the end of the year or over the summer for when applications reopen.
@@ -55,27 +55,27 @@ const JoinPage = () => (
           {' '}
           Email
           {' '}
-          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a> */}
+          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
         </p>
 
         <div className="btn--dark">
           {/* Flip commented code when actively recruiting  */}
-          <a
+          {/* <a
             className="button"
             href={commissionerApp}
             target="_blank"
             rel="noreferrer"
           >
             Download Commissioner Form
-          </a>
-          {/* <div
+          </a> */}
+          <div
             className="button disabled"
             href="#"
             rel="noreferrer"
             style={{width: "200px", margin: "0 0 0 auto"}}
           >
             Download Form
-          </div> */}
+          </div>
         </div>
 
         {/* Uncomment code when actively recruiting  */}

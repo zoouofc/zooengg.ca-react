@@ -136,16 +136,7 @@ const Navbar = () => {
             {/* End of Council Dropdown */}
 
             {/* Events */}
-            <NavLink
-              to="/events"
-              className="nav-link top-level"
-              active={false}
-            >
-              EVENTS
-            </NavLink>
-
-
-            {/* <NavDropdown
+            <NavDropdown
               alignRight
               id="basic-nav-dropdown"
               title={(
@@ -163,29 +154,30 @@ const Navbar = () => {
               )}
             >
               <LinkContainer
-                to="/events"
+                to="/our-events"
                 className="nav-link lower-level"
               >
                 <NavDropdown.Item
                   active={false}
                   className="--active-item"
                 >
-                  OUR EVENTS
+                  OUR MAJOR EVENTS
                 </NavDropdown.Item>
               </LinkContainer>
 
               <LinkContainer
-                to="/event-calendar"
+                to="/upcoming-events"
                 className="nav-link lower-level"
               >
                 <NavDropdown.Item
                   active={false}
                   className="--active-item"
                 >
-                  EVENT CALENDAR
+                  UPCOMING EVENTS
                 </NavDropdown.Item>
               </LinkContainer>
-            </NavDropdown> */}
+            </NavDropdown>
+
             {/* End of Events */}
 
             {/* Sponsorship Dropdown */}
