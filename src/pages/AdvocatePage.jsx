@@ -143,11 +143,7 @@ const AdvocatePage = () => (
               </tr>
               <tr>
                 <td>ENEL 469</td>
-                <td>
-                  {/* <a href="mailto:emily.knight2@ucalgary.ca"> */}
-                  Kazi Mushfik{' '}
-                  {/* </a> */}
-                  || (he/him)
+                <td><a href="mailto:kazi.muttakin@ucalgary.ca">Kazi Mushfik</a> || (he/him)
                 </td>
               </tr>
               <tr>
