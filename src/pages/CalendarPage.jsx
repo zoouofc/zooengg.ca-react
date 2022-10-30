@@ -11,6 +11,9 @@ const CalendarPage = () => {
       <div className='page--description upcoming-events'>
         Interested to see what's coming down the pipe? Take a peak at our calendar to see things in their early phases
       </div>
+      <div className="btn--dark pb-5">
+        <a className="button" href="https://calendar.google.com/calendar/u/0/r?cid=c_jqe8o487n3o90hra8fgg7foq2k@group.calendar.google.com" target="_blank" rel="noreferrer">Add to your Calendar</a>
+      </div>
       <div className='calendar-container'>
         <iframe
           title="event-calendar"
