@@ -1,16 +1,16 @@
 // Importing Components from node_modules
 import React, {useEffect} from 'react';
 
-const SponsortoEventRedirect = () => {
+const SponsorToEventRedirect = () => {
     useEffect(() => {
         window.location.href = 'https://zooengg.ca/calendar';
       }, []);
-    return (
 
+    return (
     <div className="page--body sponsors">
-      <h1>This page will redirect to our events page</h1>
+      <h1>Redirecting...</h1>
     </div>
   )};
   
-  export default SponsortoEventRedirect;
+  export default SponsorToEventRedirect;
   

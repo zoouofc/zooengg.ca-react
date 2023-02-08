@@ -20,7 +20,7 @@ import BecomeSponsorPage from '../pages/BecomeSponsorPage';
 import ContactUsPage from '../pages/ContactUsPage';
 import ZooMeaningPage from '../pages/ZooMeaningPage';
 import Cutco from '../pages/Cutco';
-import SponsortoEventRedirect from '../pages/SponsortoEventRedirect'
+import SponsortoEventRedirect from '../pages/SponsorToEventRedirect'
 
 // Importing Styles
 // import '../stylesheets/Routes.scss';
