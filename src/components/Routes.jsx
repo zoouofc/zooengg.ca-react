@@ -57,8 +57,7 @@ const Routes = () => (
           </Page>
           <Footer />
         </>
-      )
-    }
+      )}
     />
 
     {/* Route to the Executive Officers */}
