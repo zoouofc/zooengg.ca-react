@@ -20,6 +20,7 @@ import BecomeSponsorPage from '../pages/BecomeSponsorPage';
 import ContactUsPage from '../pages/ContactUsPage';
 import ZooMeaningPage from '../pages/ZooMeaningPage';
 import Cutco from '../pages/Cutco';
+import SponsortoEventRedirect from '../pages/SponsortoEventRedirect'
 
 // Importing Styles
 // import '../stylesheets/Routes.scss';
@@ -56,7 +57,8 @@ const Routes = () => (
           </Page>
           <Footer />
         </>
-      )}
+      )
+    }
     />
 
     {/* Route to the Executive Officers */}
@@ -152,6 +154,20 @@ const Routes = () => (
     <Route
       exact
       path="/our-sponsors"
+      render={() => (
+        <>
+          <Navbar />
+          <Page title="ZOO Sponsors">
+            <SponsortoEventRedirect />
+          </Page>
+          <Footer />
+        </>
+      )}
+    />
+
+    <Route
+      exact
+      path="/our-sponsor"
       render={() => (
         <>
           <Navbar />
