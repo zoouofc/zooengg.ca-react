@@ -20,7 +20,7 @@ import BecomeSponsorPage from '../pages/BecomeSponsorPage';
 import ContactUsPage from '../pages/ContactUsPage';
 import ZooMeaningPage from '../pages/ZooMeaningPage';
 import Cutco from '../pages/Cutco';
-import SponsortoEventRedirect from '../pages/SponsorToEventRedirect'
+import MembershipCardRedirect from '../pages/MembershipCardRedirect'
 
 // Importing Styles
 // import '../stylesheets/Routes.scss';
@@ -158,7 +158,7 @@ const Routes = () => (
         <>
           <Navbar />
           <Page title="ZOO Sponsors">
-            <SponsortoEventRedirect />
+            <MembershipCardRedirect />
           </Page>
           <Footer />
         </>
