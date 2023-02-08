@@ -199,7 +199,7 @@ const Navbar = () => {
               )}
             >
               <LinkContainer
-                to="/our-sponsor"
+                to="/sponsors"
                 className="nav-link lower-level"
               >
                 <NavDropdown.Item

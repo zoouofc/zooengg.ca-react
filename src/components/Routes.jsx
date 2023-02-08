@@ -167,7 +167,7 @@ const Routes = () => (
 
     <Route
       exact
-      path="/our-sponsor"
+      path="/sponsors"
       render={() => (
         <>
           <Navbar />
