@@ -159,7 +159,7 @@ const Routes = () => (
     <Route
       exact
       path="/our-sponsors"
-      render={() => <Redirect to="/our-events" />}
+      render={() => <Redirect to="/calendar" />}
     />
 
     {/* Route to info on Zoo Sponsors */}
