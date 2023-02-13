@@ -12,6 +12,12 @@ import React from 'react';
 
 // Importing Posters
 // 2022-2023 School Year
+import pic72 from '../assets/event-page/posters/2022-christmasParty.png'
+import pic71 from '../assets/event-page/posters/2022-toyDrive.png'
+import pic70 from '../assets/event-page/posters/2022-researchMixer.png'
+import pic69 from '../assets/event-page/posters/2022-movieNight.png'
+import pic68 from '../assets/event-page/posters/2022-pubTriviaFall.png'
+import pic67 from '../assets/event-page/posters/2022-afternoonSocial.png'
 import pic66 from '../assets/event-page/posters/2022-hoodie.png'
 import pic65 from '../assets/event-page/posters/2022-techFair.png'
 import pic64 from '../assets/event-page/posters/2022-internshipPanel.png'
@@ -20,7 +26,7 @@ import pic62 from '../assets/event-page/posters/2022-froshSports.png'
 
 
 // 2021-2022 School Year
-import pic61 from '../assets/event-page/posters/2022-pubTrivia.png'
+import pic61 from '../assets/event-page/posters/2022-pubTriviaWinter.png'
 import pic60 from '../assets/event-page/posters/2022-AGM.png'
 import pic59 from '../assets/event-page/posters/2022-improvingEvent.png'
 import pic58 from '../assets/event-page/posters/2022-stellaralgoEvent.png'
@@ -97,6 +103,12 @@ import pic1 from '../assets/event-page/posters/2016-profMixer.png';
 const EventPosters = () => (
   <>
     {/* Add new images at the top here V */}
+    <img src={pic72} alt="" />
+    <img src={pic71} alt="" />
+    <img src={pic70} alt="" />
+    <img src={pic69} alt="" />
+    <img src={pic68} alt="" />
+    <img src={pic67} alt="" />
     <img src={pic66} alt="" />
     <img src={pic65} alt="" />
     <img src={pic64} alt="" />
