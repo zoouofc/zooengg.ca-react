@@ -35,6 +35,7 @@ const CommissionerPage = () => (
       <CommCard
         commRole="ZOO Representatives:"
         names={[
+          "Tiffany Yau (1yr)",
           "Dawson van Vlaanderen (2yr ENSF)",
           "Nimna Wijedasa (2yr ENSF)",
           "Euan Hardy (3yr ENEL)",
@@ -49,7 +50,10 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Academic Events Commissioner:"
-        names={["Shreosi Debnath"]}
+        names={[
+        "Katarina Markic",
+        "Shreosi Debnath"
+      ]}
       >
         In this role, you will coordinate with VP Academic and Events
         to plan and host various academic-oriented events.
@@ -77,9 +81,9 @@ const CommissionerPage = () => (
       <CommCard
         commRole="Operations Commissioner:"
         names={[
+          "Adhil Ashraf",
           "Hridika Banik",
           "Ojaswi Lal",
-          "Sahiti Akella"
         ]}
       >
         In this role, you will assist VP External and Internal with
