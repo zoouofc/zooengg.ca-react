@@ -148,10 +148,17 @@ const Routes = () => (
       )}
     />
 
-    {/* Route to info on Zoo Sponsors */}
+    {/* Route to info on past Zoo Sponsors, it is currently what our membership QR code is linked to but folks ended up deciding after it was printed that they wanted the QR code to direct people to the events page instead. Can revert this once cards are no longer used */}
     <Route
       exact
       path="/our-sponsors"
+      render={() => <Redirect to="/our-events" />}
+    />
+
+    {/* Route to info on Zoo Sponsors */}
+    <Route
+      exact
+      path="/zoo-sponsors"
       render={() => (
         <>
           <Navbar />

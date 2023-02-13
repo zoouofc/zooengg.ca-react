@@ -46,7 +46,7 @@ const Footer = () => (
           <ul>
             <li><NavLink to="/our-events">Our Events</NavLink></li>
             <li><NavLink to="/calendar">Events Calendar</NavLink></li>
-            <li><NavLink to="/our-sponsors">Our Sponsors</NavLink></li>
+            <li><NavLink to="/zoo-sponsors">Our Sponsors</NavLink></li>
             <li><NavLink to="/become-a-sponsor">Become a Sponsor</NavLink></li>
             <li><a href="https://zooengg.myshopify.com/" target="_blank" rel="noreferrer">Our Store</a></li>
           </ul>
