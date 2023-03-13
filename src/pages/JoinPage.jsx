@@ -7,7 +7,7 @@ import '../stylesheets/JoinPage.scss';
 // Importing documents and images
 // Uncomment when in use
 // import commissionerApp from '../assets/council-pages/CommissionerForm.pdf';
-// import executiveApp from '../assets/council-pages/ExecutiveOfficerForm.pdf';
+import executiveApp from '../assets/council-pages/ExecutiveOfficerForm.pdf';
 import joinUs from '../assets/council-pages/join-us.svg';
 
 const JoinPage = () => (
@@ -26,9 +26,24 @@ const JoinPage = () => (
         {/* Update text to specific year and flip commented code*/}
         <p>
 
+           We are accepting applications for
+          {' '}
+          <b>2023-2024</b>
+          {' '}
+          Executive Officers!
+
+          <br />
+          <br />
+          <b>Questions?</b>
+          {' '}
+          Email
+          {' '}
+          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
+          , otherwise download the form below and be sure to submit nomination form before the deadline of March 20th!
+
           {/* We are accepting applications for the
           {' '}
-          <b>2022-2023</b>
+          <b>2023-2024</b>
           {' '}
           academic year!
           There are various commissioner roles available, so be sure to pick the right one for you.
@@ -43,9 +58,9 @@ const JoinPage = () => (
 
 
           {/* Comment following section when not in use */}
-          We have completed our recruitment for the
+          {/* We have completed our recruitment for the
           {' '}
-          <b>2022-2023</b>
+          <b>2023-2024</b>
           {' '}
           academic year!
           Check back near the end of the year or over the summer for when applications reopen.
@@ -55,7 +70,7 @@ const JoinPage = () => (
           {' '}
           Email
           {' '}
-          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
+          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a> */}
         </p>
 
         <div className="btn--dark">
@@ -68,18 +83,18 @@ const JoinPage = () => (
           >
             Download Commissioner Form
           </a> */}
-          <div
+          {/* <div
             className="button disabled"
             href="#"
             rel="noreferrer"
             style={{width: "200px", margin: "0 0 0 auto"}}
           >
             Download Form
-          </div>
+          </div> */}
         </div>
 
         {/* Uncomment code when actively recruiting  */}
-        {/* <div className="btn--dark">
+        <div className="btn--dark">
           <a
             className="button"
             href={executiveApp}
@@ -88,7 +103,7 @@ const JoinPage = () => (
           >
             Download Executive Officer Form
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
 

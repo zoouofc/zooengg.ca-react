@@ -37,7 +37,7 @@ const Footer = () => (
             <li><NavLink to="/executives">Executive Council</NavLink></li>
             <li><NavLink to="/commissioners">Commissioners</NavLink></li>
             <li><NavLink to="/advocates">Academic Advocates</NavLink></li>
-            <li><NavLink to="/join-the-team">Join Team</NavLink></li>
+            <li><NavLink to="/join-the-team">Join the Team</NavLink></li>
           </ul>
         </div>
 
