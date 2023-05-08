@@ -9,8 +9,7 @@ import '../stylesheets/exec/ExecPage.scss';
 
 // Importing Images
 import president from '../assets/council-pages/president.png';
-import academic_software from '../assets/council-pages/academic-software.png';
-import academic_electrical from '../assets/council-pages/academic-electrical.png';
+import academic from '../assets/council-pages/academic.png';
 import events from '../assets/council-pages/events.png';
 import external from '../assets/council-pages/external.png';
 import finance from '../assets/council-pages/finance.png';
@@ -19,7 +18,7 @@ import internal from '../assets/council-pages/internal.png';
 const ExecPage = () => (
   <div className="page--body exec">
     {/* Change for new school year */}
-    <h2 className="page--title exec">ZOO Executive Council: 2022 - 2023</h2>
+    <h2 className="page--title exec">ZOO Executive Council: 2023 - 2024</h2>
     <p className="page--description exec">
       Meet the leaders of today working to make things happen for all the Electrical,
       Software, and Computer Engineering students!
@@ -29,78 +28,67 @@ const ExecPage = () => (
       <ExecCard
         imageSource={president}
         alt="president-headshot"
-        name="Aleks Berezowski" // Change name for new Exec
+        name="Shivam Desai" // Change name for new Exec
         councilPosition="President"
         email="president@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Heyo! My name is Aleks, although, you might hear me going by a LOT of other names. I'm excited to be your President this year and do things, such as amazing events, awesome merch, and helping out students academically! My DM's are always open, and feel free to bug me anytime you see me 💙
       </ExecCard>
 
       <ExecCard
-        imageSource={academic_software}
+        imageSource={academic}
         alt="academic-headshot"
-        name="Rumaisa Shoeb Talukder" // Change name for new Exec
-        councilPosition="VP Academic Software"
-        email="academic.software@zooengg.ca"
+        name="Aly Mohamed" // Change name for new Exec
+        councilPosition="VP Academic"
+        email="academic@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hey there! I'm Rumaisa and I'll be your VP Academic Software for the 2022-2023 Council. I'll be working with the Council to enhance your academic experience by organizing events, such as, an Internship Panel, Technical Elective Night and many more. Feel free to reach out if you have any inquiries, or comments on something you'd like to see us bring to you! 😊
-      </ExecCard>
-
-      <ExecCard
-        imageSource={academic_electrical}
-        alt="academic-headshot"
-        name="Ben Pele" // Change name for new Exec
-        councilPosition="VP Academic Electrical"
-        email="academic.electrical@zooengg.ca"
-      >
-        {/* Bio -- Update for new Exec */}
-        Hello there, my name is Ben and I will be your first VP Academic Electrical for ZOO. This may come as a surprise but I am indeed in 3rd year electrical engineering with a minor in digital engineering. I am excited to get to know as many of you as I can and plan a bunch of academic based events, like our Technical Elective night this year! Please get in touch with me if you have any questions or concerns, I’m happy to help out however I can.
       </ExecCard>
 
       <ExecCard
         imageSource={events}
         alt="events-headshot"
-        name="Evan Cherewko" // Change name for new Exec
+        name="Vacant" // Change name for new Exec
         councilPosition="VP Events"
         email="events@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Heyyo! My name is Evan and I will be your 2022-2023 VP Events for ZOO. I am excited to run all kinds of events for you this year, from social trivia nights to evenings full of academic networking, and everything in-between! I am a second year Software Engineering student and I love meeting new people! Feel free to get in touch if you have any ideas, comments, or even just want to say hi. I'm looking forward to hearing from you!
       </ExecCard>
 
       <ExecCard
         imageSource={external}
         alt="external-headshot"
-        name="Yashpreet Singh" // Change name for new Exec
+        name="Dawson Van Vlaanderen" // Change name for new Exec
         councilPosition="VP External"
         email="external@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hello! My name is Yashpreet and I'll be the VP External for ZOO! I can't wait to work with the rest of Council to plan and organize the Tech Fair, Speaker Series, Industry Events, and more this school year! Feel free to get in touch with me if you have any concerns or suggestions as I'll be happy to hear you 💙
       </ExecCard>
 
       <ExecCard
         imageSource={finance}
         alt="finance-headshot"
-        name="Carter Zimmer" // Change name for new Exec
+        name="Mehvish Fatima Shakeel" // Change name for new Exec
         councilPosition="VP Finance"
         email="finance@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hey! I'm Carter, I use they/them pronouns and I'm your VP Finance again this year. I'm going into my third year of software engineering but I've been coding for way longer than that. For ZOO behind the scenes I manage the finances for council and help out with the website (online zoo store when??) but you can catch me around campus doing lots of other stuff. If you'd like to reach out my DM's are open and I usually don't mind being bugged :)
+        Hey! I'm Mehvish, and I’ll be your Vice President of Finance this year! I'm currently entering my third year of software engineering, and I'm excited to bring my skill set to the role.
+        <br/>
+        <br/>
+        At ZOO, I manage the council's finances and assist with sponsorships, working behind the scenes to ensure that all events and initiatives are properly funded and successful. In my free time, I enjoy working on new projects that excite me. If you have any questions or just want to chat, feel free to reach out to me , and I'm always happy to help in any way I can 🙂
+
       </ExecCard>
 
       <ExecCard
         imageSource={internal}
         alt="internal-headshot"
-        name="Christian Canayon" // Change name for new Exec
+        name="Nimna Wijedasa" // Change name for new Exec
         councilPosition="VP Internal"
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hello! My name is Christian Canayon, though I normally go by Cris. I am a second year Software Engineering student and I am currently the Interim VP Internal for the school year. My job is to ensure that ZOO runs smoothly behind-the-scenes. Aside from ZOO, I am also a Sumo Team Lead for AC Robotics. Some of my other interests include fitness, technology, and learning new things. I am always happy to meet new people regardless of background, so feel free to get in touch with the contact info below!
+        Hello! My name is Nimna Wijedasa. I am a third year Software Engineering student and I am your VP Internal. My job is to ensure that ZOO runs smoothly behind-the-scenes. Aside from ZOO, I am also a member in Relectric. Some of my other interests include fitness, playing my guitar and exploring nature. I am always happy to meet new people regardless of background, so feel free to get in touch!
       </ExecCard>
 
     </div>

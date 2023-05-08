@@ -57,7 +57,7 @@ const HomePage = () => (
       </p>
       <p className="home-text">
         In addition to those responsibilities, ZOO serves as a liaison between the Department (ESE)
-        and the many Electrical, Software and Computer Engineering students. We work hard to
+        and the many Electrical, Software, and Computer Engineering students. We work hard to
         represent your opinions and ensure that your voices are heard.
       </p>
       <p className="home-text">

@@ -11,7 +11,7 @@ import '../stylesheets/commissioner/CommissionerPage.scss';
 const CommissionerPage = () => (
   <div className="page--body commissioner">
     {/* Change for new school year */}
-    <h2 className="page--title commissioner">ZOO Commissioners: 2022 - 2023</h2>
+    <h2 className="page--title commissioner">ZOO Commissioners: 2023 - 2024</h2>
 
     <p className="page--description commissioner">
       The work we do would not be possible without the help of our many commissioners.
@@ -33,45 +33,21 @@ const CommissionerPage = () => (
 
     <div id="profile-grid">
       <CommCard
-        commRole="ZOO Representatives:"
-        names={[
-          "Tiffany Yau (1yr)",
-          "Dawson van Vlaanderen (2yr ENSF)",
-          "Nimna Wijedasa (2yr ENSF)",
-          "Euan Hardy (3yr ENEL)",
-          "Marcelo Li Gonzales (Internship)",
-          "Parker Link (4yr+ ENEL)",
-          "Ines Rosito (Alumni)"
-        ]}
+        commRole="Academic Events Commissioner(s):"
+        names={[]}
       >
-        Reps act as a bridge between the Society and its members,
-        announcing major Society events to peers in your year.
+        In this role, you will coordinate with VP Academic to plan and host various academic-oriented events.
       </CommCard>
 
       <CommCard
-        commRole="Academic Events Commissioner:"
-        names={[
-        "Katarina Markic",
-        "Shreosi Debnath"
-      ]}
+        commRole="Artistic Commissioner(s):"
+        names={['Ines Rosito']}
       >
-        In this role, you will coordinate with VP Academic and Events
-        to plan and host various academic-oriented events.
+        In this role, you will be responsible for creating various media for Society events & merchandise.
       </CommCard>
 
       <CommCard
-        commRole="Artistic Commissioner:"
-        names={[
-          "Fabiha Tuheen",
-          "Ines Rosito"
-        ]}
-      >
-        In this role, you will be responsible for creating, distributing,
-        and promoting posters for various Society events.
-      </CommCard>
-
-      <CommCard
-        commRole="ENGG/Frosh Week Director:"
+        commRole="ENGG/Frosh Week Director(s):"
         names={[]}
       >
         In this role, you will direct the Society&#39;s involvement in
@@ -79,61 +55,57 @@ const CommissionerPage = () => (
       </CommCard>
 
       <CommCard
-        commRole="Operations Commissioner:"
-        names={[
-          "Adhil Ashraf",
-          "Hridika Banik",
-          "Ojaswi Lal",
-        ]}
-      >
-        In this role, you will assist VP External and Internal with
-        their duties of inter- and intra-Society communication.
-      </CommCard>
-
-      <CommCard
-        commRole="Professional Development Commissioner:"
+        commRole="Marketing Commissioner(s):"
         names={[]}
       >
-        In this role, you will coordinate with VP External and
-        Events to plan and host various professional development events.
+        In this role, you will assist the VP Internal with their duties of inter- and intra-society communication
       </CommCard>
 
       <CommCard
-        commRole="Social Events Commissioner:"
-        names={[
-          "Elyse Poupart",
-          "Fraser Pada",
-          "Michele Pham"
-        ]}
+        commRole="Social Events Commissioner(s):"
+        names={[]}
       >
-        In this role, you will coordinate with VP Events to plan
-        and host various social-oriented events.
+        In this role, you will coordinate with VP Events to plan and host various social-oriented events.
       </CommCard>
 
       <CommCard
-        commRole="Sponsorship Commissioner:"
-        names={[
-          "Kenneth Zhen",
-          "Saman Pordanesh",
-        ]}
+        commRole="Sponsorship Commissioner(s):"
+        names={[]}
       >
-        In this role, you will coordinate with VP Finance to ensure
-        that the financial needs of the Society are met by securing
-        sponsorships. You will be reaching out to companies and
-        sharing our sponsorship package, which you will help update.
+        In this role, you will coordinate with VP External & Finance to ensure that the financial needs of the Society are met by securing sponsorships.
       </CommCard>
 
       <CommCard
-        commRole="Webmaster:"
-        names={[
-          "Ines Rosito",
-          "Shivam Desai"
-        ]}
+        commRole="Trip Director(s):"
+        names={[]}
+      >
+        In this role, you will be responsible for assisting in the planning of various trips for the Society. Includes Silicon Valley Trip, CUSEC, etc.
+      </CommCard>
+
+      <CommCard
+        commRole="Webmaster(s):"
+        names={['Ines Rosito']}
       >
         As Webmaster, you are the core individual responsible for
         maintaining all the Society&#39;s technologies, which
         include a website, webserver, fileserver, Council emails, and more.
       </CommCard>
+
+      <CommCard
+        commRole="ZOO Representative(s):"
+        names={['Yashpreet Singh (Internship)']}
+      >
+        Reps act as a bridge between the Society and its members,
+        announcing major Society events to peers in your year.
+      </CommCard>
+
+      <CommCard
+        commRole="Alumni Representative(s):"
+        names={['Ines Rosito']}
+      >
+        Reps act as a bridge between the Society and alumni. Allowing for the opportunity for Alumni to assist in events like Internship Panels, Tech Fair, Engg Week, etc.
+      </CommCard>
+
     </div>
   </div>
 );

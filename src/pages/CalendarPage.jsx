@@ -1,10 +1,25 @@
 // Importing Components from node_modules
 import React from 'react'
+// import { MobileView, isMobile } from 'react-device-detect';
+
 
 // Import Styling
 import '../stylesheets/event/EventCalendar.scss';
 
 const CalendarPage = () => {
+
+  // if (MobileView || isMobile) {
+  //   return (
+  //       <div className="page--body upcoming-events">
+  //         <h2 className="page--title upcoming-events">Upcoming Events</h2>
+  //         <div className='page--description upcoming-events'>
+  //           Please view this page on a larger device.
+  //         </div>
+  //       </div>
+  //   )
+  // }
+
+
   return (
     <div className="page--body upcoming-events">
       <h2 className="page--title upcoming-events">Upcoming Events</h2>

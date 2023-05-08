@@ -12,10 +12,19 @@ import React from 'react';
 
 // Importing Posters
 // 2022-2023 School Year
-import pic72 from '../assets/event-page/posters/2022-christmasParty.png'
-import pic71 from '../assets/event-page/posters/2022-toyDrive.png'
-import pic70 from '../assets/event-page/posters/2022-researchMixer.png'
-import pic69 from '../assets/event-page/posters/2022-movieNight.png'
+import pic81 from '../assets/event-page/posters/2023-csgo.png'
+import pic80 from '../assets/event-page/posters/2023-techElecNight.png'
+import pic79 from '../assets/event-page/posters/2023-megaKegger.png'
+import pic78 from '../assets/event-page/posters/2023-AGM.png'
+import pic77 from '../assets/event-page/posters/2023-peerListening.png'
+import pic76 from '../assets/event-page/posters/2023-lanWinter.png'
+import pic75 from '../assets/event-page/posters/2023-enggWeek.png'
+import pic74 from '../assets/event-page/posters/2022-sparkAfterDark.png'
+import pic73 from '../assets/event-page/posters/2022-christmasParty.png'
+import pic72 from '../assets/event-page/posters/2022-toyDrive.png'
+import pic71 from '../assets/event-page/posters/2022-researchMixer.png'
+import pic70 from '../assets/event-page/posters/2022-movieNight.png'
+import pic69 from '../assets/event-page/posters/2022-halloween.png'
 import pic68 from '../assets/event-page/posters/2022-pubTriviaFall.png'
 import pic67 from '../assets/event-page/posters/2022-afternoonSocial.png'
 import pic66 from '../assets/event-page/posters/2022-hoodie.png'
@@ -103,6 +112,15 @@ import pic1 from '../assets/event-page/posters/2016-profMixer.png';
 const EventPosters = () => (
   <>
     {/* Add new images at the top here V */}
+    <img src={pic81} alt="" />
+    <img src={pic80} alt="" />
+    <img src={pic79} alt="" />
+    <img src={pic78} alt="" />
+    <img src={pic77} alt="" />
+    <img src={pic76} alt="" />
+    <img src={pic75} alt="" />
+    <img src={pic74} alt="" />
+    <img src={pic73} alt="" />
     <img src={pic72} alt="" />
     <img src={pic71} alt="" />
     <img src={pic70} alt="" />
