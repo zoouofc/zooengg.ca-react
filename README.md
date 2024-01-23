@@ -1,70 +1,48 @@
 # Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Files Requiring Changes
+Certain things are constantly changing. As a results, some changes will require annual updates, the following is where you can currently find them:
+#### Academic Advocates.jsx
+* Requires course and advocate update EACH SEMESTER
+#### BecomeSponsor.jsx
+* Update the sponsorship package as required
+#### CommissionerPage.jsx
+* Line 14: Page Title requires a year change
+* Update components/CommCard.jsx to include who is in the position, as needed
+#### EventPage.jsx
+* Update the Major Events as needed, whether it be description changes or more event cards
+* Update components/EventPosters.jsx to include new posters from the school year
+#### ExecPage.jsx
+* Line 21: Page Title requires a year change
+* Update the ExecCard components in ExecPage.jsx to update names, and bios.
+* Update pictures for the school year. Just6 save over the existing `<executive>.png` and make sure it is infact a png!
+#### HomePage.jsx
+* Update the carousel images as needed
+* Update the constitution as needed
+#### JoinPage.jsx
+* Line 34: Update the School Year in the description
+* Update the Commissioner Form as needed
+* Update the text and imports depending on if applicants are being accepted
+#### Sponsor.jsx
+* Line 24: Update the School Year in the image
+* Line 35: Update the School Year in the description
+* Update sponsor logos as needed
 
+## Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+* `npm start`
+* `npm test`
+* `npm run build`
+* `npm run eject`: **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* `npm run lint`
+* `npm run lint:fix`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you're attempting to run this project make sure to first run `npm install`
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
