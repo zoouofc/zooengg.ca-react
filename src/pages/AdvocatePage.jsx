@@ -1,29 +1,40 @@
 // Importing Components from node_modules
-import React from 'react';
-import Faq from 'react-faq-component';
+import React from "react";
+import Faq from "react-faq-component";
 
-import data from '../components/FaqInfo';
+import data from "../components/FaqInfo";
 
 // Import Styling
-import '../stylesheets/AdvocatePage.scss';
+import "../stylesheets/AdvocatePage.scss";
 
 const AdvocatePage = () => (
   <div className="page--body advocate">
     <h2 className="page--title advocate">Academic Advocates</h2>
     <div className="page--description advocate">
       <p className="advocate-text">
-        These software and electrical engineering Academic/Course Advocates are student volunteers associated with ZOO Council. Our aim is to provide an Advocate for every course, under the ESE and CPSC Department, that the members of ZOO are enrolled in.
+        These software and electrical engineering Academic/Course Advocates are
+        student volunteers associated with ZOO Council. Our aim is to provide an
+        Advocate for every course, under the ESE and CPSC Department, that the
+        members of ZOO are enrolled in.
       </p>
       <p className="advocate-text">
-        Now, those taking up the responsibility of Advocates are assigned to courses they are <i>currently</i> enrolled in. Their responsibility is to ensure that the comments and concerns of students are given a voice that is heard. Therefore, if you are a student that has concerns about some aspect of a course you're enrolled in, reach out to the respective Academic Advocate for the respective course and raise their concerns!
+        Now, those taking up the responsibility of Advocates are assigned to
+        courses they are <i>currently</i> enrolled in. Their responsibility is
+        to ensure that the comments and concerns of students are given a voice
+        that is heard. Therefore, if you are a student that has concerns about
+        some aspect of a course you're enrolled in, reach out to the respective
+        Academic Advocate for the respective course and raise their concerns!
       </p>
-
       <br />
-
-      <h3 className="page-sub-title advocate">Supported Classes for Fall 2023</h3> {/* Update semester */}
+      <h3 className="page-sub-title advocate">
+        Supported Classes for Fall 2023
+      </h3>{" "}
+      {/* Update semester */}
       {/* Comment out following line when tables have content */}
-      <p className='advocate-text' style={{ textAlign: "center" }}>Please check back closer to the start of the Fall semester for an updated list of class advocates.</p>
-
+      <p className="advocate-text" style={{ textAlign: "center" }}>
+        Please check back closer to the start of the Fall semester for an
+        updated list of class advocates.
+      </p>
       <div class="table-container">
         <div>
           {/* CPSC Courses */}
@@ -216,15 +227,15 @@ const AdvocatePage = () => (
           </table> */}
         </div>
       </div>
-
       <hr />
-
-      <div className='faq-container'>
-        <h3><b>Frequently Asked Questions</b></h3>
+      <div className="faq-container">
+        <h3>
+          <b>Frequently Asked Questions</b>
+        </h3>
         <Faq data={data} />
       </div>
-    </div >
-  </div >
-)
+    </div>
+  </div>
+);
 
 export default AdvocatePage;

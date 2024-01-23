@@ -1,24 +1,37 @@
 // Importing Components from node_modules
-import React from 'react';
+import React from "react";
 
 // Import Styling
-import '../stylesheets/sponsor/BecomeSponsorPage.scss';
+import "../stylesheets/sponsor/BecomeSponsorPage.scss";
 
 // Importing Image & Documents
-import handshake from '../assets/sponsor-pages/handshake.svg';
-import financial from '../assets/sponsor-pages/ZOOPartnershipPackage2023.pdf';
+import { ReactComponent as Handshake } from "../assets/sponsor-pages/handshake.svg";
+import financial from "../assets/sponsor-pages/ZOOPartnershipPackage2023.pdf";
 
 const BecomeSponsorPage = () => (
   <div className="page--body become-sponsor">
-
     <div className="page--description become-sponsor row">
       <div className="description-left col-lg-7 col-md-6 col-sm-12 col-xs-12">
         <h2 className="page--title become-sponsor">Reasons to Sponsor</h2>
         <p>
-          Over the past few years, there has been significant growth in the students enrolling into Software and Electrical Engineering. Therefore, as the Electrical and Software Engineering Students&#39; Society, it is our goal to ensure that the students are provided with the necessary resources to succeed in and out of the classroom. Ensuring a smooth transition from Post-Secondary to Industry is crucial, as ZOO students are poised to be the the technological front-runners in Calgary and the rest of the world.
+          Over the past few years, there has been significant growth in the
+          students enrolling into Software and Electrical Engineering.
+          Therefore, as the Electrical and Software Engineering Students&#39;
+          Society, it is our goal to ensure that the students are provided with
+          the necessary resources to succeed in and out of the classroom.
+          Ensuring a smooth transition from Post-Secondary to Industry is
+          crucial, as ZOO students are poised to be the the technological
+          front-runners in Calgary and the rest of the world.
         </p>
         <p>
-          To be able to achieve our goal of providing for our students, we require assistance from partners and sponsors! If you&#39;re interested in what we have available, please check one of the packages below. <b>Please note that our team is very accomodating and willing to entertain any discussions on custom sponsorship requests.</b>
+          To be able to achieve our goal of providing for our students, we
+          require assistance from partners and sponsors! If you&#39;re
+          interested in what we have available, please check one of the packages
+          below.{" "}
+          <b>
+            Please note that our team is very accomodating and willing to
+            entertain any discussions on custom sponsorship requests.
+          </b>
         </p>
 
         <div className="btn--dark">
@@ -43,10 +56,7 @@ const BecomeSponsorPage = () => (
       </div>
 
       <div className="image-right col-lg-3 col-md-3 d-none d-md-block">
-        <img
-          src={handshake}
-          alt=""
-        />
+        <img src={<Handshake />} alt="" />
       </div>
     </div>
 
@@ -57,7 +67,8 @@ const BecomeSponsorPage = () => (
       <p>
         We would love to get a conversation going,
         <br />
-        so please feel free to reach out to us at <a href="mailto:sponsorship@zooengg.ca">sponsorship@zooengg.ca</a>.
+        so please feel free to reach out to us at{" "}
+        <a href="mailto:sponsorship@zooengg.ca">sponsorship@zooengg.ca</a>.
         <br />
         {/* <b style={{ color: 'red' }}>
           This form is currently disabled, so please contact us directly via email
@@ -165,7 +176,6 @@ const BecomeSponsorPage = () => (
 
       </form> */}
     </div>
-
   </div>
 );
 

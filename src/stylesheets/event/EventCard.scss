@@ -33,6 +33,7 @@
 }
 
 .event-card.left {
+
     .description-right p,
     .description-right h4.event--title {
         text-align: right;
@@ -40,7 +41,8 @@
 }
 
 .event-card.right {
-    .description-left  p,
+
+    .description-left p,
     .description-left h4.event--title {
         text-align: left;
     }
@@ -49,7 +51,7 @@
 @media (max-width: 768px) {
     .event-card {
         width: 95%;
- 
+
         .row .image-right.col-lg-3.col-md-4.d-none.d-md-block,
         .row .image-left.col-lg-3.col-md-4.d-none.d-md-block {
             display: none !important;

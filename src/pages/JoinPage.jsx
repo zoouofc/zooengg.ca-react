@@ -1,32 +1,28 @@
 // Importing Components from node_modules
-import React from 'react';
+import React from "react";
 
 // Import Styling
-import '../stylesheets/JoinPage.scss';
+import "../stylesheets/JoinPage.scss";
 
 // Importing documents and images
 // Uncomment when in use
-import commissionerApp from '../assets/council-pages/CommissionerForm.pdf';
+import commissionerApp from "../assets/council/CommissionerForm.pdf";
 // import executiveApp from '../assets/council-pages/ExecutiveOfficerForm.pdf';
-import joinUs from '../assets/council-pages/join-us.svg';
+import joinUs from "../assets/council/joinUs.svg";
 
 const JoinPage = () => (
   <div className="page--body join-us">
     <div className="page--description join-us row">
       {/* <div className="d-none d-lg-block col-lg-1" /> */}
       <div className="description-left col-lg-5 col-md-6 d-none d-md-block">
-        <img
-          src={joinUs}
-          alt=""
-        />
+        <img src={joinUs} alt="" />
       </div>
       <div className="description-right col-lg-5 col-md-6 col-sm-12 col-xs-12">
         <h2 className="page--title join-us">Join the Team</h2>
 
         {/* Update text to specific year and flip commented code*/}
         <p>
-
-           {/* We are accepting applications for
+          {/* We are accepting applications for
           {' '}
           <b>2023-2024</b>
           {' '}
@@ -40,23 +36,14 @@ const JoinPage = () => (
           {' '}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
           , otherwise download the form below and be sure to submit nomination form before the deadline of March 20th! */}
-
-          We are accepting applications for the
-          {' '}
-          <b>2023-2024</b>
-          {' '}
-          academic year!
-          There are various commissioner roles available, so be sure to pick the right one for you.
+          We are accepting applications for the <b>2023-2024</b> academic year!
+          There are various commissioner roles available, so be sure to pick the
+          right one for you.
           <br />
           <br />
-          <b>Questions?</b>
-          {' '}
-          Email
-          {' '}
-          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
-          , otherwise download the form below and submit your application to join today!
-
-
+          <b>Questions?</b> Email{" "}
+          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>, otherwise
+          download the form below and submit your application to join today!
           {/* Comment following section when not in use */}
           {/* We have completed our recruitment for the
           {' '}
@@ -112,7 +99,8 @@ const JoinPage = () => (
     <div className="application-form--container">
       <h3>Send Us Your Application!</h3>
       <p>
-        Please send your completed forms to <a href="mailto:execs@zooengg.ca">execs@zooengg.ca</a>.
+        Please send your completed forms to{" "}
+        <a href="mailto:execs@zooengg.ca">execs@zooengg.ca</a>.
         <br />
         We would like to thank every applicant in advance.
         <br />

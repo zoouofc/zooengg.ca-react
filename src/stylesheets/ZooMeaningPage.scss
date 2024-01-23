@@ -46,21 +46,34 @@
 /* Updates Mobile Styling */
 @media (max-width: 992px) {
   .page--body.meaning {
-    p#zoo-description { padding: 0 5rem; }
-    p.zoo-story { padding: 0 6.5rem; }
+    p#zoo-description {
+      padding: 0 5rem;
+    }
+
+    p.zoo-story {
+      padding: 0 6.5rem;
+    }
   }
 }
 
 @media (max-width: 768px) {
   .page--body.meaning {
-    p#zoo-description { padding: 0 4.5rem; }
-    p.zoo-story { padding: 0 6rem; }
+    p#zoo-description {
+      padding: 0 4.5rem;
+    }
+
+    p.zoo-story {
+      padding: 0 6rem;
+    }
   }
 }
 
 @media (max-width: 576px) {
   .page--body.meaning {
+
     p#zoo-description,
-    p.zoo-story  { padding: 0 2.5rem; }
+    p.zoo-story {
+      padding: 0 2.5rem;
+    }
   }
 }
