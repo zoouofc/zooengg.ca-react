@@ -54,8 +54,9 @@ const ExecPage = () => (
         imageSource={events}
         alt="events-headshot"
         name="Gurnoor Singh" // Change name for new Exec
+        councilPosition="VP Events"
+        email="events@zooengg.ca"
       >
-        councilPosition="VP Events" email="events@zooengg.ca"
         {/* Bio -- Update for new Exec */}
       </ExecCard>
 
