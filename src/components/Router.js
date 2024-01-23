@@ -115,6 +115,18 @@ const router = createBrowserRouter([
     ),
     errorElement: <HomePage />,
   },
+    // Route to the ZOO Sponsors
+    {
+      path: "/our-sponsors",
+      element: (
+        <>
+          <Navbar />
+          <CalendarPage />
+          <Footer />
+        </>
+      ),
+      errorElement: <HomePage />,
+    },
   // Route to Info on How To Sponsor ZOO
   {
     path: "/become-a-sponsor",
