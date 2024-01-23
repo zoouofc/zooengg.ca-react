@@ -8,7 +8,10 @@ import "../stylesheets/sponsor/SponsorPage.scss";
 // Importing Images
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
 import thanks from "../assets/sponsor-pages/thankYou.svg";
-// import vog from '../assets/sponsor-pages/vog.png';
+import axis from "../assets/sponsor-pages/axisCogniSolve.png";
+import garmin from "../assets/sponsor-pages/garmin.png";
+import arcurve from "../assets/sponsor-pages/arcurve.png"
+import seisware from "../assets/sponsor-pages/seisware.png"
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -58,33 +61,23 @@ const SponsorPage = () => (
       <h2 className="page--title">Our Year-Long Partners & Sponsors</h2>
 
       {/* Comment out the following line when not in use */}
-      {/* <h5
-        style={{ margin: '10px' }}
-      >
+      <h5 style={{ margin: "10px" }}>
         We are currently looking for sponsors and partners for the school year!
-      </h5> */}
+      </h5>
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
-      <img
-        src={placeholder}
-        className="platinum"
-        alt="placeholder"
-      />
+      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
+      <img src={axis} className="platinum" alt="axis cogni solve" />
 
-      <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
+      {/* <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
       <img
         src={placeholder}
         className="gold"
         alt="placeholder"
       /> */}
 
-      {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
-      {/* <img
-        src={placeholder}
-        className="silver"
-        alt="placeholder"
-      /> */}
+      <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3>
+      <img src={garmin} className="silver" alt="garmin" />
     </div>
 
     <hr
@@ -99,24 +92,21 @@ const SponsorPage = () => (
       {/* Placeholder for the different Sponsor Logo levels */}
       {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
       <img
-        src={placeholder}
+        src={axis}
         className="platinum"
-        alt="placeholder"
-      />
+        alt="axis cogni solve"
+      /> */}
 
       <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
-      <img
-        src={placeholder}
-        className="platinum"
-        alt="placeholder"
-      />
+      <img src={arcurve} className="platinum" alt="arcurve" />
+      <img src={seisware} className="platinum" alt="seisware" />
 
-      <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
+      {/* <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
       <img
         src={placeholder}
         className="platinum"
         alt="placeholder"
-      />*/}
+      /> */}
     </div>
   </div>
 );

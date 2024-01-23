@@ -27,7 +27,7 @@ const AdvocatePage = () => (
       </p>
       <br />
       <h3 className="page-sub-title advocate">
-        Supported Classes for Fall 2023
+        Supported Classes for Winter 2024
       </h3>{" "}
       {/* Update semester */}
       {/* Comment out following line when tables have content */}
