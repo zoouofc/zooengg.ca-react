@@ -5,7 +5,7 @@ import React from "react";
 import "../stylesheets/sponsor/BecomeSponsorPage.scss";
 
 // Importing Image & Documents
-import { ReactComponent as Handshake } from "../assets/sponsor-pages/handshake.svg";
+import handshake from "../assets/sponsor-pages/handshake.svg";
 import financial from "../assets/sponsor-pages/ZOOPartnershipPackage2023.pdf";
 
 const BecomeSponsorPage = () => (
@@ -56,7 +56,7 @@ const BecomeSponsorPage = () => (
       </div>
 
       <div className="image-right col-lg-3 col-md-3 d-none d-md-block">
-        <img src={<Handshake />} alt="" />
+        <img src={handshake} alt="" />
       </div>
     </div>
 
