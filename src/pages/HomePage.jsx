@@ -1,6 +1,6 @@
 // Importing Components from node_modules
 import React from "react";
-import Flickity from "react-flickity-component";
+import Flickity from 'react-flickity-component'
 
 // Import Styling
 import "../stylesheets/HomePage.scss";
@@ -11,7 +11,8 @@ import pic1 from "../assets/home-pages/CouncilGroup16.png";
 import pic2 from "../assets/home-pages/CouncilGroup18.png";
 import pic3 from "../assets/home-pages/CouncilGroup20.png";
 import pic4 from "../assets/home-pages/CouncilGroup21.png";
-import pic5 from "../assets/home-pages/SocialMediaBanner.png";
+import pic5 from "../assets/home-pages/CouncilGroup22.png";
+import pic6 from "../assets/home-pages/SocialMediaBanner.png";
 // import pic6 from '../assets/home-pages/TechFair.png';
 // import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
@@ -41,8 +42,9 @@ const HomePage = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src={pic5} alt="" />
+          <img src={pic6} alt="" />
         </a>
+        <img src={pic5} alt="" />
         <img src={pic4} alt="" />
         <img src={pic3} alt="" />
         <img src={pic2} alt="" />
