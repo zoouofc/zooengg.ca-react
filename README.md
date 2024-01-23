@@ -9,14 +9,14 @@ Certain things are constantly changing. As a results, some changes will require 
 * Update the sponsorship package as required
 #### CommissionerPage.jsx
 * Line 14: Page Title requires a year change
-* Update components/CommCard.jsx to include who is in the position, as needed 
+* Update components/CommCard.jsx to include who is in the position, as needed
 #### EventPage.jsx
 * Update the Major Events as needed, whether it be description changes or more event cards
 * Update components/EventPosters.jsx to include new posters from the school year
 #### ExecPage.jsx
 * Line 21: Page Title requires a year change
 * Update the ExecCard components in ExecPage.jsx to update names, and bios.
-* Update pictures for the school year. Just6 save over the existing `<executive>.png` and make sure it is infact a png! 
+* Update pictures for the school year. Just6 save over the existing `<executive>.png` and make sure it is infact a png!
 #### HomePage.jsx
 * Update the carousel images as needed
 * Update the constitution as needed
@@ -46,4 +46,3 @@ If you're attempting to run this project make sure to first run `npm install`
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
- 

@@ -38,18 +38,24 @@
 /* Updates Mobile Styling */
 @media (max-width: 992px) {
   .page--body.home {
-    p.home-text { padding: 0 6rem; }
+    p.home-text {
+      padding: 0 6rem;
+    }
   }
 }
 
 @media (max-width: 768px) {
   .page--body.home {
-    p.home-text { padding: 0 4.5rem; }
+    p.home-text {
+      padding: 0 4.5rem;
+    }
   }
 }
 
 @media (max-width: 576px) {
   .page--body.home {
-    p.home-text{ padding: 0 2.5rem; }
+    p.home-text {
+      padding: 0 2.5rem;
+    }
   }
 }

@@ -1,23 +1,22 @@
 // Importing Components from node_modules
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 // Import Styling
-import '../stylesheets/sponsor/SponsorPage.scss';
+import "../stylesheets/sponsor/SponsorPage.scss";
 
 // Importing Images
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
-import thanks from '../assets/sponsor-pages/thank-you.svg';
-// import vog from '../assets/sponsor-pages/vog.png';
+import thanks from "../assets/sponsor-pages/thankYou.svg";
+import axis from "../assets/sponsor-pages/axisCogniSolve.png";
+import garmin from "../assets/sponsor-pages/garmin.png";
+import arcurve from "../assets/sponsor-pages/arcurve.png"
+import seisware from "../assets/sponsor-pages/seisware.png"
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
     <div className="sponsor-thanks">
-      <img
-        src={thanks}
-        alt=""
-        style={{ width: '270px' }}
-      />
+      <img src={thanks} alt="" style={{ width: "270px" }} />
 
       {/* Used to avoid the two <hr> tags from overlapping with the image and text  */}
       <div className="background-protection" />
@@ -31,29 +30,21 @@ const SponsorPage = () => (
       <p>
         The Electrical and Software Engineering Students&#39; Society would like
         to thank our Sponsors and Partners for their donations during the
-
-        {/* Update the year */}
-        {' '}
-        2023-2024
-        {' '}
-
-        academic year. Their support enables us to reach our mission of enriching the student-body
-        experience to ensure that they are fully prepared for their post-secondary careers. As such,
-        this Society greatly appreciates all of their generosity, along with their intent to secure
-        the success of the leaders of tomorrow.
+        {/* Update the year */} 2023-2024 academic year. Their support enables
+        us to reach our mission of enriching the student-body experience to
+        ensure that they are fully prepared for their post-secondary careers. As
+        such, this Society greatly appreciates all of their generosity, along
+        with their intent to secure the success of the leaders of tomorrow.
       </p>
 
-      <p style={{ margin: '0 0 -5px', textAlign: 'left' }}>
+      <p style={{ margin: "0 0 -5px", textAlign: "left" }}>
         <b>
-          If you&#39;re interested in our work, click the button below to learn more about
-          our sponsor opportunities and to start a conversation.
+          If you&#39;re interested in our work, click the button below to learn
+          more about our sponsor opportunities and to start a conversation.
         </b>
       </p>
       <div className="btn--dark">
-        <Link
-          to="/become-a-sponsor"
-          className="button"
-        >
+        <Link to="/become-a-sponsor" className="button">
           Become a Sponsor!
         </Link>
       </div>
@@ -61,8 +52,8 @@ const SponsorPage = () => (
 
     <hr
       style={{
-        margin: '85px auto 0',
-        width: '75%',
+        margin: "85px auto 0",
+        width: "75%",
       }}
     />
 
@@ -70,39 +61,29 @@ const SponsorPage = () => (
       <h2 className="page--title">Our Year-Long Partners & Sponsors</h2>
 
       {/* Comment out the following line when not in use */}
-      {/* <h5
-        style={{ margin: '10px' }}
-      >
+      <h5 style={{ margin: "10px" }}>
         We are currently looking for sponsors and partners for the school year!
-      </h5> */}
+      </h5>
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
-      <img
-        src={placeholder}
-        className="platinum"
-        alt="placeholder"
-      />
+      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
+      <img src={axis} className="platinum" alt="axis cogni solve" />
 
-      <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
+      {/* <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
       <img
         src={placeholder}
         className="gold"
         alt="placeholder"
       /> */}
 
-      {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
-      {/* <img
-        src={placeholder}
-        className="silver"
-        alt="placeholder"
-      /> */}
+      <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3>
+      <img src={garmin} className="silver" alt="garmin" />
     </div>
 
     <hr
       style={{
-        margin: '35px auto 0',
-        width: '75%',
+        margin: "35px auto 0",
+        width: "75%",
       }}
     />
 
@@ -111,25 +92,21 @@ const SponsorPage = () => (
       {/* Placeholder for the different Sponsor Logo levels */}
       {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
       <img
-        src={placeholder}
+        src={axis}
         className="platinum"
-        alt="placeholder"
-      />
+        alt="axis cogni solve"
+      /> */}
 
       <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
+      <img src={arcurve} className="platinum" alt="arcurve" />
+      <img src={seisware} className="platinum" alt="seisware" />
+
+      {/* <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
       <img
         src={placeholder}
         className="platinum"
         alt="placeholder"
-      />
-
-      <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
-      <img
-        src={placeholder}
-        className="platinum"
-        alt="placeholder"
-      />*/}
-
+      /> */}
     </div>
   </div>
 );

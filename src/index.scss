@@ -38,15 +38,17 @@
 }
 
 html {
-	/* force scrollbar, prevents initial gap */
+  /* force scrollbar, prevents initial gap */
   overflow-y: auto;
   overflow-x: auto;
   width: 90vw;
 }
 
-html, body {
-	height: 100vh;
-	margin: auto; /* Centers content */
+html,
+body {
+  height: 100vh;
+  margin: auto;
+  /* Centers content */
 }
 
 div#root {
@@ -72,7 +74,12 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Ubuntu', normal;
   text-align: center;
   word-wrap: break-word;
@@ -87,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page--body {
   min-height: 100vh;
-	background: var(--inside-bg);
+  background: var(--inside-bg);
 }
 
 /* Styling for all buttons */
