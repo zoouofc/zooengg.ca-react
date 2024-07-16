@@ -11,7 +11,7 @@ import "../stylesheets/commissioner/CommissionerPage.scss";
 const CommissionerPage = () => (
   <div className="page--body commissioner">
     {/* Change for new school year */}
-    <h2 className="page--title commissioner">ZOO Commissioners: 2023 - 2024</h2>
+    <h2 className="page--title commissioner">ZOO Commissioners: 2024 - 2025</h2>
 
     <p className="page--description commissioner">
       The work we do would not be possible without the help of our many
@@ -37,7 +37,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Artistic Commissioner(s):"
-        names={["Hooriya Khan", "Ines Rosito"]}
+        names={[]}
       >
         In this role, you will be responsible for creating various media for
         Society events & merchandise.
@@ -50,7 +50,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Marketing Commissioner(s):"
-        names={["Caleb Wilcox", "Muhammad Rafiuzzaman"]}
+        names={[]}
       >
         In this role, you will assist the VP Internal with their duties of
         inter- and intra-society communication
@@ -63,7 +63,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Sponsorship Commissioner(s):"
-        names={["Findlay Brown"]}
+        names={["Maheen Raza", "Marya Rachdi"]}
       >
         In this role, you will coordinate with VP External & Finance to ensure
         that the financial needs of the Society are met by securing
@@ -77,7 +77,7 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="Webmaster(s):"
-        names={["Ines Rosito", "David Rodriguez Barrios"]}
+        names={["Ines Rosito"]}
       >
         As Webmaster, you are the core individual responsible for maintaining
         all the Society&#39;s technologies, which include a website, webserver,
