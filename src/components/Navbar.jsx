@@ -87,11 +87,11 @@ const Navbar = () => {
                 </NavDropdown.Item>
               </LinkContainer>
 
-              <LinkContainer to="/advocates" className="nav-link lower-level">
+              {/* <LinkContainer to="/advocates" className="nav-link lower-level">
                 <NavDropdown.Item active={false} className="--active-item">
                   ACADEMIC ADVOCATES
                 </NavDropdown.Item>
-              </LinkContainer>
+              </LinkContainer> */}
 
               <LinkContainer
                 to="/join-the-team"
@@ -170,17 +170,6 @@ const Navbar = () => {
               </LinkContainer>
             </NavDropdown>
             {/* End of Sponsorship Dropdown */}
-
-            {/* Store */}
-            <a
-              href="https://zooengg.myshopify.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="nav-link top-level"
-            >
-              STORE
-            </a>
-            {/* End of Store */}
 
             {/* Contact Us */}
             {/* <NavLink

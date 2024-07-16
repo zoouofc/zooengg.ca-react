@@ -8,10 +8,6 @@ import "../stylesheets/sponsor/SponsorPage.scss";
 // Importing Images
 // import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
 import thanks from "../assets/sponsor-pages/thankYou.svg";
-import axis from "../assets/sponsor-pages/axisCogniSolve.png";
-import garmin from "../assets/sponsor-pages/garmin.png";
-import arcurve from "../assets/sponsor-pages/arcurve.png"
-import seisware from "../assets/sponsor-pages/seisware.png"
 
 const SponsorPage = () => (
   <div className="page--body sponsors">
@@ -21,7 +17,7 @@ const SponsorPage = () => (
       {/* Used to avoid the two <hr> tags from overlapping with the image and text  */}
       <div className="background-protection" />
 
-      <h1>2023 - 2024</h1>
+      <h1>2024 - 2025</h1>
       <hr className="hr-left" />
       <hr className="hr-right" />
     </div>
@@ -30,7 +26,7 @@ const SponsorPage = () => (
       <p>
         The Electrical and Software Engineering Students&#39; Society would like
         to thank our Sponsors and Partners for their donations during the
-        {/* Update the year */} 2023-2024 academic year. Their support enables
+        {/* Update the year */} 2024-2025 academic year. Their support enables
         us to reach our mission of enriching the student-body experience to
         ensure that they are fully prepared for their post-secondary careers. As
         such, this Society greatly appreciates all of their generosity, along
@@ -66,8 +62,7 @@ const SponsorPage = () => (
       </h5>
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
-      <img src={axis} className="platinum" alt="axis cogni solve" />
+      {/* <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3> */}
 
       {/* <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
       <img
@@ -76,8 +71,7 @@ const SponsorPage = () => (
         alt="placeholder"
       /> */}
 
-      <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3>
-      <img src={garmin} className="silver" alt="garmin" />
+      {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
     </div>
 
     <hr
@@ -88,7 +82,7 @@ const SponsorPage = () => (
     />
 
     <div className="sponsor-list">
-      <h2 className="page--title">Our 2023 Tech Fair Sponsors</h2>
+      <h2 className="page--title">Our 2024 Tech Fair Sponsors</h2>
       {/* Placeholder for the different Sponsor Logo levels */}
       {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
       <img
@@ -97,9 +91,7 @@ const SponsorPage = () => (
         alt="axis cogni solve"
       /> */}
 
-      <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
-      <img src={arcurve} className="platinum" alt="arcurve" />
-      <img src={seisware} className="platinum" alt="seisware" />
+      {/* <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3> */}
 
       {/* <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
       <img

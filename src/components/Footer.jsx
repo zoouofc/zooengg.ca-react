@@ -41,9 +41,9 @@ const Footer = () => (
             <li>
               <NavLink to="/commissioners">Commissioners</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/advocates">Academic Advocates</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/join-the-team">Join the Team</NavLink>
             </li>
@@ -64,15 +64,6 @@ const Footer = () => (
             </li>
             <li>
               <NavLink to="/become-a-sponsor">Become a Sponsor</NavLink>
-            </li>
-            <li>
-              <a
-                href="https://zooengg.myshopify.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Our Store
-              </a>
             </li>
           </ul>
         </div>
