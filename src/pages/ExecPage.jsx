@@ -10,6 +10,7 @@ import "../stylesheets/exec/ExecPage.scss";
 // Importing Images
 import president from "../assets/council/president.png";
 import academic from "../assets/council/academic.png";
+import academic2 from "../assets/council/academic2.png";
 import events from "../assets/council/events.png";
 import external from "../assets/council/external.png";
 import external2 from "../assets/council/external2.png";
@@ -45,16 +46,18 @@ const ExecPage = () => (
         email="academic@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hi everyone, I'm Jun, a third-year Electrical and Computer Engineering student, and I'm excited to be one of the Co-VPs Academics! I look forward to working with the ZOO council to create more academic events such as research nights, workshops, and other academic (or not) related events! If you see me in the hallway, feel free to come up and say hi. I love meeting people, and you can catch me at random events if there's food involved!
       </ExecCard>
 
       <ExecCard
-        imageSource={academic}
+        imageSource={academic2}
         alt="academic-headshot"
         name="Simon Xu" // Change name for new Exec
         councilPosition="Co-VP Academic"
         email="academic@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello! I'm Simon Xu, entering my final year of Electrical Engineering at the University of Calgary. Throughout my academic journey, I've been deeply involved in ZOO, a community I cherish. This year, alongside Jun Chao, I have the privilege of serving as Co-VP Academic for ZOO, where we are dedicated to enhancing our academic programs and ensuring everyone has a fantastic experience. Feel free to reach out via message or email with any questions or just to say hello!
       </ExecCard>
 
       <ExecCard
@@ -96,7 +99,7 @@ const ExecPage = () => (
         councilPosition="Co-VP External"
         email="external@zooengg.ca"
       >
-         Hey there! I'm Rafi, and I’m thrilled to take on the role of your Vice President External this year! As I gear up for my third year in electrical engineering, I'm eager to channel my passion and expertise into this exciting opportunity. At ZOO, I'm all about fostering meaningful connections and partnerships with external stakeholders. Whether it's collaborating with industry leaders, seeking out sponsorship opportunities, or representing our organization in the wider community, I'm dedicated to ensuring that our initiatives thrive and make a lasting impact.
+        Hey there! I'm Rafi, and I’m thrilled to take on the role of your Vice President External this year! As I gear up for my third year in electrical engineering, I'm eager to channel my passion and expertise into this exciting opportunity. At ZOO, I'm all about fostering meaningful connections and partnerships with external stakeholders. Whether it's collaborating with industry leaders, seeking out sponsorship opportunities, or representing our organization in the wider community, I'm dedicated to ensuring that our initiatives thrive and make a lasting impact.
       </ExecCard>
 
       <ExecCard
