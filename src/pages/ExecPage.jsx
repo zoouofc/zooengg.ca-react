@@ -85,6 +85,7 @@ const ExecPage = () => (
         email="external@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello everyone, my name is Arshiya and I’m going into my third year of Electrical Engineering. I’m super excited to be one of your Vice President Externals this year, and bring a diverse range of career oppurtunites for software and electrical engineering students! If you see me around don’t hesitate to say hi (I love meeting new people :D).
       </ExecCard>
 
 
