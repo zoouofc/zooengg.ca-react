@@ -12,9 +12,11 @@ import president from "../assets/council/president.png";
 import academic from "../assets/council/academic.png";
 import academic2 from "../assets/council/academic2.png";
 import events from "../assets/council/events.png";
+import events2 from "../assets/council/events2.png";
 import external from "../assets/council/external.png";
 import external2 from "../assets/council/external2.png";
 import finance from "../assets/council/finance.png";
+import finance2 from "../assets/council/finance2.png";
 import internal from "../assets/council/internal.png";
 
 const ExecPage = () => (
@@ -71,13 +73,14 @@ const ExecPage = () => (
       </ExecCard>
 
       <ExecCard
-        imageSource={events}
+        imageSource={events2}
         alt="events-headshot"
         name="Cody Diao" // Change name for new Exec
         councilPosition="Co-VP Events"
         email="events@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello! My name is Cody, I'm currently a third-year Electrical Engineering student, and I'm thrilled to take on the role of VP Events this year! I'm excited about making an impact through the events we'll be hosting, by providing diverse opportunities for networking and fun. As part of ZOO, we're committed to bringing engaging activities and events to the community. If you have any questions or event suggestions, please feel free to reach out. Cheers to a fun and exciting year together!
       </ExecCard>
 
       <ExecCard
@@ -88,7 +91,7 @@ const ExecPage = () => (
         email="external@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hello everyone, my name is Arshiya and I’m going into my third year of Electrical Engineering. I’m super excited to be one of your Vice President Externals this year, and bring a diverse range of career oppurtunites for software and electrical engineering students! If you see me around don’t hesitate to say hi (I love meeting new people :D).
+        Hello everyone, my name is Arshiya and I'm going into my third year of Electrical Engineering. I'm super excited to be one of your Vice President Externals this year, and bring a diverse range of career oppurtunites for software and electrical engineering students! If you see me around don't hesitate to say hi (I love meeting new people :D).
       </ExecCard>
 
 
@@ -99,7 +102,7 @@ const ExecPage = () => (
         councilPosition="Co-VP External"
         email="external@zooengg.ca"
       >
-        Hey there! I'm Rafi, and I’m thrilled to take on the role of your Vice President External this year! As I gear up for my third year in electrical engineering, I'm eager to channel my passion and expertise into this exciting opportunity. At ZOO, I'm all about fostering meaningful connections and partnerships with external stakeholders. Whether it's collaborating with industry leaders, seeking out sponsorship opportunities, or representing our organization in the wider community, I'm dedicated to ensuring that our initiatives thrive and make a lasting impact.
+        Hey there! I'm Rafi, and I'm thrilled to take on the role of your Vice President External this year! As I gear up for my third year in electrical engineering, I'm eager to channel my passion and expertise into this exciting opportunity. At ZOO, I'm all about fostering meaningful connections and partnerships with external stakeholders. Whether it's collaborating with industry leaders, seeking out sponsorship opportunities, or representing our organization in the wider community, I'm dedicated to ensuring that our initiatives thrive and make a lasting impact.
       </ExecCard>
 
       <ExecCard
@@ -113,13 +116,14 @@ const ExecPage = () => (
       </ExecCard>
 
       <ExecCard
-        imageSource={finance}
+        imageSource={finance2}
         alt="finance-headshot"
         name="Tanveer Parhar" // Change name for new Exec
         councilPosition="Co-VP Finance"
         email="finance@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hi! I'm Tanveer, a third-year in Electrical and Computer Engineering, and I'm psyched to be part of the Zoo Council as Co-VP Finance! I'm looking forward to supporting the rest of the VPs with their events this year, and getting us lots of money for community outreach! I also have a bit of a bouldering addiction, so there's a very good chance you'll see me at the UofC wall. Don't be shy to say hi and ask me any questions if you see me around, I'm always happy to meet new people!
       </ExecCard>
 
 
@@ -131,6 +135,7 @@ const ExecPage = () => (
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello everyone! My name is Ravindith, but feel free to call me Ravi. I'm excited to serve as your VP Internal. As a Software Engineering student entering my third year, I'm passionate about technology and building a strong community. My goal is to increase our outreach and social media presence, ensuring everyone stays engaged with zoo. Don't hesitate to stop me for a chat if you see me around; I'm always eager to meet new people and hear your ideas. Looking forward to an amazing year together!
       </ExecCard>
     </div>
   </div>
