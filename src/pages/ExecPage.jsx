@@ -70,6 +70,7 @@ const ExecPage = () => (
         email="events@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hi! My name is Aaryan, I'm currently a third-year Electrical and Computer Engineering student, and I'm excited to take on the role of VP Events this year! I'm excited to bring the electrical and software community closer together with some exciting events, and I definitely look forward to bringing students with more opportunities to meet their peers, network, and have fun! If you ever have any questions, comments or suggestions, you can always reach out to our email and I'll be happy to chat. Cheers to a great year!
       </ExecCard>
 
       <ExecCard
@@ -113,6 +114,7 @@ const ExecPage = () => (
         email="finance@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello! My name is Albert, and I'm entering my third year of Electrical and Computer Engineering. I'm excited to take on the role of Vice President of Finance and look forward to this amazing opportunity to work with other team members this year. I will be working with the team to ensure that our finances run smoothly so that everyone can have the best experience possible. Feel free to reach out if you have any questions or concerns. See you around! 🙂
       </ExecCard>
 
       <ExecCard
