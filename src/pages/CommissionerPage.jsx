@@ -30,33 +30,44 @@ const CommissionerPage = () => (
     </div>
 
     <div id="profile-grid">
-      <CommCard commRole="Academic Events Commissioner(s):" names={[]}>
+      <CommCard
+        commRole="Academic Events Commissioner(s):"
+        names={[
+          "Damon Mazurek",
+          "Akila Fernando",
+          "Yu Xiang Sun",
+          "Zehra Zaidi",
+        ]}
+      >
         In this role, you will coordinate with VP Academic to plan and host
         various academic-oriented events.
       </CommCard>
 
       <CommCard
         commRole="Artistic Commissioner(s):"
-        names={[]}
+        names={["Ines Rosito", "Rostom Halouane"]}
       >
         In this role, you will be responsible for creating various media for
         Society events & merchandise.
       </CommCard>
 
-      <CommCard commRole="ENGG/Frosh Week Director(s):" names={[]}>
+      <CommCard commRole="ENGG/Frosh Week Director(s):" names={["Sofi Tapias"]}>
         In this role, you will direct the Society&#39;s involvement in Frosh and
         ENGG week. Includes recruiting, participation, etc.
       </CommCard>
 
       <CommCard
         commRole="Marketing Commissioner(s):"
-        names={[]}
+        names={["Nooran Ahmed", "Muskan Fatima"]}
       >
         In this role, you will assist the VP Internal with their duties of
         inter- and intra-society communication
       </CommCard>
 
-      <CommCard commRole="Social Events Commissioner(s):" names={[]}>
+      <CommCard
+        commRole="Social Events Commissioner(s):"
+        names={["Yu Xiang Sun"]}
+      >
         In this role, you will coordinate with VP Events to plan and host
         various social-oriented events.
       </CommCard>
@@ -75,10 +86,7 @@ const CommissionerPage = () => (
         various trips for the Society. Includes Silicon Valley Trip, CUSEC, etc.
       </CommCard>
 
-      <CommCard
-        commRole="Webmaster(s):"
-        names={["Ines Rosito"]}
-      >
+      <CommCard commRole="Webmaster(s):" names={["Ines Rosito"]}>
         As Webmaster, you are the core individual responsible for maintaining
         all the Society&#39;s technologies, which include a website, webserver,
         fileserver, Council emails, and more.
@@ -87,10 +95,9 @@ const CommissionerPage = () => (
       <CommCard
         commRole="ZOO Representative(s):"
         names={[
-          "Cody Diao (2nd Year)",
-          "Gregory Marr (2nd Year)",
-          "Simon Xu (2nd Year)",
-          "Yashpreet Singh (Internship)",
+          "Aadi Chauhan (3rd Year)",
+          "Connor Hunszinger (4th Year)",
+          "Keshaven Payen (2nd Year",
         ]}
       >
         Reps act as a bridge between the Society and its members, announcing

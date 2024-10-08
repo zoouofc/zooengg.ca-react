@@ -6,7 +6,7 @@ import "../stylesheets/JoinPage.scss";
 
 // Importing documents and images
 // Uncomment when in use
-import commissionerApp from "../assets/council/CommissionerForm.pdf";
+// import commissionerApp from "../assets/council/CommissionerForm.pdf";
 // import executiveApp from '../assets/council-pages/ExecutiveOfficerForm.pdf';
 import joinUs from "../assets/council/joinUs.svg";
 
@@ -36,16 +36,16 @@ const JoinPage = () => (
           {' '}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
           , otherwise download the form below and be sure to submit nomination form before the deadline of March 20th! */}
-          We are accepting applications for the <b>2024-2025</b> academic year!
+          {/* We are accepting applications for the <b>2024-2025</b> academic year!
           There are various commissioner roles available, so be sure to pick the
           right one for you.
           <br />
           <br />
           <b>Questions?</b> Email{" "}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>, otherwise
-          download the form below and submit your application to join today!
+          download the form below and submit your application to join today! */}
           {/* Comment following section when not in use */}
-          {/* We have completed our recruitment for the
+          We have completed our recruitment for the
           {' '}
           <b>2024-2025</b>
           {' '}
@@ -57,27 +57,27 @@ const JoinPage = () => (
           {' '}
           Email
           {' '}
-          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a> */}
+          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
         </p>
 
         <div className="btn--dark">
           {/* Flip commented code when actively recruiting  */}
-          <a
+          {/* <a
             className="button"
             href={commissionerApp}
             target="_blank"
             rel="noreferrer"
           >
             Download Commissioner Form
-          </a>
-          {/* <div
+          </a> */}
+          <div
             className="button disabled"
             href="#"
             rel="noreferrer"
             style={{width: "200px", margin: "0 0 0 auto"}}
           >
             Download Form
-          </div> */}
+          </div>
         </div>
 
         {/* Uncomment code when actively recruiting  */}
@@ -97,14 +97,14 @@ const JoinPage = () => (
     <hr />
 
     <div className="application-form--container">
-      <h3>Send Us Your Application!</h3>
+      {/* <h3>Send Us Your Application!</h3>
       <p>
         Please send your completed forms to{" "}
         <a href="mailto:execs@zooengg.ca">execs@zooengg.ca</a>.
         <br />
         We would like to thank every applicant in advance.
         <br />
-      </p>
+      </p> */}
       {/* <form id="grid">
         <label
           id="name"

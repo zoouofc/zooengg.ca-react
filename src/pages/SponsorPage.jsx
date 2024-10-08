@@ -6,7 +6,17 @@ import { Link } from "react-router-dom";
 import "../stylesheets/sponsor/SponsorPage.scss";
 
 // Importing Images
-// import placeholder from '../assets/sponsor-pages/sponsor-placeholder.png';
+import lodgeLink from "../assets/sponsor-pages/lodgeLink.png";
+import motiv from "../assets/sponsor-pages/motiv.png";
+import abb from "../assets/sponsor-pages/abb.png";
+import arcurve from "../assets/sponsor-pages/arcurve.png";
+import risingEdge from "../assets/sponsor-pages/risingEdge.png";
+import zeroKey from "../assets/sponsor-pages/zeroKey.png";
+import lockheed from "../assets/sponsor-pages/lockheed.png";
+import hexagon from "../assets/sponsor-pages/hexagon.png";
+import huddl from "../assets/sponsor-pages/huddl.png";
+import primary from "../assets/sponsor-pages/primary.png";
+
 import thanks from "../assets/sponsor-pages/thankYou.svg";
 
 const SponsorPage = () => (
@@ -62,14 +72,12 @@ const SponsorPage = () => (
       </h5>
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3> */}
+      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
+      <img src={lodgeLink} className="platinum" alt="LodgeLink logo" />
+      <img src={motiv} className="platinum" alt="Motiv logo" />
 
-      {/* <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
-      <img
-        src={placeholder}
-        className="gold"
-        alt="placeholder"
-      /> */}
+      <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
+      <img src={abb} className="gold" alt="ABB Logo" />
 
       {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
     </div>
@@ -84,21 +92,18 @@ const SponsorPage = () => (
     <div className="sponsor-list">
       <h2 className="page--title">Our 2024 Tech Fair Sponsors</h2>
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
-      <img
-        src={axis}
-        className="platinum"
-        alt="axis cogni solve"
-      /> */}
+      <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
+      <img src={risingEdge} className="platinum" alt="Rising Edge logo" />
 
-      {/* <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3> */}
+      <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
+      <img src={arcurve} className="gold" alt="Arcurve logo" />
+      <img src={zeroKey} className="gold" alt="ZeroKey logo" />
+      <img src={lockheed} className="gold" alt="Lockheed logo" />
 
-      {/* <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
-      <img
-        src={placeholder}
-        className="platinum"
-        alt="placeholder"
-      /> */}
+      <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
+      <img src={hexagon} className="silver" alt="Hexagon Logo" />
+      <img src={huddl} className="silver" alt="huddl Logo" />
+      <img src={primary} className="silver" alt="Primary Engineering Logo" />
     </div>
   </div>
 );

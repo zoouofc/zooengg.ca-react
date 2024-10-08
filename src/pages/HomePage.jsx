@@ -12,7 +12,8 @@ import pic2 from "../assets/home-pages/CouncilGroup18.png";
 import pic3 from "../assets/home-pages/CouncilGroup20.png";
 import pic4 from "../assets/home-pages/CouncilGroup21.png";
 import pic5 from "../assets/home-pages/CouncilGroup22.png";
-import pic6 from "../assets/home-pages/SocialMediaBanner.png";
+import pic6 from "../assets/home-pages/CouncilGroup24.png";
+import pic7 from "../assets/home-pages/SocialMediaBanner.png";
 // import pic6 from '../assets/home-pages/TechFair.png';
 // import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
@@ -42,8 +43,9 @@ const HomePage = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src={pic6} alt="" />
+          <img src={pic7} alt="" />
         </a>
+        <img src={pic6} alt="" />
         <img src={pic5} alt="" />
         <img src={pic4} alt="" />
         <img src={pic3} alt="" />
