@@ -132,12 +132,11 @@ const ExecPage = () => (
       <ExecCard
         imageSource={internal}
         alt="internal-headshot"
-        name="Ravindith Singarachchige" // Change name for new Exec
+        name="Vacant" // Change name for new Exec
         councilPosition="VP Internal"
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hello everyone! My name is Ravindith, but feel free to call me Ravi. I'm excited to serve as your VP Internal. As a Software Engineering student entering my third year, I'm passionate about technology and building a strong community. My goal is to increase our outreach and social media presence, ensuring everyone stays engaged with zoo. Don't hesitate to stop me for a chat if you see me around; I'm always eager to meet new people and hear your ideas. Looking forward to an amazing year together!
       </ExecCard>
     </div>
   </div>
