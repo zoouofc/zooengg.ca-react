@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 import "../stylesheets/sponsor/SponsorPage.scss";
 
 // Importing Images
-import lodgeLink from "../assets/sponsor-pages/lodgeLink.png";
-import motiv from "../assets/sponsor-pages/motiv.png";
-import abb from "../assets/sponsor-pages/abb.png";
-import arcurve from "../assets/sponsor-pages/arcurve.png";
-import risingEdge from "../assets/sponsor-pages/risingEdge.png";
-import zeroKey from "../assets/sponsor-pages/zeroKey.png";
-import lockheed from "../assets/sponsor-pages/lockheed.png";
-import hexagon from "../assets/sponsor-pages/hexagon.png";
-import huddl from "../assets/sponsor-pages/huddl.png";
-import primary from "../assets/sponsor-pages/primary.png";
+// import lodgeLink from "../assets/sponsor-pages/lodgeLink.png";
+// import motiv from "../assets/sponsor-pages/motiv.png";
+// import abb from "../assets/sponsor-pages/abb.png";
+// import arcurve from "../assets/sponsor-pages/arcurve.png";
+// import risingEdge from "../assets/sponsor-pages/risingEdge.png";
+// import zeroKey from "../assets/sponsor-pages/zeroKey.png";
+// import lockheed from "../assets/sponsor-pages/lockheed.png";
+// import hexagon from "../assets/sponsor-pages/hexagon.png";
+// import huddl from "../assets/sponsor-pages/huddl.png";
+// import primary from "../assets/sponsor-pages/primary.png";
 
 import thanks from "../assets/sponsor-pages/thankYou.svg";
 
