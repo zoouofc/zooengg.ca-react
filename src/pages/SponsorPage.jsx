@@ -27,7 +27,7 @@ const SponsorPage = () => (
       {/* Used to avoid the two <hr> tags from overlapping with the image and text  */}
       <div className="background-protection" />
 
-      <h1>2024 - 2025</h1>
+      <h1>2025 - 2026</h1>
       <hr className="hr-left" />
       <hr className="hr-right" />
     </div>
@@ -36,7 +36,7 @@ const SponsorPage = () => (
       <p>
         The Electrical and Software Engineering Students&#39; Society would like
         to thank our Sponsors and Partners for their donations during the
-        {/* Update the year */} 2024-2025 academic year. Their support enables
+        {/* Update the year */} 2025-2026 academic year. Their support enables
         us to reach our mission of enriching the student-body experience to
         ensure that they are fully prepared for their post-secondary careers. As
         such, this Society greatly appreciates all of their generosity, along
@@ -72,12 +72,12 @@ const SponsorPage = () => (
       </h5>
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
+      {/* <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
       <img src={lodgeLink} className="platinum" alt="LodgeLink logo" />
       <img src={motiv} className="platinum" alt="Motiv logo" />
 
       <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
-      <img src={abb} className="gold" alt="ABB Logo" />
+      <img src={abb} className="gold" alt="ABB Logo" /> */}
 
       {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
     </div>
@@ -90,9 +90,13 @@ const SponsorPage = () => (
     />
 
     <div className="sponsor-list">
-      <h2 className="page--title">Our 2024 Tech Fair Sponsors</h2>
+      <h2 className="page--title">Our 2025 Tech Fair Sponsors</h2>
+      <h5 style={{ margin: "10px" }}>
+        We are currently looking for sponsors and partners for our anual Tech Fair this fall!
+      </h5>
+
       {/* Placeholder for the different Sponsor Logo levels */}
-      <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
+      {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
       <img src={risingEdge} className="platinum" alt="Rising Edge logo" />
 
       <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
@@ -103,7 +107,7 @@ const SponsorPage = () => (
       <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
       <img src={hexagon} className="silver" alt="Hexagon Logo" />
       <img src={huddl} className="silver" alt="huddl Logo" />
-      <img src={primary} className="silver" alt="Primary Engineering Logo" />
+      <img src={primary} className="silver" alt="Primary Engineering Logo" /> */}
     </div>
   </div>
 );

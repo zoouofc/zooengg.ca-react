@@ -45,9 +45,9 @@ const JoinPage = () => (
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>, otherwise
           download the form below and submit your application to join today! */}
           {/* Comment following section when not in use */}
-          We have completed our recruitment for the
+          We have not yet started our recruitment for the
           {' '}
-          <b>2024-2025</b>
+          <b>2025-2026</b>
           {' '}
           academic year!
           Check back near the end of the year or over the summer for when applications reopen.
