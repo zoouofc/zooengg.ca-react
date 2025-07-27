@@ -38,13 +38,22 @@ const ExecPage = () => (
         email="president@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hi everyone! I'm Rumaisa, and I'm heading into my final year of Software Engineering. I'm excited to serve as your President for the 2025-2026 ZOO Council. Having previously served as your VP Academic in 2022-2023, I've seen the impact this community can make, and I'm eager to continue that momentum with a dedicated, passionate team.
+        Hi everyone! I'm Rumaisa, and I'm heading into my final year of Software
+        Engineering. I'm excited to serve as your President for the 2025-2026
+        ZOO Council. Having previously served as your VP Academic in 2022-2023,
+        I've seen the impact this community can make, and I'm eager to continue
+        that momentum with a dedicated, passionate team.
         <br />
         <br />
-        I'm focused on strengthening connections across all year levels and supporting initiatives that reflect your needs - whether it's academic support, industry engagement, or fun ways to de-stress together. I want to ensure that ZOO remains a welcoming space where everyone's ideas and voices are heard.
+        I'm focused on strengthening connections across all year levels and
+        supporting initiatives that reflect your needs - whether it's academic
+        support, industry engagement, or fun ways to de-stress together. I want
+        to ensure that ZOO remains a welcoming space where everyone's ideas and
+        voices are heard.
         <br />
         <br />
-        If you have any feedback, questions, or just want to chat, my inbox is always open. Can't wait to see what we'll accomplish this year!
+        If you have any feedback, questions, or just want to chat, my inbox is
+        always open. Can't wait to see what we'll accomplish this year!
       </ExecCard>
 
       <ExecCard
@@ -75,7 +84,13 @@ const ExecPage = () => (
         email="academic@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hi, I'm Harold, entering my third year of Software Engineering, and I'm one of the Academic Co-VPs for this year. Quick facts about me: I'm Korean, I like to watch hockey(🍁) and tennis, and I'm a great person to talk to 1 on 1! Joining ZOO has helped me open up to people and build up the courage to explore new opportunities, like this Academic VP position. I'm committed to representing Software and Electrical students well, and I hope to see you at our academic events this year!
+        Hi, I'm Harold, entering my third year of Software Engineering, and I'm
+        one of the Academic Co-VPs for this year. Quick facts about me: I'm
+        Korean, I like to watch hockey(🍁) and tennis, and I'm a great person to
+        talk to 1 on 1! Joining ZOO has helped me open up to people and build up
+        the courage to explore new opportunities, like this Academic VP
+        position. I'm committed to representing Software and Electrical students
+        well, and I hope to see you at our academic events this year!
       </ExecCard>
 
       <ExecCard
@@ -86,7 +101,13 @@ const ExecPage = () => (
         email="events@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Greetings, I'm Akila and I'm currently in my 3rd year for software engineering and will be Mr. Co VP events this year for ZOO. The reason I joined ZOO was to uphold our departments dominance in Schulich and make sure everyone knows about the army we control. I will be doing this by hosting wholesome and heartwarming events that bring all of us together in unison. In the end my goal will be to make sure everyone says “ZOO is the best society ever, our society could never be as good as ZOO”
+        Greetings, I'm Akila and I'm currently in my 3rd year for software
+        engineering and will be Mr. Co VP events this year for ZOO. The reason I
+        joined ZOO was to uphold our departments dominance in Schulich and make
+        sure everyone knows about the army we control. I will be doing this by
+        hosting wholesome and heartwarming events that bring all of us together
+        in unison. In the end my goal will be to make sure everyone says “ZOO is
+        the best society ever, our society could never be as good as ZOO”
       </ExecCard>
 
       <ExecCard
@@ -96,8 +117,14 @@ const ExecPage = () => (
         councilPosition="Co-VP Events"
         email="events@zooengg.ca"
       >
-        {/* Bio -- Update for new Exec */}\
-        Hi! My name is Samipya, and I going to my third year of electrical and computer engineering, and I am excited to be one of the vice president events for Zoo this year. I look forward to working with the rest of the zoo council in planning amazing events for all electrical and software students to meet new people, form better connections and to have fun. If you have any questions or just want to say hi, don't hesitate to contact me as I happy to meet new people.
+        {/* Bio -- Update for new Exec */}
+        Hi! My name is Samipya, and I going to my third year of Electrical and
+        Computer Engineering, and I am excited to be one of the Co-VP Events for
+        Zoo this year. I look forward to working with the rest of the Zoo
+        Council in planning amazing events for all electrical and software
+        students to meet new people, form better connections and to have fun. If
+        you have any questions or just want to say hi, don't hesitate to contact
+        me as I happy to meet new people.
       </ExecCard>
 
       <ExecCard

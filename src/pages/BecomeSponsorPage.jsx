@@ -6,7 +6,7 @@ import "../stylesheets/sponsor/BecomeSponsorPage.scss";
 
 // Importing Image & Documents
 import handshake from "../assets/sponsor-pages/handshake.svg";
-import financial from "../assets/sponsor-pages/ZOOPartnershipPackage2024.pdf";
+import financial from "../assets/sponsor-pages/ZOOPartnershipPackage2025.pdf";
 
 const BecomeSponsorPage = () => (
   <div className="page--body become-sponsor">
@@ -45,13 +45,13 @@ const BecomeSponsorPage = () => (
           </a>
           <br />
 
-          <a
+          {/* <a
             href="javacript:void()"
             className="button disabled"
             onClick="return false;"
           >
             In-kind Sponsorship Package (Coming Soon)
-          </a>
+          </a> */}
         </div>
       </div>
 
