@@ -189,6 +189,13 @@ const ExecPage = () => (
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hey! I'm Chloe and I'm headed into my third year of Electrical and
+        Biomedical Engineering. I'm excited to be one of your Co-VPs Internal
+        this year! I'll be supporting the rest of your fantastic ZOO council,
+        keeping you in the loop through social media and emails, and managing
+        the homeroom. If you've got any comments or suggestions, or just want to
+        say hello, feel free to reach out! Can't wait to see you at our events
+        this year!
       </ExecCard>
 
       <ExecCard
