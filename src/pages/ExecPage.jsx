@@ -59,7 +59,7 @@ const ExecPage = () => (
       <ExecCard
         imageSource={academic}
         alt="academic-headshot"
-        name="Devon Robert Calvin" // Change name for new Exec
+        name="Devon Calvin" // Change name for new Exec
         councilPosition="Co-VP Academic"
         email="academic@zooengg.ca"
       >
@@ -206,6 +206,12 @@ const ExecPage = () => (
         email="internal@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello! My name is Millaine and I'm excited to be one of your Co-VP
+        Internals for this year's ZOO Council! I'm a Software Engineering
+        student with a mechatronics minor, and am passionate about bringing the
+        ESE student body together by helping organize cool events and providing
+        spaces for students to study, lounge and socialize. If you have any
+        thoughts, questions, or comments, please don't hesitate to reach out!
       </ExecCard>
     </div>
   </div>

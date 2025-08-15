@@ -24,7 +24,7 @@ const JoinPage = () => (
         <p>
           {/* We are accepting applications for
           {' '}
-          <b>2023-2024</b>
+          <b>2025-2026</b>
           {' '}
           Executive Officers!
 
@@ -36,48 +36,39 @@ const JoinPage = () => (
           {' '}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
           , otherwise download the form below and be sure to submit nomination form before the deadline of March 20th! */}
-          We are accepting applications for the <b>2025-2026</b> academic year!
+
+          {/* We are accepting applications for the <b>2025-2026</b> academic year!
           There are various commissioner roles available, so be sure to pick the
           right one for you.
           <br />
           <br />
           <b>Questions?</b> Email{" "}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>, otherwise
-          download the form below and submit your application to join today!
-          {/* Comment following section when not in use */}
-          {/* We have not yet started our recruitment for the
-          {' '}
-          <b>2025-2026</b>
-          {' '}
-          academic year!
-          Check back near the end of the year or over the summer for when applications reopen. */}
+          download the form below and submit your application to join today! */}
+
+          {/* Comment following section when moving into the new year */}
+          We have concluded our recruitment for the <b>2025-2026</b> academic
+          year!
           <br />
           <br />
-          <b>Questions?</b>
-          {' '}
-          Email
-          {' '}
+          Check back near the end of the school year or over the summer for when
+          applications are expected to re-open.
+          <br />
+          <br />
+          <b>Questions?</b> Email{" "}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
         </p>
 
         <div className="btn--dark">
           {/* Flip commented code when actively recruiting  */}
-          <a
+          {/* <a
             className="button"
             href={commissionerApp}
             target="_blank"
             rel="noreferrer"
           >
             Download Commissioner Form
-          </a>
-          {/* <div
-            className="button disabled"
-            href="#"
-            rel="noreferrer"
-            style={{width: "200px", margin: "0 0 0 auto"}}
-          >
-            Download Form
-          </div> */}
+          </a> */}
         </div>
 
         {/* Uncomment code when actively recruiting  */}
