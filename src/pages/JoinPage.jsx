@@ -36,9 +36,7 @@ const JoinPage = () => (
           {' '}
           <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
           , otherwise download the form below and be sure to submit nomination form before the deadline of March 20th! */}
-          We are accepting applications for the <b>2025-2026</b> academic year!
-          There are various commissioner roles available, so be sure to pick the
-          right one for you.
+          Applications for the <b>2025-2026</b> academic year are now closed.
           <br />
           <br />
           <b>Questions?</b> Email{" "}
