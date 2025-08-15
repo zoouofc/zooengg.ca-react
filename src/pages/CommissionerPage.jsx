@@ -32,7 +32,7 @@ const CommissionerPage = () => (
     <div id="profile-grid">
       <CommCard
         commRole="Academic Events Commissioner(s):"
-        names={["Jacob Terlesky"]}
+        names={["Anaya Adil", "Graham Coleman", "Jacob Terlesky"]}
       >
         In this role, you will coordinate with VP Academic to plan and host
         various academic-oriented events.
@@ -51,14 +51,22 @@ const CommissionerPage = () => (
         ENGG week. Includes recruiting, participation, etc.
       </CommCard>
 
-      <CommCard commRole="Marketing Commissioner(s):" names={["Nate Immerkar"]}>
+      <CommCard
+        commRole="Finance Commissioner(s):"
+        names={["Owen Tillapaugh"]}
+      ></CommCard>
+
+      <CommCard
+        commRole="Marketing Commissioner(s):"
+        names={["Ashab Naveed", "Ifeoluwa Owolabi", "Nate Immerkar"]}
+      >
         In this role, you will assist the VP Internal with their duties of
         inter- and intra-society communication
       </CommCard>
 
       <CommCard
         commRole="Social Events Commissioner(s):"
-        names={["Rachel Mercado"]}
+        names={["Austin Tran", "Brian Oh", "Diana Raduta", "Rachel Mercado"]}
       >
         In this role, you will coordinate with VP Events to plan and host
         various social-oriented events.
@@ -91,7 +99,13 @@ const CommissionerPage = () => (
 
       <CommCard
         commRole="ZOO Representative(s):"
-        names={["Lex Berezowsk (+5th Year)"]}
+        names={[
+          "Adil Ijaz (3rd ENEL Year)",
+          "Dawson van Vlaanderen (+5th ENSF Year)",
+          "Hania Aamir (3rd ENSF Year)",
+          "Lex Berezowsk (+5th ENSF Year)",
+          "Toluwani Aribifo",
+        ]}
       >
         Reps act as a bridge between the Society and its members, announcing
         major Society events to peers in your year.
