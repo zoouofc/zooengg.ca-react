@@ -12,6 +12,7 @@ import EventPage from "../pages/EventPage";
 import CalendarPage from "../pages/CalendarPage";
 import SponsorPage from "../pages/SponsorPage";
 import BecomeSponsorPage from "../pages/BecomeSponsorPage";
+import MerchPage from "../pages/MerchPage";
 // import ContactUsPage from '../pages/ContactUsPage';
 import ZooMeaningPage from "../pages/ZooMeaningPage";
 import CutcoPage from "../pages/CutcoPage";
@@ -139,6 +140,18 @@ const router = createBrowserRouter([
     ),
     errorElement: <HomePage />,
   },
+
+  {
+  path: "/merch",
+  element: (
+    <>
+      <Navbar />
+      <MerchPage />
+      <Footer />
+    </>
+  ),
+  errorElement: <HomePage />,
+},
   // Route to the Contact Us info
   // {
   //   path: "/contact-us",
