@@ -12,6 +12,7 @@ import EventPage from "../pages/EventPage";
 import CalendarPage from "../pages/CalendarPage";
 import SponsorPage from "../pages/SponsorPage";
 import BecomeSponsorPage from "../pages/BecomeSponsorPage";
+import MerchPage from "../pages/MerchPage";
 // import ContactUsPage from '../pages/ContactUsPage';
 import ZooMeaningPage from "../pages/ZooMeaningPage";
 import CutcoPage from "../pages/CutcoPage";
@@ -115,18 +116,18 @@ const router = createBrowserRouter([
     ),
     errorElement: <HomePage />,
   },
-    // Route to the ZOO Sponsors
-    {
-      path: "/our-sponsors",
-      element: (
-        <>
-          <Navbar />
-          <CalendarPage />
-          <Footer />
-        </>
-      ),
-      errorElement: <HomePage />,
-    },
+  // Route to the ZOO Sponsors
+  {
+    path: "/our-sponsors",
+    element: (
+      <>
+        <Navbar />
+        <CalendarPage />
+        <Footer />
+      </>
+    ),
+    errorElement: <HomePage />,
+  },
   // Route to Info on How To Sponsor ZOO
   {
     path: "/become-a-sponsor",
@@ -134,6 +135,18 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <BecomeSponsorPage />
+        <Footer />
+      </>
+    ),
+    errorElement: <HomePage />,
+  },
+
+  {
+    path: "/merch",
+    element: (
+      <>
+        <Navbar />
+        <MerchPage />
         <Footer />
       </>
     ),

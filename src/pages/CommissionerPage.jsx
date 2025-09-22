@@ -32,7 +32,12 @@ const CommissionerPage = () => (
     <div id="profile-grid">
       <CommCard
         commRole="Academic Events Commissioner(s):"
-        names={["Anaya Adil", "Graham Coleman", "Jacob Terlesky"]}
+        names={[
+          "Anaya Adil",
+          "Graham Coleman",
+          "Himaal Ishaq",
+          "Jacob Terlesky",
+        ]}
       >
         In this role, you will coordinate with VP Academic to plan and host
         various academic-oriented events.
@@ -76,8 +81,8 @@ const CommissionerPage = () => (
         commRole="Sponsorship Commissioner(s):"
         names={[
           "Fajar Kakakhel",
+          "Lukus van Vlaanderen",
           "Nayha Rehman",
-          "Owen Tillapaugh",
           "Yu Xiang Sun",
         ]}
       >
@@ -100,11 +105,13 @@ const CommissionerPage = () => (
       <CommCard
         commRole="ZOO Representative(s):"
         names={[
-          "Adil Ijaz (3rd ENEL Year)",
-          "Dawson van Vlaanderen (+5th ENSF Year)",
-          "Hania Aamir (3rd ENSF Year)",
-          "Lex Berezowsk (+5th ENSF Year)",
-          "Toluwani Aribifo",
+          "Adil Ijaz (3rd Year ENEL)",
+          "Dane Park (1st Year)",
+          "Dawson van Vlaanderen (4th Year ENSF)",
+          "Hania Amir (3rd Year ENSF)",
+          "Lex Berezowsk (5th year ENSF)",
+          "Rabi Khan (2nd Year ENSF)",
+          "Toluwani Aribifo (2nd Year ENEL)",
         ]}
       >
         Reps act as a bridge between the Society and its members, announcing

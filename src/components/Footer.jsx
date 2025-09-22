@@ -47,6 +47,9 @@ const Footer = () => (
             <li>
               <NavLink to="/join-the-team">Join the Team</NavLink>
             </li>
+            <li>
+              <NavLink to="/merch">Merch</NavLink>
+            </li>
           </ul>
         </div>
 
