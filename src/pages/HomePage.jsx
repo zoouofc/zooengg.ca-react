@@ -1,6 +1,6 @@
 // Importing Components from node_modules
 import React from "react";
-import Flickity from 'react-flickity-component'
+import Flickity from "react-flickity-component";
 
 // Import Styling
 import "../stylesheets/HomePage.scss";
@@ -18,7 +18,7 @@ import pic7 from "../assets/home-pages/SocialMediaBanner.png";
 // import pic6 from '../assets/home-pages/HarryZooterAd.png';
 
 // Importing files
-import constitution from "../assets/home-pages/ZooConstitution_ Updated_March_2023.pdf";
+import constitution from "../assets/home-pages/ZooConstitution_UpdatedMarch2023.pdf";
 
 const flickityOptions = {
   initialIndex: 1,

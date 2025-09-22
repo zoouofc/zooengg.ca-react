@@ -172,10 +172,10 @@ const Navbar = () => {
             {/* End of Sponsorship Dropdown */}
 
             {/* Merch */}
-                  <NavLink to="/merch" className="nav-link top-level" active={false}>
-                    MERCH
-                  </NavLink>
-              {/* End of Merch */}
+            <NavLink to="/merch" className="nav-link top-level" active={false}>
+              MERCH
+            </NavLink>
+            {/* End of Merch */}
 
             {/* Contact Us */}
             {/* <NavLink

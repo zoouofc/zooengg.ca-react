@@ -1,19 +1,27 @@
 import React from "react";
-import "../stylesheets/JoinPage.scss"; // just used the jonipage styling, will change later
+import "../stylesheets/MerchPage.scss";
 
 const MerchPage = () => (
-  <div className="page--body join-us">
-    <div className="page--description join-us row">
-      <div className="description-right col-lg-5 col-md-6 col-sm-12 col-xs-12">
-        <h2 className="page--title join-us" style={{ margin: '0 auto', textAlign: 'center' }}>Merchandise</h2>
-        <p style={{ margin: '0 auto', textAlign: 'center' }}>
-          We will be updating this page soon with more details, stay tuned!
-          <br />
-          <br />
-          <b>Questions?</b> Email{" "}
-          <a href="mailto: execs@zooengg.ca">execs@zooengg.ca</a>
-        </p>
-      </div>
+  <div className="page--body merch">
+    <div className="page--description merch">
+      <h2 className="page--title merch">ZOO Merch Order Form!</h2>
+      <p>
+        Interested in purchasing some ZOO merch? Our form isn't currently
+        available, but stay tuned for an update to then be able to purchase
+        whatever merch interests you!
+      </p>
+      <p>
+        If you have any questions regarding the process, do not hesitate to
+        email <a href="mailto: merch@zooengg.ca">merch@zooengg.ca</a>
+      </p>
+    </div>
+    <div className="form-container">
+      <iframe
+        title="event-calendar"
+        src="https://forms.gle/2VDrkF6hyppH4S3d8"
+        style={{ border: 0 }}
+        frameborder="0"
+      />
     </div>
   </div>
 );

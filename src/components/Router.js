@@ -116,18 +116,18 @@ const router = createBrowserRouter([
     ),
     errorElement: <HomePage />,
   },
-    // Route to the ZOO Sponsors
-    {
-      path: "/our-sponsors",
-      element: (
-        <>
-          <Navbar />
-          <CalendarPage />
-          <Footer />
-        </>
-      ),
-      errorElement: <HomePage />,
-    },
+  // Route to the ZOO Sponsors
+  {
+    path: "/our-sponsors",
+    element: (
+      <>
+        <Navbar />
+        <CalendarPage />
+        <Footer />
+      </>
+    ),
+    errorElement: <HomePage />,
+  },
   // Route to Info on How To Sponsor ZOO
   {
     path: "/become-a-sponsor",
@@ -142,16 +142,16 @@ const router = createBrowserRouter([
   },
 
   {
-  path: "/merch",
-  element: (
-    <>
-      <Navbar />
-      <MerchPage />
-      <Footer />
-    </>
-  ),
-  errorElement: <HomePage />,
-},
+    path: "/merch",
+    element: (
+      <>
+        <Navbar />
+        <MerchPage />
+        <Footer />
+      </>
+    ),
+    errorElement: <HomePage />,
+  },
   // Route to the Contact Us info
   // {
   //   path: "/contact-us",
