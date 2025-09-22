@@ -6,17 +6,13 @@ import { Link } from "react-router-dom";
 import "../stylesheets/sponsor/SponsorPage.scss";
 
 // Importing Images
-// import lodgeLink from "../assets/sponsor-pages/lodgeLink.png";
-// import motiv from "../assets/sponsor-pages/motiv.png";
-// import abb from "../assets/sponsor-pages/abb.png";
-// import arcurve from "../assets/sponsor-pages/arcurve.png";
-// import risingEdge from "../assets/sponsor-pages/risingEdge.png";
-// import zeroKey from "../assets/sponsor-pages/zeroKey.png";
-// import lockheed from "../assets/sponsor-pages/lockheed.png";
-// import hexagon from "../assets/sponsor-pages/hexagon.png";
-// import huddl from "../assets/sponsor-pages/huddl.png";
-// import primary from "../assets/sponsor-pages/primary.png";
-
+import lodgeLink from "../assets/sponsor-pages/lodgeLink.png";
+import arcurve from "../assets/sponsor-pages/arcurve.png";
+import garmin from "../assets/sponsor-pages/garmin.png";
+import amd from "../assets/sponsor-pages/amd.png";
+import schneiderElectric from "../assets/sponsor-pages/schneiderElectric.png";
+import stantec from "../assets/sponsor-pages/stantec.png";
+import aeso from "../assets/sponsor-pages/aeso.png";
 import thanks from "../assets/sponsor-pages/thankYou.svg";
 
 const SponsorPage = () => (
@@ -67,19 +63,25 @@ const SponsorPage = () => (
       <h2 className="page--title">Our Year-Long Partners & Sponsors</h2>
 
       {/* Comment out the following line when not in use */}
-      <h5 style={{ margin: "10px" }}>
+      {/* <h5 style={{ margin: "10px" }}>
         We are currently looking for sponsors and partners for the school year!
-      </h5>
+      </h5> */}
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
-      <img src={lodgeLink} className="platinum" alt="LodgeLink logo" />
-      <img src={motiv} className="platinum" alt="Motiv logo" />
+      <h3 className="sponsor-divider platinum-divider">Platinum Sponsors</h3>
+      <img src={lodgeLink} className="platinum" alt="LodgeLink Logo" />
 
       <h3 className="sponsor-divider gold-divider">Gold Sponsors</h3>
-      <img src={abb} className="gold" alt="ABB Logo" /> */}
+      <img src={amd} className="gold" alt="AMD Logo" />
+      <img
+        src={schneiderElectric}
+        className="gold"
+        alt="Schneider Electric Logo"
+      />
 
-      {/* <h3 className="sponsor-divider silver-divider">Silver Sponsor</h3> */}
+      <h3 className="sponsor-divider silver-divider">Silver Sponsors</h3>
+      <img src={arcurve} className="silver" alt="Arcurve Logo" />
+      <img src={garmin} className="silver" alt="Garmin Logo" />
     </div>
 
     <hr
@@ -91,23 +93,22 @@ const SponsorPage = () => (
 
     <div className="sponsor-list">
       <h2 className="page--title">Our 2025 Tech Fair Sponsors</h2>
-      <h5 style={{ margin: "10px" }}>
+      {/* <h5 style={{ margin: "10px" }}>
         We are currently looking for sponsors and partners for our anual Tech Fair this fall!
-      </h5>
+      </h5> */}
 
       {/* Placeholder for the different Sponsor Logo levels */}
-      {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3>
-      <img src={risingEdge} className="platinum" alt="Rising Edge logo" />
+      {/* <h3 className="sponsor-divider gold-divider">Enterprise Sponsors</h3> */}
+      {/* <img src={risingEdge} className="platinum" alt="Rising Edge logo" /> */}
 
       <h3 className="sponsor-divider gold-divider">Corporate Sponsors</h3>
-      <img src={arcurve} className="gold" alt="Arcurve logo" />
-      <img src={zeroKey} className="gold" alt="ZeroKey logo" />
-      <img src={lockheed} className="gold" alt="Lockheed logo" />
+      <img src={stantec} className="gold" alt="Stantec Logo" />
+      <img src={aeso} className="gold aeso" alt="aeso Logo" />
 
-      <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3>
-      <img src={hexagon} className="silver" alt="Hexagon Logo" />
-      <img src={huddl} className="silver" alt="huddl Logo" />
-      <img src={primary} className="silver" alt="Primary Engineering Logo" /> */}
+      {/*
+      <h3 className="sponsor-divider gold-divider">Basic Sponsors</h3> */}
+      {/* <img src={hexagon} className="silver" alt="Hexagon Logo" />
+      <img src={huddl} className="silver" alt="huddl Logo" />*/}
     </div>
   </div>
 );
