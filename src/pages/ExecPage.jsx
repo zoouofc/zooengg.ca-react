@@ -169,13 +169,12 @@ const ExecPage = () => (
         email="finance@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hey, this is Andy, one of the Co-VP Finance. Here is my bio "Hello! My
-        name is Andy Wang, and I am entering my third year in the Electrical and
-        Computer Engineering program. As one of this year's Co-VP Finance, I am
-        dedicated to ensuring that ZOO will be the wealthiest society in
-        Schulich. From obtaining Haskayne's Blessing for Good Fortune to gaining
-        the support of valued sponsors, ZOO is well on its way to reaching the
-        moon.
+        Hello! My name is Andy Wang, and I am entering my third year in the
+        Electrical and Computer Engineering program. As one of this year's Co-VP
+        Finance, I am dedicated to ensuring that ZOO will be the wealthiest
+        society in Schulich. From obtaining Haskayne's Blessing for Good Fortune
+        to gaining the support of valued sponsors, ZOO is well on its way to
+        reaching the moon.
         <br />
         <br />
         I look forward to helping finance the impactful events we have
