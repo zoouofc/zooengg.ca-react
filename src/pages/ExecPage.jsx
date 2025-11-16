@@ -38,22 +38,12 @@ const ExecPage = () => (
         email="president@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
-        Hi everyone! I'm Rumaisa, and I'm heading into my final year of Software
-        Engineering. I'm excited to serve as your President for the 2025-2026
-        ZOO Council. Having previously served as your VP Academic in 2022-2023,
-        I've seen the impact this community can make, and I'm eager to continue
-        that momentum with a dedicated, passionate team.
+        Hey there! I’m Rumaisa, entering my final year of Software Engineering and thrilled to serve as your President for the 2025-2026 ZOO Council. 
+        As former VP Academic (2022-2023), I've seen our community's impact and am eager to continue that momentum with a dedicated team. 
+        This includes fostering connections across all year levels and supporting initiatives that matter to you - such as academic support, industry engagement, and social activities.
+        I want ZOO to stay a welcoming space where every idea and voice is valued. 
+        If you have feedback, questions, or just want to chat, my inbox is always open. Can't wait to see what we'll accomplish this year!
         <br />
-        <br />
-        I'm focused on strengthening connections across all year levels and
-        supporting initiatives that reflect your needs - whether it's academic
-        support, industry engagement, or fun ways to de-stress together. I want
-        to ensure that ZOO remains a welcoming space where everyone's ideas and
-        voices are heard.
-        <br />
-        <br />
-        If you have any feedback, questions, or just want to chat, my inbox is
-        always open. Can't wait to see what we'll accomplish this year!
       </ExecCard>
 
       <ExecCard
@@ -192,6 +182,11 @@ const ExecPage = () => (
         email="finance@zooengg.ca"
       >
         {/* Bio -- Update for new Exec */}
+        Hello, I’m Caleb! I’m entering my third year of electrical engineering with a minor in aerospace engineering and am taking on the role of Co-VP Finance for ZOO. I’m looking forward to managing the monetary lifeblood of the society; making sure that we can continue to host events and bring value to the engineering community. 
+        I’ve always been passionate about finance and am grateful for the opportunity to put my experience in asset optimization and strategic fund allocation to good use. 
+        Some fun facts about me are that I collect rare metals, have a casual interest in decentralized finance, enjoy cooking, and would love to visit the Cayman Islands someday! 
+        For any financial inquiries, please feel free to reach out. ZOO to the moon!
+        <br />
       </ExecCard>
 
       <ExecCard
